@@ -26,32 +26,32 @@
 */
 
 // & Solution
-namespace GFG.Solution
-{
-    class Solution {
-        public bool areIsomorphic(string s1, string s2) {
-            if(s1.Length != s2.Length)
-              return false;
-              
-            Dictionary<char,char> s1Tos2 = new Dictionary<char,char>();
-            Dictionary<char,char> s2Tos1 = new Dictionary<char,char>();
+namespace GFG.Solution;
+
+class Solution {
+    public bool areIsomorphic(string s1, string s2) {
+        if(s1.Length != s2.Length)
+            return false;
             
-            for(int i = 0; i < s1.Length; i++){
-                char c1 = s1[i];
-                char c2 = s2[i];
-                
-                if(s1Tos2.TryGetValue(c1, out var mapped1)){
-                    if(mapped1 != c2)
-                      return false;
-                }
-                else{
-                    s1Tos2[c1] = c2;
-                }
-                
-                if(s2Tos1.TryGetValue(c2, out var mapped2)){
-                    if(mapped2 != c1)
-                      return false;
-                }
+        Dictionary<char,char> s1Tos2 = new Dictionary<char,char>();
+        Dictionary<char,char> s2Tos1 = new Dictionary<char,char>();
+        
+        for(int i = 0; i < s1.Length; i++){
+            char c1 = s1[i];
+            char c2 = s2[i];
+            
+            if(s1Tos2.TryGetValue(c1, out var mapped1)){
+                if(mapped1 != c2)
+                    return false;
+            }
+            else{
+                s1Tos2[c1] = c2;
+            }
+            
+            if(s2Tos1.TryGetValue(c2, out var mapped2)){
+                if(mapped2 != c1)
+                    return false;
+            }
                 else{
                     s2Tos1[c2] = c1;
                 }

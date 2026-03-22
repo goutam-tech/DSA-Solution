@@ -1,18 +1,16 @@
-namespace GFG
+namespace GFG;
+public class Solution
 {
-    public class Solution
+    public List<int> findUnion(int[] a, int[] b)
     {
-        public List<int> findUnion(int[] a, int[] b)
+        var set = new HashSet<int>(a);
+
+        foreach (int x in b)
         {
-            var set = new HashSet<int>(a);
-        
-            foreach (int x in b)
-            {
-                set.Add(x);
-            }
-        
-            return new List<int>(set);
+            set.Add(x);
         }
+
+        return new List<int>(set);
     }
 }
 
