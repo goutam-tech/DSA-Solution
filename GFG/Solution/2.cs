@@ -1,12 +1,18 @@
-public class Solution {
-    public List<int> findUnion(int[] a, int[] b) {
-        var set = new HashSet<int>(a);
+namespace GFG
+{
+    public class Solution
+    {
+        public List<int> findUnion(int[] a, int[] b)
+        {
+            var set = new HashSet<int>(a);
         
-        foreach (int x in b) {
-            set.Add(x);
+            foreach (int x in b)
+            {
+                set.Add(x);
+            }
+        
+            return new List<int>(set);
         }
-        
-        return new List<int>(set);
     }
 }
 

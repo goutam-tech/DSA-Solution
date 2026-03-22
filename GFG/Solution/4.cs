@@ -1,20 +1,23 @@
-class Solution {
-    public int findKRotation(int[] arr) {
-        int n = arr.Length;
-        int left = 0, right = n - 1;
-        
-        while (left < right) {
-            int mid = left + (right - left) / 2;
+namespace GFG.Solution
+{
+    class Solution {
+        public int findKRotation(int[] arr) {
+            int n = arr.Length;
+            int left = 0, right = n - 1;
             
-            if (arr[mid] > arr[right]) {
-                left = mid + 1;
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                
+                if (arr[mid] > arr[right]) {
+                    left = mid + 1;
+                }
+                else {
+                    right = mid;
+                }
             }
-            else {
-                right = mid;
-            }
+            
+            return left;
         }
-        
-        return left;
     }
 }
 

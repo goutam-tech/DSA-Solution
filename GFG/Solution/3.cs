@@ -1,14 +1,16 @@
-class Solution {
-    public int missingNum(int[] arr) {
-        long n = arr.Length + 1;
-        long expNum = n * (n + 1) / 2;
-        
-        long actualNum = 0;
-        foreach (int num in arr) {
-            actualNum += num;
+namespace GFG.Solution {
+    class Solution {
+        public int missingNum(int[] arr) {
+            long n = arr.Length + 1;
+            long expNum = n * (n + 1) / 2;
+            
+            long actualNum = 0;
+            foreach (int num in arr) {
+                actualNum += num;
+            }
+            
+            return (int)(expNum - actualNum);
         }
-        
-        return (int)(expNum - actualNum);
     }
 }
 
