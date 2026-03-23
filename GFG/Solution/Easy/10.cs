@@ -1,4 +1,5 @@
 class Solution {
+<<<<<<< Updated upstream
     public int maxProfit(int[] prices) {
         int minPrice = int.MaxValue;
         int maxProfit = 0;
@@ -38,3 +39,28 @@ class Solution {
        - Update maxProfit if current profit is larger.
     c. Return maxProfit after processing all prices.
 */
+=======
+    public string largestSwap(string s) {
+        char[] chars = s.ToCharArray();
+        int n = chars.Length;
+
+        for (int i = 0; i < n - 1; i++)
+        {
+            char maxChar = chars[i];
+            for (int j = i + 1; j < n; j++)
+                if (chars[j] > maxChar) maxChar = chars[j];
+
+            if (maxChar <= chars[i]) continue;
+            for (int j = n - 1; j > i; j--)
+            {
+                if (chars[j] == maxChar)
+                {
+                    (chars[i], chars[j]) = (chars[j], chars[i]);
+                    return new string(chars);
+                }
+            }
+        }
+        return s;
+    }
+}
+>>>>>>> Stashed changes

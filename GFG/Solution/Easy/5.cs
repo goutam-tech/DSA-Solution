@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 namespace GFG;
 
 class Solution
@@ -68,3 +69,24 @@ class Solution
     - Reusability:
         - Pattern is a standard two-pointer / compaction technique that can generalize to "move all elements satisfying a predicate to one side" problems. [web:31][web:37]
 */
+=======
+class Solution {
+    public int findKRotation(int[] arr) {
+        int n = arr.Length;
+        int left = 0,right = n-1;
+        
+        while(left < right){
+            int mid = left + (right - left) / 2;
+            
+            if(arr[mid] > arr[right]){
+                left = mid+1;
+            }
+            else{
+                right = mid;
+            }
+        }
+        
+        return left;
+    }
+}
+>>>>>>> Stashed changes

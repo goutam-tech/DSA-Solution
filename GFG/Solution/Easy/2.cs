@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 namespace GFG;
 public class Solution
 {
@@ -47,3 +48,16 @@ public class Solution
         if (a == null) a = Array.Empty<int>();
         if (b == null) b = Array.Empty<int>();
 */
+=======
+public class Solution {
+    public List<int> findUnion(int[] a, int[] b) {
+        var set = new HashSet<int>(a);
+        
+        foreach(int x in b){
+            set.Add(x);
+        }
+        
+        return new List<int>(set);
+    }
+}
+>>>>>>> Stashed changes

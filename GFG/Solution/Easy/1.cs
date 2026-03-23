@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* 
 1. Complexity Analysis
     a. Time Complexity:
@@ -33,6 +34,13 @@ class Solution {
         if(s1.Length != s2.Length)
             return false;
             
+=======
+class Solution {
+    public bool areIsomorphic(string s1, string s2) {
+        if(s1.Length != s2.Length)
+          return false;
+          
+>>>>>>> Stashed changes
         Dictionary<char,char> s1Tos2 = new Dictionary<char,char>();
         Dictionary<char,char> s2Tos1 = new Dictionary<char,char>();
         
@@ -40,14 +48,21 @@ class Solution {
             char c1 = s1[i];
             char c2 = s2[i];
             
+<<<<<<< Updated upstream
             if(s1Tos2.TryGetValue(c1, out var mapped1)){
                 if(mapped1 != c2)
                     return false;
+=======
+            if(s1Tos2.ContainsKey(c1)){
+                if(s1Tos2[c1] != c2)
+                  return false;
+>>>>>>> Stashed changes
             }
             else{
                 s1Tos2[c1] = c2;
             }
             
+<<<<<<< Updated upstream
             if(s2Tos1.TryGetValue(c2, out var mapped2)){
                 if(mapped2 != c1)
                     return false;
@@ -59,5 +74,17 @@ class Solution {
             
             return true;
         }
+=======
+            if(s2Tos1.ContainsKey(c2)){
+                if(s2Tos1[c2] != c1)
+                  return false;
+            }
+            else{
+                s2Tos1[c2] = c1;
+            }
+        }
+        
+        return true;
+>>>>>>> Stashed changes
     }
 }

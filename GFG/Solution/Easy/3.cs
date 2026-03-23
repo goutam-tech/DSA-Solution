@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 namespace GFG.Solution;
 
 class Solution {
@@ -54,3 +55,20 @@ class Solution {
         - Compute XOR of all numbers from 1 to N and XOR of all array elements, then XOR both results to get the missing number.
         - Same time complexity O(n) and space O(1), but avoids potential overflow without `long`.
 */
+=======
+class Solution {
+    public void reverseArray(int[] arr) {
+        // code here
+        int left = 0, right = arr.Length - 1;
+        
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            
+            left++;
+            right--;
+        }
+    }
+}
+>>>>>>> Stashed changes
