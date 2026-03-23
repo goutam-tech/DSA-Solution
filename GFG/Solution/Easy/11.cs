@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 using System;
 
 public class Solution 
@@ -44,3 +45,20 @@ public class Solution
     d. Return false on first overlap detected.
     e. Return true if no overlaps found.
 */
+=======
+class Solution {
+    public int maxProfit(int[] prices) {
+        int minPrice = int.MaxValue;
+        int maxProfit = 0;
+        
+        foreach(int price in prices){
+            if(price<minPrice)
+              minPrice = price;
+            else
+              maxProfit = Math.Max(maxProfit,price-minPrice);
+        }
+        
+        return maxProfit;
+    }
+}
+>>>>>>> Stashed changes

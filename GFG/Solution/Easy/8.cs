@@ -1,4 +1,5 @@
 class Solution {
+<<<<<<< Updated upstream
     public int[] findClosestPair(int[] arr1, int[] arr2, int x) {
         int n = arr1.Length;
         int m = arr2.Length;
@@ -58,3 +59,19 @@ class Solution {
     e. If currentSum > x, decrement left (need smaller sum).
     f. Return closest pair found.
 */
+=======
+    public int GetSecondLargest(int[] arr) {
+        int n = arr.Length;
+        if(n < 2) return -1;
+        
+        Array.Sort(arr);
+        
+        for(int i = n - 2; i >= 0; i--){
+            if(arr[i] < arr[n-1])
+              return arr[i];
+        }
+        
+        return -1;
+    }
+}
+>>>>>>> Stashed changes

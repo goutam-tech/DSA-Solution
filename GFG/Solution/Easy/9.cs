@@ -1,4 +1,5 @@
 class Solution {
+<<<<<<< Updated upstream
     public string largestSwap(string s) {
         char[] chars = s.ToCharArray();
         int n = chars.Length;
@@ -47,3 +48,39 @@ class Solution {
        - Swap arr[i] with that position and return immediately.
     c. If no beneficial swap found, return original string.
 */
+=======
+    public int[] findClosestPair(int[] arr1, int[] arr2, int x) {
+        int n = arr1.Length;
+        int m = arr2.Length;
+        
+        int left = n - 1;
+        int right = 0;
+        
+        int closestDiff = int.MaxValue;
+        int[] result = new int[2];
+        
+        while(left >= 0 && right < m){
+            int currentSum = arr1[left] + arr2[right];
+            int diff = Math.Abs(currentSum - x);
+            
+            if(diff < closestDiff){
+                closestDiff = diff;
+                result[0] = arr1[left];
+                result[1] = arr2[right];
+            }
+            
+            if(currentSum  < x){
+                right++;
+            }
+            else if(currentSum > x){
+                left--;
+            }
+            else{
+                break;
+            }
+        }
+        
+        return result;
+    }
+}
+>>>>>>> Stashed changes
