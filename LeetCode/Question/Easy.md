@@ -32,9 +32,3 @@
 
 ## Id - 1582 [Special Position in a Binary Matrix]()
 ### Problem : 
-
-leetcode
-
-gfg
-
-codeforces
