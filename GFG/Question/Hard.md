@@ -60,3 +60,11 @@
 
 ## PId - 16 [Length of Longest Cycle in a Graph](https://www.geeksforgeeks.org/problems/length-of-longest-cycle-in-a-graph/0)
 ### Problem : Given an directed graph with V vertices numbered from 0 to V-1 and E edges, represented as a 2D array edges[][], where each entry edges[i] = [u, v] denotes an edge between vertices u and v. Each node has at most one outgoing edge. Your task is to find the length of the longest cycle present in the graph. If no cycle exists, return -1. Note: A cycle is a path that starts and ends at the same vertex.
+
+## PId - 17 [Chocolates Pickup](https://www.geeksforgeeks.org/problems/chocolates-pickup/1)
+### Problem : You are given a 2D matrix grid[][] of size n*m, where each cell grid[i][j] represents the number of chocolates available at position (i, j). Two robots are collecting chocolates from this grid: Robot 1 starts at the top-left corner (0, 0) Robot 2 starts at the top-right corner (0, m - 1) Your task is to determine the maximum total number of chocolates both robots can collect while following these rules:
+##### From a cell (i, j), robots can move to cell (i + 1, j - 1), (i + 1, j), or (i + 1, j + 1).
+##### When a robot visits a cell, it collects all the chocolates there.
+##### If both robots land on the same cell, the chocolates in that cell are collected only once.
+##### Robots cannot move outside the boundaries of the grid.
+##### Both robots must continue moving until they reach the bottom row of the grid.
