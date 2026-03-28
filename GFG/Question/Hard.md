@@ -68,3 +68,6 @@
 ##### If both robots land on the same cell, the chocolates in that cell are collected only once.
 ##### Robots cannot move outside the boundaries of the grid.
 ##### Both robots must continue moving until they reach the bottom row of the grid.
+
+## PId - 18 [Articulation Point - II](https://www.geeksforgeeks.org/problems/articulation-point2616/0)
+### Problem : You are given an undirected graph with V vertices and E edges. The graph is represented as a 2D array edges[][], where each element edges[i] = [u, v] indicates an undirected edge between vertices u and v. Your task is to return all the articulation points (or cut vertices) in the graph. An articulation point is a vertex whose removal, along with all its connected edges, increases the number of connected components in the graph. Note: The graph may be disconnected, i.e., it may consist of more than one connected component. If no such point exists, return {-1}.
