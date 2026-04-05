@@ -71,3 +71,17 @@
 
 ## PId - 18 [Articulation Point - II](https://www.geeksforgeeks.org/problems/articulation-point2616/0)
 ### Problem : You are given an undirected graph with V vertices and E edges. The graph is represented as a 2D array edges[][], where each element edges[i] = [u, v] indicates an undirected edge between vertices u and v. Your task is to return all the articulation points (or cut vertices) in the graph. An articulation point is a vertex whose removal, along with all its connected edges, increases the number of connected components in the graph. Note: The graph may be disconnected, i.e., it may consist of more than one connected component. If no such point exists, return {-1}.
+
+## PId - 19 [LRU Cache](https://www.geeksforgeeks.org/problems/lru-cache/0)
+### Problem : Design a data structure that works like a LRU Cache. Here cap denotes the capacity of the cache and Q denotes the number of queries. Query can be of two types:
+#### PUT x y: sets the value of the key x with value y
+#### GET x: gets the value of key x if present else returns -1.
+#### The LRUCache class has two methods get() and put() which are defined as follows.
+#### get(key): returns the value of the key if it already exists in the cache otherwise returns -1. put(key, value): if the key is already present, update its value. If not present, add the key-value pair to the cache. If the cache reaches its capacity it should remove the least recently used item before inserting the new item. In the constructor of the class the capacity of the cache should be initialized.
+
+## PId - 20 [Solve the Sudoku](https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/0)
+### Problem : Given an incomplete Sudoku in the form of matrix mat[][] of order 9*9, the task is to solve the Sudoku. It is guaranteed that the input Sudoku will have exactly one solution. A sudoku solution must satisfy all of the following rules:
+#### Each of the digits 1-9 must occur exactly once in each row.
+#### Each of the digits 1-9 must occur exactly once in each column.
+#### Each of the digits 1-9 must occur exactly once in each of the 9, 3x3 sub-boxes of the grid.
+#### Note: Zeros represent blanks to be filled with numbers 1-9, while non-zero cells are fixed and cannot be changed. 

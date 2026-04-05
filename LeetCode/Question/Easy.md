@@ -135,3 +135,6 @@
 
 ## Id - 1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/)
 ### Problem : Given a binary string s ​​​​​without leading zeros, return true​​​ if s contains at most one contiguous segment of ones. Otherwise, return false.
+
+## Id - 2839 [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description/)
+### Problem : You are given two strings s1 and s2, both of length 4, consisting of lowercase English letters. You can apply the following operation on any of the two strings any number of times: Choose any two indices i and j such that j - i = 2, then swap the two characters at those indices in the string. Return true if you can make the strings s1 and s2 equal, and false otherwise.
