@@ -1,7 +1,8 @@
 #User function Template for python3
 
 class Solution:
-    def findMinDiff(self, arr,m):
+    @staticmethod
+    def findMinDiff(arr,m):
         if m == 0 or not arr:
             return 0
         
