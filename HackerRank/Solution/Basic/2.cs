@@ -12,50 +12,54 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-class Result
+namespace HackerRank.Solution.Basic
 {
-
-    /*
-     * Complete the 'simpleArraySum' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY ar as parameter.
-     */
-
-    public static int simpleArraySum(List<int> ar)
+    class Result
     {
-        // int n = ar.Count;
-        // int sum = 0;
-        // for(int i = 0; i < n; i++){
-        //     sum += ar[i];
-        // }
-        // return sum;
-        // int sum = 0;
-        // foreach(int i in ar){
-        //     sum += i;
-        // }
-        // return sum;
-        
-        return ar.Sum();
-    }
 
+        /*
+         * Complete the 'simpleArraySum' function below.
+         *
+         * The function is expected to return an INTEGER.
+         * The function accepts INTEGER_ARRAY ar as parameter.
+         */
+
+        public static int simpleArraySum(List<int> ar)
+        {
+            // int n = ar.Count;
+            // int sum = 0;
+            // for(int i = 0; i < n; i++){
+            //     sum += ar[i];
+            // }
+            // return sum;
+            // int sum = 0;
+            // foreach(int i in ar){
+            //     sum += i;
+            // }
+            // return sum;
+            
+            return ar.Sum();
+        }
+
+    }
 }
 
-class Solution
+namespace HackerRank.Solution.Basic
 {
-    public static void Main(string[] args)
+    class Solution
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        public static void Main(string[] args)
+        {
+            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int arCount = Convert.ToInt32(Console.ReadLine().Trim());
+            List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
 
-        List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
+            int result = Result.simpleArraySum(ar);
 
-        int result = Result.simpleArraySum(ar);
+            textWriter.WriteLine(result);
 
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
+            textWriter.Flush();
+            textWriter.Close();
+        }
     }
 }
