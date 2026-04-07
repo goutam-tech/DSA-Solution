@@ -1,5 +1,6 @@
 class Solution(object):
-    def isPalindrome(self, x):
+    @staticmethod
+    def isPalindrome(x):
        if x<0:
         return False
 
