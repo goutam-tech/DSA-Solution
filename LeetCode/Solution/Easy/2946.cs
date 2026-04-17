@@ -8,12 +8,7 @@ public class Solution {
             if (shift == 0) continue;
             
             for (int j = 0; j < n; j++) {
-                int newJ;
-                if (i % 2 == 0) {
-                    newJ = ((j - shift) % n + n) % n;
-                } else {
-                    newJ = (j + shift) % n;
-                }
+                int newJ = i % 2 == 0 ? ((j - shift) % n + n) % n : (j + shift) % n;
                 if (mat[i][j] != mat[i][newJ]) return false;
             }
         }
