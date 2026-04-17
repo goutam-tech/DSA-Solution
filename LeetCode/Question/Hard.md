@@ -1,13 +1,5 @@
-# Problem Set of LeetCode - Easy
+# Problem Set of LeetCode in Hard
 
-<<<<<<< Updated upstream
-## Id - 3548 [Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/)
-### Problem : You are given an m x n matrix grid of positive integers. Your task is to determine if it is possible to make either one horizontal or one vertical cut on the grid such that: Each of the two resulting sections formed by the cut is non-empty. The sum of elements in both sections is equal, or can be made equal by discounting at most one single cell in total (from either section). If a cell is discounted, the rest of the section must remain connected. Return true if such a partition exists; otherwise, return false. Note: A section is connected if every cell in it can be reached from any other cell by moving up, down, left, or right through other cells in the section.
-
-## Id - 2573 [Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/description/)
-### Problem : We define the lcp matrix of any 0-indexed string word of n lowercase English letters as an n x n grid such that:
-#### lcp[i][j] is equal to the length of the longest common prefix between the substrings word[i,n-1] and word[j,n-1]. Given an n x n matrix lcp, return the alphabetically smallest string word that corresponds to lcp. If there is no such string, return an empty string. A string a is lexicographically smaller than a string b (of the same length) if in the first position where a and b differ, string a has a letter that appears earlier in the alphabet than the corresponding letter in b. For example, "aabd" is lexicographically smaller than "aaca" because the first position they differ is at the third letter, and 'b' comes before 'c'.
-=======
 ## Id - 4 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description)
 
 ## Id - 761 [Special Binary String](https://leetcode.com/problems/special-binary-string/description)
@@ -51,4 +43,3 @@
 ## Id - 3855 [Sum of K-Digit Numbers in a Range](https://leetcode.com/problems/sum-of-k-digit-numbers-in-a-range/description)
 
 ## Id - 3864 [Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description)
->>>>>>> Stashed changes
