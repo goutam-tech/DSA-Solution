@@ -72,21 +72,14 @@
 
 ## Id - 2839 [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description)
 
-## Id - 2946 [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description)
+## Id - 2946 [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)
+### Problem : You are given an m x n integer matrix mat and an integer k. The matrix rows are 0-indexed. The following proccess happens k times: Even-indexed rows (0, 2, 4, ...) are cyclically shifted to the left. Odd-indexed rows (1, 3, 5, ...) are cyclically shifted to the right. Return true if the final modified matrix after k steps is identical to the original matrix, and false otherwise.
 
-## Id - 3010 [Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description)
+## Id - 1582 [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)
+### Problem : Given an m x n binary matrix mat, return the number of special positions in mat. A position (i, j) is called special if mat[i][j] == 1 and all other elements in row i and column j are 0 (rows and columns are 0-indexed).
 
-## Id - 3379 [Transformed Array](https://leetcode.com/problems/transformed-array/description)
+## Id - 1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
+### Problem : You are given a string s consisting only of the characters '0' and '1'. In one operation, you can change any '0' to '1' or vice versa. The string is called alternating if no two adjacent characters are equal. For example, the string "010" is alternating, while the string "0100" is not. Return the minimum number of operations needed to make s alternating.
 
-## Id - 3637 [Trionic Array I](https://leetcode.com/problems/trionic-array-i/description)
-
-## Id - 3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)
-
-## Id - 3740 [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description)
-
-## Id - 3827 [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description)
-
-## Id - 3852 [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description)
-
-## Id - 3861 [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description)
-
+## Id - 1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/)
+### Problem : Given a binary string s ​​​​​without leading zeros, return true​​​ if s contains at most one contiguous segment of ones. Otherwise, return false.

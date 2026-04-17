@@ -1,6 +1,6 @@
 public class Solution {
     public string AddBinary(string a, string b) {
-        StringBuilder c = new StringBuilder();
+        StringBuilder c = new();
         int n = a.Length - 1, m = b.Length - 1, carry = 0;
 
         while(n >= 0 || m >= 0 || carry > 0){

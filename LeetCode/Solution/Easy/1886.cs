@@ -1,7 +1,7 @@
 public class Solution {
     public bool FindRotation(int[][] mat, int[][] target) {
         int n = mat.Length;
-        bool[] possible = new bool[] {true, true, true, true};
+        bool[] possible = new[] {true, true, true, true};
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
