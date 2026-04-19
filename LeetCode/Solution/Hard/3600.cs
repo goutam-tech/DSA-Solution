@@ -32,7 +32,7 @@ public class Solution {
         var normalEdges = new List<int[]>();
 
         foreach (var e in edges) {
-            int u = e[0], v = e[1], s = e[2], must = e[3];
+            int s = e[2], must = e[3];
             if (must == 1) {
                 if (s < minStrength) return false;
                 mustEdges.Add(e);

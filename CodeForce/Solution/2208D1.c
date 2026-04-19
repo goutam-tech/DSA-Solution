@@ -1,15 +1,35 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <limits.h>
 
 int reach[505][505];
 int n;
 
 int main() {
-    int t;
-    scanf("%d", &t);
+    char t_buf[32];
+    char *end;
+    long t_long;
+    if (!fgets(t_buf, sizeof(t_buf), stdin)) return 1;
+    errno = 0;
+    t_long = strtol(t_buf, &end, 10);
+    if (end == t_buf || (*end != '\n' && *end != '\0')) { fprintf(stderr, "Invalid input for t\n"); return 1; }
+    if ((t_long == LONG_MIN || t_long == LONG_MAX) && errno == ERANGE) { fprintf(stderr, "Out of range for t\n"); return 1; }
+    if (t_long < INT_MIN || t_long > INT_MAX) { fprintf(stderr, "t out of int range\n"); return 1; }
+    int t = (int)t_long;
 
-    while (t--) {
-        scanf("%d", &n);
+    while (t-- > 0) {
+        char n_buf[32];
+        long n_long;
+        if (!fgets(n_buf, sizeof(n_buf), stdin)) return 1;
+        errno = 0;
+        n_long = strtol(n_buf, &end, 10);
+        if (end == n_buf || (*end != '\n' && *end != '\0')) { fprintf(stderr, "Invalid input for n\n"); return 1; }
+        if ((n_long == LONG_MIN || n_long == LONG_MAX) && errno == ERANGE) { fprintf(stderr, "Out of range for n\n"); return 1; }
+        if (n_long < INT_MIN || n_long > INT_MAX) { fprintf(stderr, "n out of int range\n"); return 1; }
+        n = (int)n_long;
+        
         char row[505];
         for (int i = 0; i < n; i++) {
             scanf("%s", row);

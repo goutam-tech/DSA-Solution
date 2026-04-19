@@ -1,14 +1,70 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <errno.h>
+#include <limits.h>
+
 int cmp(const void *a, const void *b) {
-    return (*(int*)a - *(int*)b);
+    return (*(int *)a - *(int *)b);
 }
 
 void solve(int t){
+    char buf[256];
+    char *end;
+    long tmp;
     int n, k, p, m;
-    scanf("%d %d %d %d", &n, &k, &p, &m);
+
+    if (!fgets(buf, sizeof buf, stdin)){
+        fprintf(stderr, "Input error\n");
+        return;
+    }
+    char *ptr = buf;
+    errno = 0;
+    tmp = strtol(ptr, &end, 10);
+    if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
+        fprintf(stderr, "Invalid input for n\n");
+        return;
+    }
+    n = (int)tmp;
+    ptr = end;
+    errno = 0;
+    tmp = strtol(ptr, &end, 10);
+    if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
+        fprintf(stderr, "Invalid input for k\n");
+        return;
+    }
+    k = (int)tmp;
+    ptr = end;
+    errno = 0;
+    tmp = strtol(ptr, &end, 10);
+    if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
+        fprintf(stderr, "Invalid input for p\n");
+        return;
+    }
+    p = (int)tmp;
+    ptr = end;
+    errno = 0;
+    tmp = strtol(ptr, &end, 10);
+    if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
+        fprintf(stderr, "Invalid input for m\n");
+        return;
+    }
+    m = (int)tmp;
+
     int a[5000];
-    for (int i = 0; i < n; i++) scanf("%d", &a[i]);
+    for (int i = 0; i < n; i++){
+        if (!fgets(buf, sizeof buf, stdin)){
+            fprintf(stderr, "Input error\n");
+            return;
+        }
+        errno = 0;
+        tmp = strtol(buf, &end, 10);
+        if (errno == ERANGE || end == buf || (*end != '\n' && *end != '\0')){
+            fprintf(stderr, "Invalid input for a[%d]\n", i);
+            return;
+        }
+        a[i] = (int)tmp;
+    }
+
     int win_cost = a[p - 1];
     long long setup_cost = 0;
     int setup_need = (p > k) ? (p - k) : 0;
@@ -40,9 +96,27 @@ void solve(int t){
 }
 
 int main() {
-    int t;
-    scanf("%d", &t);
-    while (t--) {
+    char line[64];
+    char *end;
+    long temp;
+    if (fgets(line, sizeof(line), stdin) == NULL) {
+        fprintf(stderr, "Error reading test case count\n");
+        return EXIT_FAILURE;
+    }
+    errno = 0;
+    temp = strtol(line, &end, 10);
+    if (end == line || (*end != '\0' && *end != '\n')) {
+        fprintf(stderr, "Invalid number of test cases: %s", line);
+        return EXIT_FAILURE;
+    }
+    if ((errno == ERANGE && (temp == LONG_MAX || temp == LONG_MIN))
+        || temp > INT_MAX || temp < INT_MIN) {
+        fprintf(stderr, "Test case count out of range: %ld\n", temp);
+        return EXIT_FAILURE;
+    }
+    int t = (int)temp;
+    
+    while (t-- > 0) {
         solve(t);
     }
     return 0;

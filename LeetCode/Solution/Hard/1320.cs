@@ -2,7 +2,7 @@ using System;
 
 public class Solution {
     public int MinimumDistance(string word) {
-        int n = word.Length;
+        //int n = word.Length;
         int[,] dp = new int[27, 27];
 
         for (int i = 0; i < 27; i++)

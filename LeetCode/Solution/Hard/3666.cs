@@ -15,9 +15,9 @@ public class Solution {
             long extra = total - zeros;
             
             if (extra < 0) continue;
-            if (extra % 2 != 0) continue;
+            if (Math.Abs(extra % 2) == 1) continue;
 
-            long maxZeroFlips = (long)zeros * (ops % 2 == 1 ? ops : ops - 1);
+            long maxZeroFlips = (long)zeros * (ops % 2 != 0 ? ops : ops - 1);
             long maxOneFlips  = (long)ones  * (ops % 2 == 0 ? ops : ops - 1);
             long maxTotal = maxZeroFlips + maxOneFlips;
 

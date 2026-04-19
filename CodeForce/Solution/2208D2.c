@@ -1,15 +1,36 @@
 #include <stdio.h>
 #include <string.h>
+#include <errno.h>
+#include <limits.h>
+#include <stdlib.h>
 
 int reach[505][505];
 int n;
 
 int main() {
+    char buf[64];
+    char *end;
+    long tmp;
     int t;
-    scanf("%d", &t);
 
-    while (t--) {
-        scanf("%d", &n);
+    if (!fgets(buf, sizeof(buf), stdin)) return 1;
+    errno = 0;
+    tmp = strtol(buf, &end, 10);
+    if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || tmp < INT_MIN || tmp > INT_MAX) {
+        fprintf(stderr, "Invalid input for t\n");
+        return 1;
+    }
+    t = (int)tmp;
+
+    while (t-- > 0) {
+        if (!fgets(buf, sizeof(buf), stdin)) return 1;
+        errno = 0;
+        tmp = strtol(buf, &end, 10);
+        if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || tmp < INT_MIN || tmp > INT_MAX) {
+            fprintf(stderr, "Invalid input for n\n");
+            return 1;
+        }
+        n = (int)tmp;
         char row[505];
         for (int i = 0; i < n; i++) {
             scanf("%s", row);
