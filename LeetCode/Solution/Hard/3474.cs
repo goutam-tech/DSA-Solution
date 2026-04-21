@@ -4,29 +4,65 @@ public class Solution {
     public string GenerateString(string str1, string str2) {
         int n = str1.Length, m = str2.Length;
         int len = n + m - 1;
-        char[] word = new char[len];
-        for(int i = 0; i < len; i++) word[i] = 'a';
+        char[] word = InitializeWord(len);
 
-        for(int i = 0; i < n; i++){
-            if(str1[i] == 'T'){
-                for(int j = 0; j < m; j++){
+        PlaceTrueSegments(str1, str2, word);
+        EnsureFalseSegments(str1, str2, word);
+
+        return new string(word);
+    }
+
+    private char[] InitializeWord(int len) {
+        char[] word = new char[len];
+        for (int i = 0; i < len; i++) {
+            word[i] = 'a';
+        }
+        return word;
+    }
+
+    private void PlaceTrueSegments(string str1, string str2, char[] word) {
+        int n = str1.Length, m = str2.Length;
+        for (int i = 0; i < n; i++) {
+            if (str1[i] == 'T') {
+                for (int j = 0; j < m; j++) {
                     word[i + j] = str2[j];
                 }
             }
         }
+    }
 
-        for(int i = 0; i < n; i++){
-            bool alreadyDiff = false;
-            for(int j = 0; j < m; j++){
-                if(word[i + j] != str2[j]){
-                    alreadyDiff = true;
-                    break;
-                }
+    private void EnsureFalseSegments(string str1, string str2, char[] word) {
+        int n = str1.Length, m = str2.Length;
+        for (int i = 0; i < n; i++) {
+            if (str1[i] == 'F' && !IsAlreadyDifferent(word, str2, i)) {
+                MakeSegmentDifferent(word, str2, i);
             }
-            if(str1[i] == 'F' && !alreadyDiff){
-                bool changed = false;
-                for(int j = m - 1; j >= 0; j--){
-                    char needed = str2[j];
+        }
+    }
+
+    private bool IsAlreadyDifferent(char[] word, string str2, int pos) {
+        for (int j = 0; j < str2.Length; j++) {
+            if (word[pos + j] != str2[j]) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private void MakeSegmentDifferent(char[] word, string str2, int pos) {
+        int m = str2.Length;
+        for (int j = m - 1; j >= 0; j--) {
+            if (word[pos + j] == str2[j]) {
+                word[pos + j] = GetDifferentChar(str2[j]);
+                break;
+            }
+        }
+    }
+
+    private char GetDifferentChar(char c) {
+        return c == 'a' ? 'b' : 'a';
+    }
+}
                     char alt = (needed == 'a') ? 'b' : 'a';
                     bool fixable = true;
                     for(int k = 0; k < n; k++){
