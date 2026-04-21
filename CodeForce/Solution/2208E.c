@@ -132,17 +132,17 @@ int main() {
     char *end = NULL;
     long val;
     if (fgets(buf, sizeof(buf), stdin) == NULL) {
-        fprintf(stderr, "Failed to read input for test cases\n");
+        (void) fprintf(stderr, "Failed to read input for test cases\n");
         return 1;
     }
     errno = 0;
     val = strtol(buf, &end, 10);
     if (end == buf || (*end != '\n' && *end != '\0')) {
-        fprintf(stderr, "Invalid number of test cases: %s", buf);
+        (void) fprintf(stderr, "Invalid number of test cases: %s", buf);
         return 1;
     }
     if ((errno == ERANGE && (val == LONG_MAX || val == LONG_MIN)) || val > INT_MAX || val < INT_MIN) {
-        fprintf(stderr, "Test case count out of range: %ld\n", val);
+        (void) fprintf(stderr, "Test case count out of range: %ld\n", val);
         return 1;
     }
     t = (int)val;

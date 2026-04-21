@@ -4,36 +4,40 @@
 #include <limits.h>
 #include <stdlib.h>
 
-int reach[505][505];
-int n;
-
-int main() {
+static int read_int(const char *name, int *out) {
     char buf[64];
     char *end;
     long tmp;
-    int t;
-
     if (!fgets(buf, sizeof(buf), stdin)) return 1;
     errno = 0;
     tmp = strtol(buf, &end, 10);
     if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || tmp < INT_MIN || tmp > INT_MAX) {
-        fprintf(stderr, "Invalid input for t\n");
+        (void)fprintf(stderr, "Invalid input for %s\n", name);
         return 1;
     }
-    t = (int)tmp;
+    *out = (int)tmp;
+    return 0;
+}
 
-    while (t-- > 0) {
-        if (!fgets(buf, sizeof(buf), stdin)) return 1;
-        errno = 0;
-        tmp = strtol(buf, &end, 10);
-        if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || tmp < INT_MIN || tmp > INT_MAX) {
-            fprintf(stderr, "Invalid input for n\n");
-            return 1;
+int reach[505][505];
+int n;
+
+int main() {
+    int ret = 0;
+    int t;
+    if ((ret = read_int("t", &t))) {
+        return ret;
+    }
+    while (t-- > 0 && ret == 0) {
+        if ((ret = read_int("n", &n))) {
+            break;
         }
-        n = (int)tmp;
         char row[505];
         for (int i = 0; i < n; i++) {
-            scanf("%s", row);
+            if (scanf("%s", row) != 1) {
+                ret = 1;
+                break;
+            }
             for (int j = 0; j < n; j++)
                 reach[i][j] = row[j] - '0';
         }

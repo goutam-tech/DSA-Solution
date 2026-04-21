@@ -14,14 +14,16 @@ void solve(int t){
     int n, k, p, m;
 
     if (!fgets(buf, sizeof buf, stdin)){
-        fprintf(stderr, "Input error\n");
+        (void)fprintf(stderr, "Input error
+");
         return;
     }
     char *ptr = buf;
     errno = 0;
     tmp = strtol(ptr, &end, 10);
     if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
-        fprintf(stderr, "Invalid input for n\n");
+        (void)fprintf(stderr, "Invalid input for n
+");
         return;
     }
     n = (int)tmp;
@@ -29,7 +31,8 @@ void solve(int t){
     errno = 0;
     tmp = strtol(ptr, &end, 10);
     if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
-        fprintf(stderr, "Invalid input for k\n");
+        (void)fprintf(stderr, "Invalid input for k
+");
         return;
     }
     k = (int)tmp;
@@ -37,7 +40,8 @@ void solve(int t){
     errno = 0;
     tmp = strtol(ptr, &end, 10);
     if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
-        fprintf(stderr, "Invalid input for p\n");
+        (void)fprintf(stderr, "Invalid input for p
+");
         return;
     }
     p = (int)tmp;
@@ -45,7 +49,8 @@ void solve(int t){
     errno = 0;
     tmp = strtol(ptr, &end, 10);
     if (errno == ERANGE || end == ptr || (*end != ' ' && *end != '\t' && *end != '\n' && *end != '\0')){
-        fprintf(stderr, "Invalid input for m\n");
+        (void)fprintf(stderr, "Invalid input for m
+");
         return;
     }
     m = (int)tmp;
@@ -53,13 +58,15 @@ void solve(int t){
     int a[5000];
     for (int i = 0; i < n; i++){
         if (!fgets(buf, sizeof buf, stdin)){
-            fprintf(stderr, "Input error\n");
+            (void)fprintf(stderr, "Input error
+");
             return;
         }
         errno = 0;
         tmp = strtol(buf, &end, 10);
         if (errno == ERANGE || end == buf || (*end != '\n' && *end != '\0')){
-            fprintf(stderr, "Invalid input for a[%d]\n", i);
+            (void)fprintf(stderr, "Invalid input for a[%d]
+", i);
             return;
         }
         a[i] = (int)tmp;
@@ -100,18 +107,18 @@ int main() {
     char *end;
     long temp;
     if (fgets(line, sizeof(line), stdin) == NULL) {
-        fprintf(stderr, "Error reading test case count\n");
+        (void)fprintf(stderr, "Error reading test case count\n");
         return EXIT_FAILURE;
     }
     errno = 0;
     temp = strtol(line, &end, 10);
     if (end == line || (*end != '\0' && *end != '\n')) {
-        fprintf(stderr, "Invalid number of test cases: %s", line);
+        (void)fprintf(stderr, "Invalid number of test cases: %s", line);
         return EXIT_FAILURE;
     }
     if ((errno == ERANGE && (temp == LONG_MAX || temp == LONG_MIN))
         || temp > INT_MAX || temp < INT_MIN) {
-        fprintf(stderr, "Test case count out of range: %ld\n", temp);
+        (void)fprintf(stderr, "Test case count out of range: %ld\n", temp);
         return EXIT_FAILURE;
     }
     int t = (int)temp;

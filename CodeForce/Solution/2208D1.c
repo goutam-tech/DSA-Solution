@@ -6,33 +6,52 @@
 
 int reach[505][505];
 int n;
+int read_int(int *out, const char *name) {
+    char buf[32];
+    char *end;
+    long val;
+    if (!fgets(buf, sizeof(buf), stdin)) {
+        fprintf(stderr, "Missing input for %s\n", name);
+        return 1;
+    }
+    errno = 0;
+    val = strtol(buf, &end, 10);
+    if (end == buf || (*end != '\n' && *end != '\0')) {
+        fprintf(stderr, "Invalid input for %s\n", name);
+        return 1;
+    }
+    if ((val == LONG_MIN || val == LONG_MAX) && errno == ERANGE) {
+        fprintf(stderr, "Out of range for %s\n", name);
+        return 1;
+    }
+    if (val < INT_MIN || val > INT_MAX) {
+        fprintf(stderr, "%s out of int range\n", name);
+        return 1;
+    }
+    *out = (int)val;
+    return 0;
+}
 
 int main() {
-    char t_buf[32];
-    char *end;
-    long t_long;
-    if (!fgets(t_buf, sizeof(t_buf), stdin)) return 1;
-    errno = 0;
-    t_long = strtol(t_buf, &end, 10);
-    if (end == t_buf || (*end != '\n' && *end != '\0')) { fprintf(stderr, "Invalid input for t\n"); return 1; }
-    if ((t_long == LONG_MIN || t_long == LONG_MAX) && errno == ERANGE) { fprintf(stderr, "Out of range for t\n"); return 1; }
-    if (t_long < INT_MIN || t_long > INT_MAX) { fprintf(stderr, "t out of int range\n"); return 1; }
-    int t = (int)t_long;
+    int ret = 0;
+    int t;
+    if (read_int(&t, "t")) {
+        ret = 1;
+        goto cleanup;
+    }
 
     while (t-- > 0) {
-        char n_buf[32];
-        long n_long;
-        if (!fgets(n_buf, sizeof(n_buf), stdin)) return 1;
-        errno = 0;
-        n_long = strtol(n_buf, &end, 10);
-        if (end == n_buf || (*end != '\n' && *end != '\0')) { fprintf(stderr, "Invalid input for n\n"); return 1; }
-        if ((n_long == LONG_MIN || n_long == LONG_MAX) && errno == ERANGE) { fprintf(stderr, "Out of range for n\n"); return 1; }
-        if (n_long < INT_MIN || n_long > INT_MAX) { fprintf(stderr, "n out of int range\n"); return 1; }
-        n = (int)n_long;
-        
+        if (read_int(&n, "n")) {
+            ret = 1;
+            goto cleanup;
+        }
         char row[505];
         for (int i = 0; i < n; i++) {
-            scanf("%s", row);
+            if (scanf("%s", row) != 1) {
+                fprintf(stderr, "Failed to read row %d\n", i);
+                ret = 1;
+                goto cleanup;
+            }
             for (int j = 0; j < n; j++)
                 reach[i][j] = row[j] - '0';
         }

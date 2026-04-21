@@ -14,7 +14,7 @@ int main() {
     if (!fgets(buf, sizeof(buf), stdin)) return 0;
     lt = strtol(buf, &end, 10);
     if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || lt < INT_MIN || lt > INT_MAX) {
-        fprintf(stderr, "Invalid input for t\n");
+        (void)fprintf(stderr, "Invalid input for t\n");
         return 1;
     }
     t = (int)lt;
@@ -25,7 +25,7 @@ int main() {
         if (!fgets(buf, sizeof(buf), stdin)) return 0;
         lt = strtol(buf, &end, 10);
         if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || lt < INT_MIN || lt > INT_MAX) {
-            fprintf(stderr, "Invalid input for n\n");
+            (void)fprintf(stderr, "Invalid input for n\n");
             return 1;
         }
         n = (int)lt;
@@ -37,15 +37,15 @@ int main() {
 
         r = query(1, 2);
         if (r == -1) return 0;
-        if (r == 1) { printf("! 1\n"); fflush(stdout); found = 1; goto next; }
+        if (r == 1) { (void)printf("! 1\n"); (void)fflush(stdout); found = 1; goto next; }
 
         r = query(1, 3);
         if (r == -1) return 0;
-        if (r == 1) { printf("! 1\n"); fflush(stdout); found = 1; goto next; }
+        if (r == 1) { (void)printf("! 1\n"); (void)fflush(stdout); found = 1; goto next; }
 
         r = query(2, 3);
         if (r == -1) return 0;
-        if (r == 1) { printf("! 2\n"); fflush(stdout); found = 1; goto next; }
+        if (r == 1) { (void)printf("! 2\n"); (void)fflush(stdout); found = 1; goto next; }
 
         for (int k = 1; k <= n - 2 && !found; k++) {
             int i = 2 * k + 2;

@@ -13,44 +13,51 @@ int main() {
     char *end;
     errno = 0;
     if (!fgets(buf, sizeof(buf), stdin)) {
-        fprintf(stderr, "Error reading number of test cases\n");
+        (void)fprintf(stderr, "Error reading number of test cases
+");
         return 1;
     }
     long t_long = strtol(buf, &end, 10);
     if (end == buf || (*end != '\n' && *end != '\0')) {
-        fprintf(stderr, "Invalid number of test cases\n");
+        (void)fprintf(stderr, "Invalid number of test cases
+");
         return 1;
     }
     if ((t_long == LONG_MIN || t_long == LONG_MAX) && errno == ERANGE) {
-        fprintf(stderr, "Test cases out of range\n");
+        (void)fprintf(stderr, "Test cases out of range
+");
         return 1;
     }
     int t = (int)t_long;
 
     while (t-- > 0) {
         if (!fgets(buf, sizeof(buf), stdin)) {
-            fprintf(stderr, "Error reading parameters\n");
+            (void)fprintf(stderr, "Error reading parameters
+");
             return 1;
         }
         char *p = buf;
         errno = 0;
         long n_long = strtol(p, &end, 10);
         if (end == p) {
-            fprintf(stderr, "Invalid n\n");
+            (void)fprintf(stderr, "Invalid n
+");
             return 1;
         }
         p = end;
         errno = 0;
         long c_long = strtol(p, &end, 10);
         if (end == p) {
-            fprintf(stderr, "Invalid c\n");
+            (void)fprintf(stderr, "Invalid c
+");
             return 1;
         }
         p = end;
         errno = 0;
         long k_long = strtol(p, &end, 10);
         if (end == p) {
-            fprintf(stderr, "Invalid k\n");
+            (void)fprintf(stderr, "Invalid k
+");
             return 1;
         }
         int n = (int)n_long;
@@ -60,17 +67,20 @@ int main() {
         long long a[100];
         for (int i = 0; i < n; i++) {
             if (!fgets(buf, sizeof(buf), stdin)) {
-                fprintf(stderr, "Error reading array element\n");
+                (void)fprintf(stderr, "Error reading array element
+");
                 return 1;
             }
             errno = 0;
             long long ai = strtoll(buf, &end, 10);
             if (end == buf || (*end != '\n' && *end != '\0')) {
-                fprintf(stderr, "Invalid array element\n");
+                (void)fprintf(stderr, "Invalid array element
+");
                 return 1;
             }
             if ((ai == LLONG_MIN || ai == LLONG_MAX) && errno == ERANGE) {
-                fprintf(stderr, "Array element out of range\n");
+                (void)fprintf(stderr, "Array element out of range
+");
                 return 1;
             }
             a[i] = ai;
