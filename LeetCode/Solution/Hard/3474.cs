@@ -30,11 +30,9 @@ public class Solution {
                     char alt = (needed == 'a') ? 'b' : 'a';
                     bool fixable = true;
                     for(int k = 0; k < n; k++){
-                        if(str1[k] == 'T' && i + j >= k && i + j < k + m){
-                            if(str2[i + j - k] != alt){
-                                fixable = false;
-                                break;
-                            }
+                        if(str1[k] == 'T' && i + j >= k && i + j < k + m && str2[i + j - k] != alt){
+                            fixable = false;
+                            break;
                         }
                     }
                     if(fixable){
