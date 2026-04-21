@@ -32,7 +32,7 @@ public class Solution {
     }
 
     private void EnsureFalseSegments(string str1, string str2, char[] word) {
-        int n = str1.Length, m = str2.Length;
+        int n = str1.Length;
         for (int i = 0; i < n; i++) {
             if (str1[i] == 'F' && !IsAlreadyDifferent(word, str2, i)) {
                 MakeSegmentDifferent(word, str2, i);
