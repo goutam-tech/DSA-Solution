@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     using System;
         public string LongestCommonPrefix(string[] strs) {

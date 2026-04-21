@@ -1,5 +1,7 @@
 using System;
 
+namespace Hard;
+
 public class Solution {
     public long MinCost(string s, int encCost, int flatCost) {
         int n = s.Length;

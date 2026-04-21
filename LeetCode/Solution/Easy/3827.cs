@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int CountMonobit(int n) {
         int count = 1;

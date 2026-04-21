@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+namespace Hard;
+
 public class Solution
 {
     public long MinimumCost(int[] nums, int k, int dist)

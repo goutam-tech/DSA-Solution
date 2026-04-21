@@ -11,6 +11,8 @@
  *     }
  * }
  */
+
+namespace Easy;
 public class Solution {
     public bool IsBalanced(TreeNode root) {
         return Height(root) != -1;

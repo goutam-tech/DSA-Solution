@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int AddDigits(int num) {
         while(num >= 10){

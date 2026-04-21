@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+namespace Easy;
+
 public class Solution {
     public int[] MinDistinctFreqPair(int[] nums) {
         var freq = new Dictionary<int,int>();

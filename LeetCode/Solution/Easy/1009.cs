@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int BitwiseComplement(int n) {
         if(n == 0) return 1;

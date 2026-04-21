@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int RemoveElement(int[] nums, int val) {
         int k = 0;

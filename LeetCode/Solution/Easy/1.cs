@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int[] TwoSum(int[] nums, int target) 
     {
@@ -7,7 +9,7 @@ public class Solution {
         {
             if (nums[i] + nums[j] == target)
             {
-                return new int[] { i, j };
+              return new int[] { i, j };
             }
         }
       }

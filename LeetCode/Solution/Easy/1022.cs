@@ -11,6 +11,9 @@
  *     }
  * }
  */
+
+namespace Easy;
+
 public class Solution {
     public int SumRootToLeaf(TreeNode root) {
         return DFS(root, 0);

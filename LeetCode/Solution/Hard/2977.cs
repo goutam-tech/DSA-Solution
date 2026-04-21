@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+namespace Hard;
+
 public class Solution
 {
     const long INF = long.MaxValue / 4;

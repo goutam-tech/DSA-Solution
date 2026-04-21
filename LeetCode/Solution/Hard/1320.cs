@@ -1,5 +1,7 @@
 using System;
 
+namespace Hard;
+
 public class Solution {
     public int MinimumDistance(string word) {
         //int n = word.Length;

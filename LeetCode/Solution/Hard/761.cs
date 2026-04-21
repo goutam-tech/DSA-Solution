@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public string MakeLargestSpecial(string s) {
         var parts = new List<string>();

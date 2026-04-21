@@ -1,4 +1,7 @@
 using System.Numerics;
+
+namespace Easy;
+
 public class Solution {
     public IList<string> ReadBinaryWatch(int turnedOn) {
         List<string> result = new List<string>();

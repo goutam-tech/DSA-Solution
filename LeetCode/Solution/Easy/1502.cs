@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public bool CanMakeArithmeticProgression(int[] arr) {
         Array.Sort(arr); 

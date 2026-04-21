@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public string AddBinary(string a, string b) {
         StringBuilder c = new();

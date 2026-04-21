@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class SegmentTree {
     public int n;
     public int[] sum, mn, mx;

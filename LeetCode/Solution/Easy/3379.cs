@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int[] ConstructTransformedArray(int[] nums) {
         int n = nums.Length;

@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public int MinOperations(string s, int k) {
         int n = s.Length;

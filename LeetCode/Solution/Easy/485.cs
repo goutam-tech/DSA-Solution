@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int FindMaxConsecutiveOnes(int[] nums) {
         int maxCount = 0;

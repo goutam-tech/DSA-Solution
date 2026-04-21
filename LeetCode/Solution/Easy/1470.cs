@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int[] Shuffle(int[] nums, int n) {
         int[] res = new int[2*n];

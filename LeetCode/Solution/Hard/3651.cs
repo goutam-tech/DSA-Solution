@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+namespace Hard;
+
 public class Solution {
     public int MinCost(int[][] grid, int k) {
         int m = grid.Length, n = grid[0].Length;

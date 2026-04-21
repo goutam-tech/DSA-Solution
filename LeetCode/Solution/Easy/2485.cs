@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int PivotInteger(int n) {
       int totalSum = n * (n + 1) / 2;
