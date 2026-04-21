@@ -22,32 +22,37 @@ static int read_int(const char *name, int *out) {
 int reach[505][505];
 int n;
 
+static int process_case() {
+    int ret = 0;
+    if ((ret = read_int("n", &n))) return ret;
+    char row[505];
+    for (int i = 0; i < n; i++) {
+        if (scanf("%s", row) != 1) {
+            return 1;
+        }
+        for (int j = 0; j < n; j++) {
+            reach[i][j] = row[j] - '0';
+        }
+    }
+    return ret;
+}
+
 int main() {
     int ret = 0;
     int t;
-    if ((ret = read_int("t", &t))) {
-        return ret;
-    }
-    while (t-- > 0 && ret == 0) {
-        if ((ret = read_int("n", &n))) {
-            break;
-        }
-        char row[505];
-        for (int i = 0; i < n; i++) {
-            if (scanf("%s", row) != 1) {
-                ret = 1;
+    ret = read_int("t", &t);
+    if (ret == 0) {
+        while (t-- > 0 && ret == 0) {
+            ret = process_case();
+            if (ret) {
                 break;
             }
-            for (int j = 0; j < n; j++)
-                reach[i][j] = row[j] - '0';
-        }
+            int valid = 1;
 
-        int valid = 1;
+            for (int i = 0; i < n && valid; i++)
+                if (!reach[i][i]) valid = 0;
 
-        for (int i = 0; i < n && valid; i++)
-            if (!reach[i][i]) valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
+            for (int i = 0; i < n && valid; i++)
             for (int j = 0; j < n && valid; j++)
                 if (i != j && reach[i][j] && reach[j][i])
                     valid = 0;

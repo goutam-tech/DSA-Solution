@@ -11,24 +11,38 @@ int read_int(int *out, const char *name) {
     char *end;
     long val;
     if (!fgets(buf, sizeof(buf), stdin)) {
-        fprintf(stderr, "Missing input for %s\n", name);
+        (void)fprintf(stderr, "Missing input for %s\n", name);
         return 1;
     }
     errno = 0;
     val = strtol(buf, &end, 10);
     if (end == buf || (*end != '\n' && *end != '\0')) {
-        fprintf(stderr, "Invalid input for %s\n", name);
+        (void)fprintf(stderr, "Invalid input for %s\n", name);
         return 1;
     }
     if ((val == LONG_MIN || val == LONG_MAX) && errno == ERANGE) {
-        fprintf(stderr, "Out of range for %s\n", name);
+        (void)fprintf(stderr, "Out of range for %s\n", name);
         return 1;
     }
     if (val < INT_MIN || val > INT_MAX) {
-        fprintf(stderr, "%s out of int range\n", name);
+        (void)fprintf(stderr, "%s out of int range\n", name);
         return 1;
     }
     *out = (int)val;
+    return 0;
+}
+
+static int read_matrix(int n, int reach[][505]) {
+    char row[505];
+    for (int i = 0; i < n; i++) {
+        if (scanf("%s", row) != 1) {
+            (void)fprintf(stderr, "Failed to read row %d\n", i);
+            return 1;
+        }
+        for (int j = 0; j < n; j++) {
+            reach[i][j] = row[j] - '0';
+        }
+    }
     return 0;
 }
 
@@ -37,26 +51,13 @@ int main() {
     int t;
     if (read_int(&t, "t")) {
         ret = 1;
-        goto cleanup;
-    }
-
-    while (t-- > 0) {
-        if (read_int(&n, "n")) {
-            ret = 1;
-            goto cleanup;
-        }
-        char row[505];
-        for (int i = 0; i < n; i++) {
-            if (scanf("%s", row) != 1) {
-                fprintf(stderr, "Failed to read row %d\n", i);
+    } else {
+        while (t-- > 0 && ret == 0) {
+            if (read_int(&n, "n") || read_matrix(n, reach)) {
                 ret = 1;
-                goto cleanup;
+                break;
             }
-            for (int j = 0; j < n; j++)
-                reach[i][j] = row[j] - '0';
-        }
-
-        int valid = 1;
+            int valid = 1;
 
         for (int i = 0; i < n && valid; i++)
             if (!reach[i][i]) valid = 0;
@@ -72,7 +73,7 @@ int main() {
                     if (reach[i][j] && reach[j][k] && !reach[i][k])
                         valid = 0;
 
-        if (!valid) { printf("No\n"); continue; }
+        if (!valid) { (void)printf("No\n"); continue; }
 
         int ex[505], ey[505], ecnt = 0;
 
