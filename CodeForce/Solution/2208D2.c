@@ -37,6 +37,39 @@ static int process_case() {
     return ret;
 }
 
+static int check_diagonal() {
+    for (int i = 0; i < n; i++) {
+        if (!reach[i][i]) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+static int check_no_mutual_edges() {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j && reach[i][j] && reach[j][i]) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+
+static int check_transitive() {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            for (int k = 0; k < n; k++) {
+                if (reach[i][j] && reach[j][k] && !reach[i][k]) {
+                    return 0;
+                }
+            }
+        }
+    }
+    return 1;
+}
+
 int main() {
     int ret = 0;
     int t;
@@ -47,21 +80,7 @@ int main() {
             if (ret) {
                 break;
             }
-            int valid = 1;
-
-            for (int i = 0; i < n && valid; i++)
-                if (!reach[i][i]) valid = 0;
-
-            for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                if (i != j && reach[i][j] && reach[j][i])
-                    valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                for (int k = 0; k < n && valid; k++)
-                    if (reach[i][j] && reach[j][k] && !reach[i][k])
-                        valid = 0;
+            int valid = check_diagonal() && check_no_mutual_edges() && check_transitive();
 
         if (!valid) { printf("No\n"); continue; }
 

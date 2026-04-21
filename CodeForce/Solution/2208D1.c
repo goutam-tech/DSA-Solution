@@ -21,17 +21,6 @@ int read_int(int *out, const char *name) {
         return 1;
     }
     if ((val == LONG_MIN || val == LONG_MAX) && errno == ERANGE) {
-        (void)fprintf(stderr, "Out of range for %s\n", name);
-        return 1;
-    }
-    if (val < INT_MIN || val > INT_MAX) {
-        (void)fprintf(stderr, "%s out of int range\n", name);
-        return 1;
-    }
-    *out = (int)val;
-    return 0;
-}
-
 static int read_matrix(int n, int reach[][505]) {
     char row[505];
     for (int i = 0; i < n; i++) {
@@ -46,32 +35,64 @@ static int read_matrix(int n, int reach[][505]) {
     return 0;
 }
 
+static int check_self_loop(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        if (!reach[i][i]) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+static int check_symmetry(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j && reach[i][j] && reach[j][i]) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+
+static int check_transitive(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            for (int k = 0; k < n; k++) {
+                if (reach[i][j] && reach[j][k] && !reach[i][k]) {
+                    return 0;
+                }
+            }
+        }
+    }
+    return 1;
+}
+
+static int validate_relation(int n, int reach[][505]) {
+    return check_self_loop(n, reach)
+        && check_symmetry(n, reach)
+        && check_transitive(n, reach);
+}
+
 int main() {
     int ret = 0;
     int t;
     if (read_int(&t, "t")) {
         ret = 1;
     } else {
-        while (t-- > 0 && ret == 0) {
+        for (int test = 0; test < t; ++test) {
+            int n;
+            int reach[505][505];
             if (read_int(&n, "n") || read_matrix(n, reach)) {
                 ret = 1;
                 break;
             }
-            int valid = 1;
-
-        for (int i = 0; i < n && valid; i++)
-            if (!reach[i][i]) valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                if (i != j && reach[i][j] && reach[j][i])
-                    valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                for (int k = 0; k < n && valid; k++)
-                    if (reach[i][j] && reach[j][k] && !reach[i][k])
-                        valid = 0;
+            int valid = validate_relation(n, reach);
+            printf("%s\n", valid ? "YES" : "NO");
+        }
+    }
+    return ret;
+}
 
         if (!valid) { (void)printf("No\n"); continue; }
 
