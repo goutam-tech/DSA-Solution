@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int MinimumIndex(int[] capacity, int itemSize) {
         int minCapacity = int.MaxValue;

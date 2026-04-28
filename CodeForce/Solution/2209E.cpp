@@ -30,7 +30,7 @@ int main() {
 
     int T;
     cin >> T;
-    while (T--) {
+    while (static_cast<bool>(T--)) {
         int n, q;
         cin >> n >> q;
 
@@ -59,7 +59,8 @@ int main() {
                 maxR = max(maxR, it.second);
 
             int m = maxR - l + 1;
-            string t = s.substr(l - 1, m);
+            //string t = s.substr(l - 1, m);
+            string t = s.substr(static_cast<string::size_type>(l - 1), static_cast<string::size_type>(m));
 
             vector<int> z = build_z(t);
 

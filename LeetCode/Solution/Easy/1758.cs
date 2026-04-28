@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int MinOperations(string s) {
         int count = 0;
