@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int CountPrimeSetBits(int left, int right) {
         int count = 0;

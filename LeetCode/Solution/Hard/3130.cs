@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public int NumberOfStableArrays(int zero, int one, int limit) {
         const int MOD = 1_000_000_007;

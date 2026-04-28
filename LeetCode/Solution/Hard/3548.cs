@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public bool CanPartitionGrid(int[][] grid) {
         int m = grid.Length, n = grid[0].Length;

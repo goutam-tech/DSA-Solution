@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public IList<IList<int>> MinimumAbsDifference(int[] arr) {
         Array.Sort(arr);

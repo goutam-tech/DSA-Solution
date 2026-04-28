@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public long MaxSumTrionic(int[] nums) {
         int n = nums.Length;

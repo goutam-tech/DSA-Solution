@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public bool IsTrionic(int[] nums) {
         int n = nums.Length;

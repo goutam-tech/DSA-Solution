@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public bool FindRotation(int[][] mat, int[][] target) {
         int n = mat.Length;

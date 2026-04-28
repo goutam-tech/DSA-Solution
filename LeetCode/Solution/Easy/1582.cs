@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int NumSpecial(int[][] mat) {
         int m = mat.Length, n = mat[0].Length;

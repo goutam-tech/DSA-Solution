@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Fancy {
     private List<long> seq = new List<long>();
     private const long MOD = 1_000_000_007;

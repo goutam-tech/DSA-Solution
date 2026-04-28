@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public bool HasAlternatingBits(int n) {
         int xor = n ^ (n >> 1);

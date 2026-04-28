@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int[][] ReverseSubmatrix(int[][] grid, int x, int y, int k) {
         int top = x, bottom = x + k - 1;
