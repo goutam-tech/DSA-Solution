@@ -20,6 +20,10 @@
 
 ## Id - 3130 [Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/description)
 
+## Id - 3225 [Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/description/)
+
+## Id - 3464 [Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/)
+
 ## Id - 3474 [Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/description)
 
 ## Id - 3548 [Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/description)
