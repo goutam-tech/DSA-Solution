@@ -39,3 +39,6 @@
 
 ## PId - 12 [Meeting Rooms](https://www.geeksforgeeks.org/problems/attend-all-meetings/0)
 ### Problem : Given a 2D array arr[][], where arr[i][0] is the starting time of ith meeting and arr[i][1] is the ending time of ith meeting, the task is to check if it is possible for a person to attend all the meetings such that he can attend only one meeting at a particular time. Note: A person can attend a meeting if its starting time is greater than or equal to the previous meeting's ending time.
+
+## PId - 13 [Segregate 0s and 1s](https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/0)
+### Problem : Given an array arr[] consisting of only 0's and 1's. Modify the array in-place to segregate 0s onto the left side and 1s onto the right side of the array. 

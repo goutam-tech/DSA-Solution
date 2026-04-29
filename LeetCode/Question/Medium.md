@@ -1,5 +1,12 @@
 # Problem Set of LeetCode - Medium
 
+<<<<<<< HEAD
+## Id - 2840 [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)
+### Problem : You are given two strings s1 and s2, both of length n, consisting of lowercase English letters. You can apply the following operation on any of the two strings any number of times: Choose any two indices i and j such that i < j and the difference j - i is even, then swap the two characters at those indices in the string. Return true if you can make the strings s1 and s2 equal, and false otherwise.
+
+## Id - 3653 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)
+### Problem : You are given an integer array nums of length n and a 2D integer array queries of size q, where queries[i] = [li, ri, ki, vi]. For each query, you must apply the following operations in order: Set idx = li. While idx <= ri: Update: nums[idx] = (nums[idx] * vi) % (109 + 7) Set idx += ki. Return the bitwise XOR of all elements in nums after processing all queries.
+=======
 ## Id - 2 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description)
 
 ## Id - 11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description)
@@ -99,3 +106,4 @@
 ## Id - 3862 [Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description)
 
 ## Id - 3863 [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description)
+>>>>>>> a48707b38793ed1e2d18e6cd1ae1dcbec0bfc77e
