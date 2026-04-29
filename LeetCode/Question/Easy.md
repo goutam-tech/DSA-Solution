@@ -70,6 +70,8 @@
 
 ## Id - 2515 [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description)
 
+## Id - 2833 [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/description/)
+
 ## Id - 2839 [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description)
 
 ## Id - 2946 [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)
