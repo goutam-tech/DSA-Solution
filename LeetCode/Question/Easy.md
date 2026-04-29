@@ -81,3 +81,23 @@
 ## Id - 1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
 
 ## Id - 1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/)
+
+## Id - 2078 [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)
+
+## Id - 3010 [Divide an Array Into Subarrays With Minimum Cost 1](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)
+
+## Id - 3379 [Transformed Array](https://leetcode.com/problems/transformed-array/description/)
+
+## Id - 3637 [Trionic Array 1](https://leetcode.com/problems/trionic-array-i/description/)
+
+## Id - 3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description/)
+
+## Id - 3740 [Minimum Distance Between Three Equal Elements 1](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)
+
+## Id - 3783 [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)
+
+## Id - 3827 [COunt Monobit Integres](https://leetcode.com/problems/count-monobit-integers/description/)
+
+## Id - 3852 [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)
+
+## Id - 3861 [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)
