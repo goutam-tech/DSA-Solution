@@ -1,5 +1,7 @@
 using System;
 
+namespace Hard;
+
 public class Solution {
     const long MOD = 1000000007;
 

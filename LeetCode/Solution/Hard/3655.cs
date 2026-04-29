@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     private const long MOD = 1_000_000_007L;
     private const int THRESHOLD_DIVISOR = 1;

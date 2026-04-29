@@ -19,12 +19,13 @@ void solve(){
             return i < j;
         });
         bool done = false;
-        for(int i : p)
-          if(c[i] && (ans.empty() || ans.back() != rgb[i]) && (ans.size() < 3 || ans[ans.size() - 3] != rgb[i])){  // Fix 2
+        for (int i : p)
+          if (static_cast<bool>(c[i]) &&
+              (ans.empty() || ans.back() != rgb[i]) &&
+              (ans.size() < 3 || ans[ans.size() - 3] != rgb[i])) {
               ans += rgb[i];
               --c[i];
               done = true;
-              break;
           }
        if(!done)
           break;
@@ -34,6 +35,6 @@ void solve(){
 int main(){
     int t;
     cin >> t;
-    while( t--)
+    while( static_cast<bool>(t--))
        solve();
 }

@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public long MinimumTotalDistance(IList<int> robot, int[][] factory) {
         var robots = robot.ToList();

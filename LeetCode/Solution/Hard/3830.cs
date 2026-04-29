@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public int LongestAlternating(int[] nums) {
         int n = nums.Length;

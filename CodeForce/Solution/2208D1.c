@@ -1,39 +1,100 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <limits.h>
 
 int reach[505][505];
 int n;
+int read_int(int *out, const char *name) {
+    char buf[32];
+    char *end;
+    long val;
+    if (!fgets(buf, sizeof(buf), stdin)) {
+        (void)fprintf(stderr, "Missing input for %s\n", name);
+        return 1;
+    }
+    errno = 0;
+    val = strtol(buf, &end, 10);
+    if (end == buf || (*end != '\n' && *end != '\0')) {
+        (void)fprintf(stderr, "Invalid input for %s\n", name);
+        return 1;
+    }
+    if ((val == LONG_MIN || val == LONG_MAX) && errno == ERANGE) {
+static int read_matrix(int n, int reach[][505]) {
+    char row[505];
+    for (int i = 0; i < n; i++) {
+        if (scanf("%s", row) != 1) {
+            (void)fprintf(stderr, "Failed to read row %d\n", i);
+            return 1;
+        }
+        for (int j = 0; j < n; j++) {
+            reach[i][j] = row[j] - '0';
+        }
+    }
+    return 0;
+}
+
+static int check_self_loop(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        if (!reach[i][i]) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+static int check_symmetry(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j && reach[i][j] && reach[j][i]) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+
+static int check_transitive(int n, int reach[][505]) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            for (int k = 0; k < n; k++) {
+                if (reach[i][j] && reach[j][k] && !reach[i][k]) {
+                    return 0;
+                }
+            }
+        }
+    }
+    return 1;
+}
+
+static int validate_relation(int n, int reach[][505]) {
+    return check_self_loop(n, reach)
+        && check_symmetry(n, reach)
+        && check_transitive(n, reach);
+}
 
 int main() {
+    int ret = 0;
     int t;
-    scanf("%d", &t);
-
-    while (t--) {
-        scanf("%d", &n);
-        char row[505];
-        for (int i = 0; i < n; i++) {
-            scanf("%s", row);
-            for (int j = 0; j < n; j++)
-                reach[i][j] = row[j] - '0';
+    if (read_int(&t, "t")) {
+        ret = 1;
+    } else {
+        for (int test = 0; test < t; ++test) {
+            int n;
+            int reach[505][505];
+            if (read_int(&n, "n") || read_matrix(n, reach)) {
+                ret = 1;
+                break;
+            }
+            int valid = validate_relation(n, reach);
+            printf("%s\n", valid ? "YES" : "NO");
         }
+    }
+    return ret;
+}
 
-        int valid = 1;
-
-        for (int i = 0; i < n && valid; i++)
-            if (!reach[i][i]) valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                if (i != j && reach[i][j] && reach[j][i])
-                    valid = 0;
-
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                for (int k = 0; k < n && valid; k++)
-                    if (reach[i][j] && reach[j][k] && !reach[i][k])
-                        valid = 0;
-
-        if (!valid) { printf("No\n"); continue; }
+        if (!valid) { (void)printf("No\n"); continue; }
 
         int ex[505], ey[505], ecnt = 0;
 

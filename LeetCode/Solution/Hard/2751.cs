@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public IList<int> SurvivedRobotsHealths(int[] positions, int[] healths, string directions) {
         int n = positions.Length;

@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public char NextGreatestLetter(char[] letters, char target) {
         int left = 0;

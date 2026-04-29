@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int MinimumDifference(int[] nums, int k) {
         Array.Sort(nums);

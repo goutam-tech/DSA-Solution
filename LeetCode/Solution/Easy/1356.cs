@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int[] SortByBits(int[] arr) {
         return arr.OrderBy(x => CountBits(x)).ThenBy(x => x).ToArray();

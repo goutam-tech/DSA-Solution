@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int MinimumCost(int[] nums) {
         int first = nums[0];

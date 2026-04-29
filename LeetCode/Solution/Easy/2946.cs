@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public bool AreSimilar(int[][] mat, int k) {
         int m = mat.Length;

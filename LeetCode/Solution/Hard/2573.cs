@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     public string FindTheString(int[][] lcp) {
         int n = lcp.Length;

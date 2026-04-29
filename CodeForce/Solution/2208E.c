@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#include <errno.h>
+#include <limits.h>
+#include <stdlib.h>
 
 #define MOD 998244353LL
 #define MAXN 5005
@@ -80,9 +83,27 @@ long long compute_W_interval(int l, int r, int base) {
 }
 
 void solve() {
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++) scanf("%d", &X[i]);
-    
+    char buf[64];
+    char *end;
+    size_t len;
+    /* read n */
+    if (!fgets(buf, sizeof(buf), stdin)) { printf("0\n"); return; }
+    len = strlen(buf);
+    if (len > 0 && buf[len-1] == '\n') buf[len-1] = '\0';
+    errno = 0;
+    long n_long = strtol(buf, &end, 10);
+    if (end == buf || *end != '\0' || errno == ERANGE || n_long < 0 || n_long > INT_MAX) { printf("0\n"); return; }
+    int n = (int)n_long;
+    for (int i = 1; i <= n; i++) {
+        if (!fgets(buf, sizeof(buf), stdin)) { printf("0\n"); return; }
+        len = strlen(buf);
+        if (len > 0 && buf[len-1] == '\n') buf[len-1] = '\0';
+        errno = 0;
+        long x_long = strtol(buf, &end, 10);
+        if (end == buf || *end != '\0' || errno == ERANGE || x_long < INT_MIN || x_long > INT_MAX) { printf("0\n"); return; }
+        X[i] = (int)x_long;
+    }
+
     if (X[1] != -1 && X[1] != 0) { printf("0\n"); return; }
     X[1] = 0;
 
@@ -107,7 +128,25 @@ void solve() {
 
 int main() {
     int t;
-    scanf("%d", &t);
-    while (t--) solve();
+    char buf[64];
+    char *end = NULL;
+    long val;
+    if (fgets(buf, sizeof(buf), stdin) == NULL) {
+        (void) fprintf(stderr, "Failed to read input for test cases\n");
+        return 1;
+    }
+    errno = 0;
+    val = strtol(buf, &end, 10);
+    if (end == buf || (*end != '\n' && *end != '\0')) {
+        (void) fprintf(stderr, "Invalid number of test cases: %s", buf);
+        return 1;
+    }
+    if ((errno == ERANGE && (val == LONG_MAX || val == LONG_MIN)) || val > INT_MAX || val < INT_MIN) {
+        (void) fprintf(stderr, "Test case count out of range: %ld\n", val);
+        return 1;
+    }
+    t = (int)val;
+    
+    while (t-- > 0) solve();
     return 0;
 }

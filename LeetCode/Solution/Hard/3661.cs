@@ -1,3 +1,5 @@
+namespace Hard;
+
 public class Solution {
     const int NEG = int.MinValue / 2;
     int[] s1, s2;

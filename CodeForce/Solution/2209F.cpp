@@ -87,7 +87,7 @@ int main() {
 
     int T;
     cin >> T;
-    while (T--) {
+    while (static_cast<bool>(T--)) {
         int n, k;
         cin >> n >> k;
 
@@ -145,13 +145,13 @@ int main() {
             int u = order[idx];
             Best best{-1, (int)1e9, -1};
 
-            if (isLeaf[u]) {
+            if (static_cast<bool>(isLeaf[u])) {
                 Best selfCand{0, u, -1};
                 relaxBest(selfCand, best, *(new Best{-1, (int)1e9, -1}));
             }
 
             Best mx1{-1, (int)1e9, -1}, mx2{-1, (int)1e9, -1};
-            if (isLeaf[u]) {
+            if (static_cast<bool>(isLeaf[u])) {
                 relaxBest({0, u, -1}, mx1, mx2);
             }
             for (int v : children[u]) {
@@ -168,7 +168,7 @@ int main() {
         for (int u : order) {
             Best mx1{-1, (int)1e9, -1}, mx2{-1, (int)1e9, -1};
 
-            if (isLeaf[u]) {
+            if (static_cast<bool>(isLeaf[u])) {
                 relaxBest({0, u, -1}, mx1, mx2);
             }
             if (upDist[u] != -1) {
@@ -189,7 +189,7 @@ int main() {
         vector<int> leafId(n + 1, -1), leafNodes;
         leafNodes.reserve(n);
         for (int i = 1; i <= n; ++i) {
-            if (isLeaf[i]) {
+            if (static_cast<bool>(isLeaf[i])) {
                 leafId[i] = (int)leafNodes.size();
                 leafNodes.push_back(i);
             }

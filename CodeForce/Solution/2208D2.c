@@ -1,37 +1,86 @@
 #include <stdio.h>
 #include <string.h>
+#include <errno.h>
+#include <limits.h>
+#include <stdlib.h>
+
+static int read_int(const char *name, int *out) {
+    char buf[64];
+    char *end;
+    long tmp;
+    if (!fgets(buf, sizeof(buf), stdin)) return 1;
+    errno = 0;
+    tmp = strtol(buf, &end, 10);
+    if (end == buf || (*end != '\n' && *end != '\0') || errno == ERANGE || tmp < INT_MIN || tmp > INT_MAX) {
+        (void)fprintf(stderr, "Invalid input for %s\n", name);
+        return 1;
+    }
+    *out = (int)tmp;
+    return 0;
+}
 
 int reach[505][505];
 int n;
 
-int main() {
-    int t;
-    scanf("%d", &t);
-
-    while (t--) {
-        scanf("%d", &n);
-        char row[505];
-        for (int i = 0; i < n; i++) {
-            scanf("%s", row);
-            for (int j = 0; j < n; j++)
-                reach[i][j] = row[j] - '0';
+static int process_case() {
+    int ret = 0;
+    if ((ret = read_int("n", &n))) return ret;
+    char row[505];
+    for (int i = 0; i < n; i++) {
+        if (scanf("%s", row) != 1) {
+            return 1;
         }
+        for (int j = 0; j < n; j++) {
+            reach[i][j] = row[j] - '0';
+        }
+    }
+    return ret;
+}
 
-        int valid = 1;
+static int check_diagonal() {
+    for (int i = 0; i < n; i++) {
+        if (!reach[i][i]) {
+            return 0;
+        }
+    }
+    return 1;
+}
 
-        for (int i = 0; i < n && valid; i++)
-            if (!reach[i][i]) valid = 0;
+static int check_no_mutual_edges() {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j && reach[i][j] && reach[j][i]) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
 
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                if (i != j && reach[i][j] && reach[j][i])
-                    valid = 0;
+static int check_transitive() {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            for (int k = 0; k < n; k++) {
+                if (reach[i][j] && reach[j][k] && !reach[i][k]) {
+                    return 0;
+                }
+            }
+        }
+    }
+    return 1;
+}
 
-        for (int i = 0; i < n && valid; i++)
-            for (int j = 0; j < n && valid; j++)
-                for (int k = 0; k < n && valid; k++)
-                    if (reach[i][j] && reach[j][k] && !reach[i][k])
-                        valid = 0;
+int main() {
+    int ret = 0;
+    int t;
+    ret = read_int("t", &t);
+    if (ret == 0) {
+        while (t-- > 0 && ret == 0) {
+            ret = process_case();
+            if (ret) {
+                break;
+            }
+            int valid = check_diagonal() && check_no_mutual_edges() && check_transitive();
 
         if (!valid) { printf("No\n"); continue; }
 

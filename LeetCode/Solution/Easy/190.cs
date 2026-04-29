@@ -1,3 +1,5 @@
+namespace Easy;
+
 public class Solution {
     public int ReverseBits(int n) {
         int result = 0;
