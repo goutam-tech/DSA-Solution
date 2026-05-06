@@ -113,3 +113,15 @@
 ## Id - 2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)
 
 ## Id - 2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/description/)
+
+## Id - 3742  [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
+
+## Id - 3913 [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)
+
+## Id - 3914 [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)
+
+## Id - 396 [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
+
+## Id - 48 [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+
+## Id - 1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)

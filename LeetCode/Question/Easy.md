@@ -101,3 +101,9 @@
 ## Id - 3852 [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)
 
 ## Id - 3861 [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)
+
+## Id - 3912 [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)
+
+## Id - 788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/description/)
+
+## Id - 796 [Rotate String](https://leetcode.com/problems/rotate-string/description/)

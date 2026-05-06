@@ -51,3 +51,13 @@
 ## PId - 25 [Two Equal Sum Subarrays](https://www.geeksforgeeks.org/problems/split-an-array-into-two-equal-sum-subarrays/0)
 
 ## PId - 26 [Intersection of Two Sorted Arrays](https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-arrays-with-duplicate-elements/0)
+
+## PId - 27 [Check if an Array is Max Heap](https://www.geeksforgeeks.org/problems/does-array-represent-heap4345/0)
+
+## PId - 28 [Position of the Set Bit](https://www.geeksforgeeks.org/problems/find-position-of-set-bit3706/0)
+
+# PId - 29 [Sort by Set Bit Count](https://www.geeksforgeeks.org/problems/sort-by-set-bit-count1153/0)
+
+## PId - 30 [Palindrome Binary](https://www.geeksforgeeks.org/problems/palindrome-numbers0942/0)
+
+## PId - 31 [Size of Binary Tree](https://www.geeksforgeeks.org/problems/size-of-binary-tree/0)

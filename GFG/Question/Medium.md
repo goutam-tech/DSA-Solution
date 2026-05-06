@@ -7,3 +7,5 @@
 ## PId - 3 [Minimum cost to connect all houses in a city](https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/0)
 
 ## PId - 4 [Buy Stock with Transaction Fee](https://www.geeksforgeeks.org/problems/buy-stock-with-transaction-fee/0)
+
+## PId - 5 [Kth Largest in a Stream](https://www.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/0)
