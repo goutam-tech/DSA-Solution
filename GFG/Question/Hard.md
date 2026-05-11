@@ -43,3 +43,9 @@
 ## PId - 21 [Huffman Encoding](https://www.geeksforgeeks.org/problems/huffman-encoding3345/0)
 
 ## PId - 22 [Next Smallest Palindrome](https://www.geeksforgeeks.org/problems/next-smallest-palindrome4740/0)
+
+## PId - 23 [Remove Invalid Parentheses](https://www.geeksforgeeks.org/problems/remove-invalid-parentheses/0)
+
+## PId - 24 [Count Spanning Trees in a Graph](https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0)
+
+## PId - 25 [Palindrome Pairs](https://www.geeksforgeeks.org/problems/palindrome-pairs/0)

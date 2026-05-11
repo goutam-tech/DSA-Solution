@@ -125,3 +125,9 @@
 ## Id - 48 [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
 
 ## Id - 1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)
+
+## Id - 3660 [Jump Game IX](https://leetcode.com/problems/jump-game-ix/description/)
+
+## Id - 1914 [Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/description/)
+
+## Id - 2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/)
