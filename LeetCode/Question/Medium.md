@@ -1,12 +1,5 @@
 # Problem Set of LeetCode - Medium
 
-<<<<<<< HEAD
-## Id - 2840 [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)
-### Problem : You are given two strings s1 and s2, both of length n, consisting of lowercase English letters. You can apply the following operation on any of the two strings any number of times: Choose any two indices i and j such that i < j and the difference j - i is even, then swap the two characters at those indices in the string. Return true if you can make the strings s1 and s2 equal, and false otherwise.
-
-## Id - 3653 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)
-### Problem : You are given an integer array nums of length n and a 2D integer array queries of size q, where queries[i] = [li, ri, ki, vi]. For each query, you must apply the following operations in order: Set idx = li. While idx <= ri: Update: nums[idx] = (nums[idx] * vi) % (109 + 7) Set idx += ki. Return the bitwise XOR of all elements in nums after processing all queries.
-=======
 ## Id - 2 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description)
 
 ## Id - 11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description)
@@ -106,4 +99,29 @@
 ## Id - 3862 [Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description)
 
 ## Id - 3863 [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description)
->>>>>>> a48707b38793ed1e2d18e6cd1ae1dcbec0bfc77e
+
+## Id - 1391 [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
+
+## Id - 1594 [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description/)
+
+## Id - 1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
+
+## Id - 1855 [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
+
+## Id - 2033 [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
+
+## Id - 2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)
+
+## Id - 2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/description/)
+
+## Id - 3742  [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
+
+## Id - 3913 [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)
+
+## Id - 3914 [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)
+
+## Id - 396 [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
+
+## Id - 48 [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+
+## Id - 1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)
