@@ -1,0 +1,20 @@
+# Add 'documentation' label to any PR that modifies .md files
+documentation:
+  - changed-files:
+      - any-glob-match-pattern: '**/*.md'
+
+# Add 'DSA' label to changes in DSA-related directories
+DSA:
+  - changed-files:
+      - any-glob-match-pattern: 'DSA/**'
+
+# Add 'bug' label to PRs with 'bug' or 'fix' in the title
+bug:
+  - head-branch:
+      - '/^bug\//'
+      - '/^fix\//'
+
+# Add 'enhancement' label to PRs with 'feature' in the title
+enhancement:
+  - head-branch:
+      - '/^feature\//'
