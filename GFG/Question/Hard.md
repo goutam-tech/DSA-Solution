@@ -49,3 +49,5 @@
 ## PId - 24 [Count Spanning Trees in a Graph](https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0)
 
 ## PId - 25 [Palindrome Pairs](https://www.geeksforgeeks.org/problems/palindrome-pairs/0)
+
+## PId - 26 [Search for Subarray](https://www.geeksforgeeks.org/problems/search-for-subarray/0)

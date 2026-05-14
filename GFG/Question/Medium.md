@@ -13,3 +13,7 @@
 ## PId - 6 [Check if subtree](https://www.geeksforgeeks.org/problems/check-if-subtree/0)
 
 ## PId - 7 [Max Profit from Two Machines](https://www.geeksforgeeks.org/problems/max-profit-from-two-machines/0)
+
+## PId - 8 [Range LCM Queries](https://www.geeksforgeeks.org/problems/range-lcm-queries3348/0)
+
+## PId - 9 [Mother Vertex](https://www.geeksforgeeks.org/problems/mother-vertex/0)

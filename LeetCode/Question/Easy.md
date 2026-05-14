@@ -109,3 +109,5 @@
 ## Id - 796 [Rotate String](https://leetcode.com/problems/rotate-string/description/)
 
 ## Id - 2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)
+
+## Id - 2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)
