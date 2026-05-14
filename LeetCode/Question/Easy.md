@@ -107,3 +107,5 @@
 ## Id - 788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/description/)
 
 ## Id - 796 [Rotate String](https://leetcode.com/problems/rotate-string/description/)
+
+## Id - 2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)

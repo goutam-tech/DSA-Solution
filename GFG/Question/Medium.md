@@ -9,3 +9,7 @@
 ## PId - 4 [Buy Stock with Transaction Fee](https://www.geeksforgeeks.org/problems/buy-stock-with-transaction-fee/0)
 
 ## PId - 5 [Kth Largest in a Stream](https://www.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/0)
+
+## PId - 6 [Check if subtree](https://www.geeksforgeeks.org/problems/check-if-subtree/0)
+
+## PId - 7 [Max Profit from Two Machines](https://www.geeksforgeeks.org/problems/max-profit-from-two-machines/0)
