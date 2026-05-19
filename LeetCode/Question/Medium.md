@@ -131,3 +131,9 @@
 ## Id - 1914 [Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/description/)
 
 ## Id - 2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/)
+
+## Id - 1674 [Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/description/)
+
+## Id - 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
+## Id - 1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)

@@ -61,3 +61,7 @@
 ## PId - 30 [Palindrome Binary](https://www.geeksforgeeks.org/problems/palindrome-numbers0942/0)
 
 ## PId - 31 [Size of Binary Tree](https://www.geeksforgeeks.org/problems/size-of-binary-tree/0)
+
+## PId - 32 [Make the array beautiful](https://www.geeksforgeeks.org/problems/make-the-array-beautiful--170647/0)
+
+## PId - 33 [Maximum Sum Problem](https://www.geeksforgeeks.org/problems/maximum-sum-problem2211/0)
