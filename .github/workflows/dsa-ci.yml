@@ -21,6 +21,9 @@ jobs:
             python3 -m py_compile $(cat pyfiles.txt)
           fi
 
+      - name: Install Mono
+        run: sudo apt-get update && sudo apt-get install -y mono-mcs
+
       - name: C# compile check
         run: |
           find . -name "*.cs" > csfiles.txt
