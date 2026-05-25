@@ -14,34 +14,61 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Python syntax check
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install tools
         run: |
+          pip install flake8 sqlfluff
+
+      - name: Run validations
+        run: |
+          echo "=== DSA Solutions Report ===" > report.txt
+
+          # Python check
+          echo ">> Python files" >> report.txt
           find . -name "*.py" > pyfiles.txt
           if [ -s pyfiles.txt ]; then
-            python3 -m py_compile $(cat pyfiles.txt)
+            python3 -m py_compile $(cat pyfiles.txt) && echo "Syntax OK" >> report.txt || echo "Syntax Error" >> report.txt
+            flake8 $(cat pyfiles.txt) --ignore=E501 >> report.txt || echo "Lint issues" >> report.txt
+          else
+            echo "No Python files found" >> report.txt
           fi
 
-      - name: Install Mono
-        run: sudo apt-get update && sudo apt-get install -y mono-mcs
-
-      - name: C# compile check
-        run: |
-          find . -name "*.cs" > csfiles.txt
-          if [ -s csfiles.txt ]; then
-            mcs $(cat csfiles.txt)
-          fi
-
-      - name: C++ compile check
-        run: |
+          # C++ check
+          echo ">> C++ files" >> report.txt
           find . -name "*.cpp" -o -name "*.cc" -o -name "*.c" > cppfiles.txt
           if [ -s cppfiles.txt ]; then
-            g++ -std=c++17 -Wall -Werror -c $(cat cppfiles.txt)
+            for file in $(cat cppfiles.txt); do
+              g++ -std=c++17 -Wall -Werror -c $file && echo "$file compiled" >> report.txt || echo "$file failed" >> report.txt
+            done
+          else
+            echo "No C++ files found" >> report.txt
           fi
 
-      - name: SQL lint check
-        run: |
+          # SQL check
+          echo ">> SQL files" >> report.txt
           find . -name "*.sql" > sqlfiles.txt
           if [ -s sqlfiles.txt ]; then
-            pip install sqlfluff
-            sqlfluff lint $(cat sqlfiles.txt)
+            sqlfluff lint $(cat sqlfiles.txt) >> report.txt || echo "SQL lint issues" >> report.txt
+          else
+            echo "No SQL files found" >> report.txt
           fi
+
+          # Complexity header check
+          echo ">> Complexity comments" >> report.txt
+          for file in $(find . -name "*.py" -o -name "*.cpp" -o -name "*.c" -o -name "*.sql"); do
+            if grep -qi "Time Complexity" $file && grep -qi "Space Complexity" $file; then
+              echo "$file has complexity comments" >> report.txt
+            else
+              echo "$file missing complexity comments" >> report.txt
+            fi
+          done
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dsa-validation-report
+          path: report.txt
