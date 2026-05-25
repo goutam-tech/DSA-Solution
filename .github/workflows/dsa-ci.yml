@@ -1,0 +1,44 @@
+name: DSA Solutions CI
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Python syntax check
+        run: |
+          find . -name "*.py" > pyfiles.txt
+          if [ -s pyfiles.txt ]; then
+            python3 -m py_compile $(cat pyfiles.txt)
+          fi
+
+      - name: C# compile check
+        run: |
+          find . -name "*.cs" > csfiles.txt
+          if [ -s csfiles.txt ]; then
+            mcs $(cat csfiles.txt)
+          fi
+
+      - name: C++ compile check
+        run: |
+          find . -name "*.cpp" -o -name "*.cc" -o -name "*.c" > cppfiles.txt
+          if [ -s cppfiles.txt ]; then
+            g++ -std=c++17 -Wall -Werror -c $(cat cppfiles.txt)
+          fi
+
+      - name: SQL lint check
+        run: |
+          find . -name "*.sql" > sqlfiles.txt
+          if [ -s sqlfiles.txt ]; then
+            pip install sqlfluff
+            sqlfluff lint $(cat sqlfiles.txt)
+          fi
