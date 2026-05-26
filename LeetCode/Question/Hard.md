@@ -57,3 +57,5 @@
 ## Id - 154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
 
 ## Id - 1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)
+
+## Id - 1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/description/)
