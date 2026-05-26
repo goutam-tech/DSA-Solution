@@ -65,3 +65,13 @@
 ## PId - 32 [Make the array beautiful](https://www.geeksforgeeks.org/problems/make-the-array-beautiful--170647/0)
 
 ## PId - 33 [Maximum Sum Problem](https://www.geeksforgeeks.org/problems/maximum-sum-problem2211/0)
+
+## PId - 34 [Check if All Bits Set](https://www.geeksforgeeks.org/problems/check-set-bits5408/0)
+
+## PId - 35 [Last Coin in a Game of Alternates](https://www.geeksforgeeks.org/problems/last-coin-in-a-game-of-alternates/0)
+
+## PId - 36 [Transform to Sum Tree](https://www.geeksforgeeks.org/problems/transform-to-sum-tree/0)
+
+## PId - 37 [Minimum Toogles to partition](https://www.geeksforgeeks.org/problems/minimum-toogles-to-partition0135/0)
+
+## PId - 38 [Elements in the Range](https://www.geeksforgeeks.org/problems/elements-in-the-range2834/0)

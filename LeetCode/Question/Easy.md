@@ -111,3 +111,9 @@
 ## Id - 2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)
 
 ## Id - 2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)
+
+## Id - 2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)
+
+## Id - 1752 [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
+
+## Id - 3120 [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)

@@ -114,7 +114,7 @@
 
 ## Id - 2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/description/)
 
-## Id - 3742  [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
+## Id - 3742 [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
 
 ## Id - 3913 [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)
 
@@ -137,3 +137,11 @@
 ## Id - 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
 ## Id - 1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)
+
+## Id - 2657 [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
+
+## Id 33 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+## Id - 3043 [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
+
+## Id - 1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)
