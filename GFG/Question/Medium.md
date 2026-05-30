@@ -139,3 +139,7 @@
 ## PId - 69 [Product Pair](https://www.geeksforgeeks.org/problems/equal-to-product3836/0)
 
 ## PId - 70 [1s Surrounded by 0s](https://www.geeksforgeeks.org/problems/1s-surrounded-by-0s/0)
+
+## PId - 71 [Vertical Sum](https://www.geeksforgeeks.org/problems/vertical-sum/0)
+
+## PId - 72 [Count Sorted Digit Groupings](https://www.geeksforgeeks.org/problems/count-digit-groupings-of-a-number1520/0)

@@ -117,3 +117,5 @@
 ## Id - 1752 [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
 
 ## Id - 3120 [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)
+
+## Id - 3300 [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)

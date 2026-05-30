@@ -145,3 +145,5 @@
 ## Id - 3043 [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
 
 ## Id - 1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)
+
+## Id - 3121 [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)
