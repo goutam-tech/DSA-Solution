@@ -75,3 +75,5 @@
 ## PId - 37 [Minimum Toogles to partition](https://www.geeksforgeeks.org/problems/minimum-toogles-to-partition0135/0)
 
 ## PId - 38 [Elements in the Range](https://www.geeksforgeeks.org/problems/elements-in-the-range2834/0)
+
+## PId - 39 [Wifi Range](https://www.geeksforgeeks.org/problems/wifi-range--170647/0)

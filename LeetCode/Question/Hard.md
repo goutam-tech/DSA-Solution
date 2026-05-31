@@ -59,3 +59,5 @@
 ## Id - 1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)
 
 ## Id - 1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/description/)
+
+## Id - 3093 [Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)
