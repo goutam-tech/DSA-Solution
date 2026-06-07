@@ -119,3 +119,9 @@
 ## Id - 3120 [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)
 
 ## Id - 3300 [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)
+
+## Id - 2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)
+
+## Id - 3633 [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)
+
+## Id - 2574 [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)

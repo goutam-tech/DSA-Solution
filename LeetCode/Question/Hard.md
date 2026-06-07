@@ -61,3 +61,7 @@
 ## Id - 1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/description/)
 
 ## Id - 3093 [Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)
+
+## Id - 3161 [Block Placement Queries](https://leetcode.com/problems/block-placement-queries/description/)
+
+## Id - 3753 [Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/)

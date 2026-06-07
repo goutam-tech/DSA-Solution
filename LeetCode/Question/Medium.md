@@ -147,3 +147,11 @@
 ## Id - 1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)
 
 ## Id - 3121 [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)
+
+## Id - 2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)
+
+## Id - 3635 [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)
+
+## Id - 3751 [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)
+
+## Id - 2196 [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description)
