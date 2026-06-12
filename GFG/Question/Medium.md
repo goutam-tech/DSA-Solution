@@ -143,3 +143,13 @@
 ## PId - 71 [Vertical Sum](https://www.geeksforgeeks.org/problems/vertical-sum/0)
 
 ## PId - 72 [Count Sorted Digit Groupings](https://www.geeksforgeeks.org/problems/count-digit-groupings-of-a-number1520/0)
+
+## PId - 73 [Max Product Subset](https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/0)
+
+## PId - 74 [Subarray Frequency Count Queries](https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/0)
+
+## PId - 75 [Substring with Max Zero-One Diff](https://www.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/0)
+
+## PId - 76 [Lexicographically smallest after removing k](https://www.geeksforgeeks.org/problems/lexicographically-smallest-after-removing-k/0)
+
+## PId - 77 [Non-Attacking Black and White Knights](https://www.geeksforgeeks.org/problems/black-and-white-1587115620/0)

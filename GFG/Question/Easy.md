@@ -77,3 +77,9 @@
 ## PId - 38 [Elements in the Range](https://www.geeksforgeeks.org/problems/elements-in-the-range2834/0)
 
 ## PId - 39 [Wifi Range](https://www.geeksforgeeks.org/problems/wifi-range--170647/0)
+
+## PId - 40 [Replace with XOR of Adjacent](https://www.geeksforgeeks.org/problems/replace-with-xor-of-adjacent/0)
+
+## PId - 41 [Express as Consecutive Number Sum](https://www.geeksforgeeks.org/problems/consecutive-numbers-for-sum3132/0)
+
+## PId - 42 [Max Sum Pairing with Diff Less than K](https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/0)
