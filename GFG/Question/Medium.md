@@ -124,7 +124,7 @@
 
 ## PId - 62 [K Sized Subarray Maximum](https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/0)
 
-## PId - 63 [INterleave the First Half of the Queen with Second Half](https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/0)
+## PId - 63 [Interleave the First Half of the Queen with Second Half](https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/0)
 
 ## PId - 64 [Stream First Non-repeating](https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/0)
 
@@ -153,3 +153,17 @@
 ## PId - 76 [Lexicographically smallest after removing k](https://www.geeksforgeeks.org/problems/lexicographically-smallest-after-removing-k/0)
 
 ## PId - 77 [Non-Attacking Black and White Knights](https://www.geeksforgeeks.org/problems/black-and-white-1587115620/0)
+
+## PId - 78 [Finding Profession](https://www.geeksforgeeks.org/problems/finding-profession3834/0)
+
+## PId - 79 [Binary Searchable Count](https://www.geeksforgeeks.org/problems/binary-searchable-elements/0)
+
+## PId - 80 [Check Repated Substring with K Replacements](https://www.geeksforgeeks.org/problems/check-if-a-string-is-repetition-of-its-substring-of-k-length3302/0)
+
+## PId - 81 [Exit Point in a Matrix](https://www.geeksforgeeks.org/problems/exit-point-in-a-matrix0905/0)
+
+## PId - 82 [Minimum cost to fill given weight in a bag](https://www.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/0)
+
+## PId - 83 [Construct List using XOR Queries](https://www.geeksforgeeks.org/problems/construct-list-using-given-q-xor-queries/0)
+
+## PId - 84 [Cut rope to maximise product](https://www.geeksforgeeks.org/problems/max-rope-cutting1312/0)

@@ -50,8 +50,6 @@
 
 ## Id - 3915 [Maximum Sum of Alternating Subsequence With Distance at Least K](https://leetcode.com/problems/maximum-sum-of-alternating-subsequence-with-distance-at-least-k/description/)
 
-## Id - 3629 [Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/)
-
 ## Id - 1665 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/)
 
 ## Id - 154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
@@ -65,3 +63,15 @@
 ## Id - 3161 [Block Placement Queries](https://leetcode.com/problems/block-placement-queries/description/)
 
 ## Id - 3753 [Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/)
+
+## Id - 3920 [Maximize Fixed Points After Deletions](https://leetcode.com/problems/maximize-fixed-points-after-deletions/description/)
+
+## Id - 3691 [Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/description/)
+
+## Id - 60 [Premutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)
+
+## Id - 1866 [Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/description/)
+
+## Id - 3559 [Number of Ways to Assgin Edge Weight II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/description/)
+
+## Id - 3614 [Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii/description/)
