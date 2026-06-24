@@ -155,3 +155,33 @@
 ## Id - 3751 [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)
 
 ## Id - 2196 [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description)
+
+## Id - 3629 [Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/)
+
+## Id - 61 [Rotate List](https://leetcode.com/problems/rotate-list/description/)
+
+## Id - 788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/description/)
+
+## Id - 3918 [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/)
+
+## Id - 3919 [Minimum Cost to Move Between Indices](https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/)
+
+## Id - 3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)
+
+## Id - 2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)
+
+## Id - 2523 [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
+
+## Id - 172 [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+
+## Id - 204 [Count Primes](https://leetcode.com/problems/count-primes/description/)
+
+## Id - 3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/)
+
+## Id - 1015 [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/)
+
+## Id - 2130 [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
+
+## Id - 2095 [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+
+## Id - 3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/description/)

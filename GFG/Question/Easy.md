@@ -82,4 +82,12 @@
 
 ## PId - 41 [Express as Consecutive Number Sum](https://www.geeksforgeeks.org/problems/consecutive-numbers-for-sum3132/0)
 
-## PId - 42 [Max Sum Pairing with Diff Less than K](https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/0)
+## PId - 42 [Pairs with certain difference or Max Sum Pairing with Diff Less than K](https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/0)
+
+## PId - 43 [Equal Point in Brackets](https://www.geeksforgeeks.org/problems/find-equal-point-in-string-of-brackets2542/0)
+
+## PId - 44 [Delete Nodes with Greater on Right](https://www.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/0)
+
+## PId - 45 [Common in 3 Sorted Arrays](https://www.geeksforgeeks.org/problems/common-elements1132/0)
+
+## PId - 46 [Binary Strings with Equal Sum of Two Halves](https://www.geeksforgeeks.org/problems/count-even-length1907/0) 

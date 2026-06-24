@@ -125,3 +125,15 @@
 ## Id - 3633 [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)
 
 ## Id - 2574 [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)
+
+## Id - 263 [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
+
+## Id - 728 [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)
+
+## Id - 118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
+
+## Id - 3838 [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)
+
+## Id - 595 [Big Countries](https://leetcode.com/problems/big-countries/description/)
+
+## Id - 182 [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description)
