@@ -75,3 +75,9 @@
 ## Id - 3559 [Number of Ways to Assgin Edge Weight II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/description/)
 
 ## Id - 3614 [Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii/description/)
+
+## Id - 1840 [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/description/)
+
+## Id - 3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/description/)
+
+## Id - 3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/)

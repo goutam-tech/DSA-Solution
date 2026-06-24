@@ -137,3 +137,9 @@
 ## Id - 595 [Big Countries](https://leetcode.com/problems/big-countries/description/)
 
 ## Id - 182 [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description)
+
+## Id - 1344 [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/description/)
+
+## Id - 1732 [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)
+
+## Id - 1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)
