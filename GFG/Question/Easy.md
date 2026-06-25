@@ -90,4 +90,6 @@
 
 ## PId - 45 [Common in 3 Sorted Arrays](https://www.geeksforgeeks.org/problems/common-elements1132/0)
 
-## PId - 46 [Binary Strings with Equal Sum of Two Halves](https://www.geeksforgeeks.org/problems/count-even-length1907/0) 
+## PId - 46 [Binary Strings with Equal Sum of Two Halves](https://www.geeksforgeeks.org/problems/count-even-length1907/0)
+
+## PId - 47 [Last Digit of a^b](https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/0)

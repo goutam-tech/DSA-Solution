@@ -167,3 +167,15 @@
 ## PId - 83 [Construct List using XOR Queries](https://www.geeksforgeeks.org/problems/construct-list-using-given-q-xor-queries/0)
 
 ## PId - 84 [Cut rope to maximise product](https://www.geeksforgeeks.org/problems/max-rope-cutting1312/0)
+
+## PId - 85 [Coverage of all Zeros in a Binary Matrix](https://www.geeksforgeeks.org/problems/coverage-of-all-zeros-in-a-binary-matrix4024/0)
+
+## PId - 86 [Equalize All Prefix Sums](https://www.geeksforgeeks.org/problems/optimal-array--170647/0)
+
+## PId - 87 [Choose and Swap](https://www.geeksforgeeks.org/problems/choose-and-swap0531/0)
+
+## PId - 88 [Maximum Area Between Bars](https://www.geeksforgeeks.org/problems/dam-of-candies--141631/0)
+
+## PId - 89 [Maximum Number of People Defeated](https://www.geeksforgeeks.org/problems/killing-spree3020/0)
+
+## PId - 90 [Rat Maze With Multiple Jumps](https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0) 
