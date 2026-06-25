@@ -187,3 +187,5 @@
 ## Id - 3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/description/)
 
 ## Id - 1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)
+
+## Id - 3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)

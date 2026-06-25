@@ -178,4 +178,6 @@
 
 ## PId - 89 [Maximum Number of People Defeated](https://www.geeksforgeeks.org/problems/killing-spree3020/0)
 
-## PId - 90 [Rat Maze With Multiple Jumps](https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0) 
+## PId - 90 [Rat Maze With Multiple Jumps](https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0)
+
+## PId - 91 [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/0)
