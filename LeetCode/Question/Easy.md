@@ -81,3 +81,65 @@
 ## Id - 1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
 
 ## Id - 1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/)
+
+## Id - 2078 [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)
+
+## Id - 3010 [Divide an Array Into Subarrays With Minimum Cost 1](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)
+
+## Id - 3379 [Transformed Array](https://leetcode.com/problems/transformed-array/description/)
+
+## Id - 3637 [Trionic Array 1](https://leetcode.com/problems/trionic-array-i/description/)
+
+## Id - 3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description/)
+
+## Id - 3740 [Minimum Distance Between Three Equal Elements 1](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)
+
+## Id - 3783 [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)
+
+## Id - 3827 [COunt Monobit Integres](https://leetcode.com/problems/count-monobit-integers/description/)
+
+## Id - 3852 [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)
+
+## Id - 3861 [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)
+
+## Id - 3912 [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)
+
+## Id - 788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/description/)
+
+## Id - 796 [Rotate String](https://leetcode.com/problems/rotate-string/description/)
+
+## Id - 2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)
+
+## Id - 2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)
+
+## Id - 2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)
+
+## Id - 1752 [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
+
+## Id - 3120 [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)
+
+## Id - 3300 [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)
+
+## Id - 2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)
+
+## Id - 3633 [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)
+
+## Id - 2574 [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)
+
+## Id - 263 [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
+
+## Id - 728 [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)
+
+## Id - 118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
+
+## Id - 3838 [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)
+
+## Id - 595 [Big Countries](https://leetcode.com/problems/big-countries/description/)
+
+## Id - 182 [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description)
+
+## Id - 1344 [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/description/)
+
+## Id - 1732 [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)
+
+## Id - 1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)

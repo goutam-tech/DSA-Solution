@@ -1,12 +1,5 @@
 # Problem Set of LeetCode - Medium
 
-<<<<<<< HEAD
-## Id - 2840 [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)
-### Problem : You are given two strings s1 and s2, both of length n, consisting of lowercase English letters. You can apply the following operation on any of the two strings any number of times: Choose any two indices i and j such that i < j and the difference j - i is even, then swap the two characters at those indices in the string. Return true if you can make the strings s1 and s2 equal, and false otherwise.
-
-## Id - 3653 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)
-### Problem : You are given an integer array nums of length n and a 2D integer array queries of size q, where queries[i] = [li, ri, ki, vi]. For each query, you must apply the following operations in order: Set idx = li. While idx <= ri: Update: nums[idx] = (nums[idx] * vi) % (109 + 7) Set idx += ki. Return the bitwise XOR of all elements in nums after processing all queries.
-=======
 ## Id - 2 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description)
 
 ## Id - 11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description)
@@ -106,4 +99,93 @@
 ## Id - 3862 [Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description)
 
 ## Id - 3863 [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description)
->>>>>>> a48707b38793ed1e2d18e6cd1ae1dcbec0bfc77e
+
+## Id - 1391 [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
+
+## Id - 1594 [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description/)
+
+## Id - 1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
+
+## Id - 1855 [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
+
+## Id - 2033 [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
+
+## Id - 2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)
+
+## Id - 2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/description/)
+
+## Id - 3742 [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
+
+## Id - 3913 [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)
+
+## Id - 3914 [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)
+
+## Id - 396 [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
+
+## Id - 48 [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+
+## Id - 1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)
+
+## Id - 3660 [Jump Game IX](https://leetcode.com/problems/jump-game-ix/description/)
+
+## Id - 1914 [Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/description/)
+
+## Id - 2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/)
+
+## Id - 1674 [Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/description/)
+
+## Id - 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
+## Id - 1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)
+
+## Id - 2657 [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
+
+## Id 33 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+## Id - 3043 [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
+
+## Id - 1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)
+
+## Id - 3121 [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)
+
+## Id - 2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)
+
+## Id - 3635 [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)
+
+## Id - 3751 [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)
+
+## Id - 2196 [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description)
+
+## Id - 3629 [Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/)
+
+## Id - 61 [Rotate List](https://leetcode.com/problems/rotate-list/description/)
+
+## Id - 788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/description/)
+
+## Id - 3918 [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/)
+
+## Id - 3919 [Minimum Cost to Move Between Indices](https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/)
+
+## Id - 3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)
+
+## Id - 2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)
+
+## Id - 2523 [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
+
+## Id - 172 [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+
+## Id - 204 [Count Primes](https://leetcode.com/problems/count-primes/description/)
+
+## Id - 3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/)
+
+## Id - 1015 [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/)
+
+## Id - 2130 [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
+
+## Id - 2095 [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+
+## Id - 3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/description/)
+
+## Id - 1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)
+
+## Id - 3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)

@@ -1,13 +1,183 @@
 # Medium problems on GFG.
 
 ## PId - 1 [Number of Ways to Arrive at Destination](https://www.geeksforgeeks.org/problems/alien-dictionary/0)
-### Problem : You are given an undirected weighted graph with V vertices numbered from 0 to V-1 and E edges, represented as a 2D array edges[][], where edges[i] = [ui, vi, timei] means that there is an undirected edge between nodes ui and vi that takes timei minutes to reach. Your task is to return in how many ways you can travel from node 0 to node V - 1 in the shortest amount of time.
 
 ## PId - 2 [Partitions with Given Difference](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/0)
-### Problem : Given an array arr[] and an integer diff, count the number of ways to partition the array into two subsets such that the difference between their sums is equal to diff. Note: A partition in the array means dividing an array into two subsets say S1 and S2 such that the union of S1 and S2 is equal to the original array and each element is present in only one of the subsets.
 
 ## PId - 3 [Minimum cost to connect all houses in a city](https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/0)
-### Problem : Given a 2D array houses[][], consisting of n 2D coordinates {x, y} where each coordinate represents the location of each house, the task is to find the minimum cost to connect all the houses of the city. The cost of connecting two houses is the Manhattan Distance between the two points (xi, yi) and (xj, yj) i.e., |xi – xj| + |yi – yj|, where |p| denotes the absolute value of p.
 
 ## PId - 4 [Buy Stock with Transaction Fee](https://www.geeksforgeeks.org/problems/buy-stock-with-transaction-fee/0)
-### Problem : You are given an array arr[], in which arr[i] is the price of a given stock on the ith day and an integer k represents a transaction fee. Find the maximum profit you can achieve. You may complete as many transactions as you like, but you need to pay the transaction fee for each transaction. Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+
+## PId - 5 [Kth Largest in a Stream](https://www.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/0)
+
+## PId - 6 [Check if subtree](https://www.geeksforgeeks.org/problems/check-if-subtree/0)
+
+## PId - 7 [Max Profit from Two Machines](https://www.geeksforgeeks.org/problems/max-profit-from-two-machines/0)
+
+## PId - 8 [Range LCM Queries](https://www.geeksforgeeks.org/problems/range-lcm-queries3348/0)
+
+## PId - 9 [Mother Vertex](https://www.geeksforgeeks.org/problems/mother-vertex/0)
+
+## PId - 10 [Special Keyboard](https://www.geeksforgeeks.org/problems/special-keyboard3018/0)
+
+## Pid - 11 [Not a subset sum](https://www.geeksforgeeks.org/problems/smallest-number-subset1220/0)
+
+## PId - 12 [Min Swaps to Group 1s](https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-group-all-1s-together2451/0)
+
+## PId - 13 [Longest Repeating Charcter Replacement](https://www.geeksforgeeks.org/problems/longest-repeating-character-replacement/0)
+
+## PId - 14 [Opposite Sign Pair Reduction](https://www.geeksforgeeks.org/problems/opposite-sign-pair-reduction/0)
+
+## PId - 15 [Two water Jug problem](https://www.geeksforgeeks.org/problems/two-water-jug-problem3402/0)
+
+## PId - 16 [Count Derangements](https://www.geeksforgeeks.org/problems/dearrangement-of-balls0918/0)
+
+## PId - 17 [Flip to Maximize 1s](https://www.geeksforgeeks.org/problems/flip-bits0240/0)
+
+## PId - 18 [Implement Atoi](https://www.geeksforgeeks.org/problems/implement-atoi/0)
+
+## PId - 19 [Sorted subsequence of size 3](https://www.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/0)
+
+## PId - 20 [Stable Marriage Problem](https://www.geeksforgeeks.org/problems/stable-marriage-problem/0)
+
+## PId - 21 [Sum of XOR of all pairs](https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/0)
+
+## PId - 22 [Target Sum](https://www.geeksforgeeks.org/problems/target-sum-1626326450/0)
+
+## PId - 23 [Generate Gray Codes](https://www.geeksforgeeks.org/problems/gray-code-1611215248/0)
+
+## PId - 24 [Painting the Fence](https://www.geeksforgeeks.org/problems/painting-the-fence3727/0)
+
+## PId - 25 [Consecutive 1's not allowed](https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/0)
+
+## PId - 26 [LRU Cache](https://www.geeksforgeeks.org/problems/lru-cache--001952/0)
+
+## PId - 27 [Minimum height roots](https://www.geeksforgeeks.org/problems/minimum-height-roots/0)
+
+## PId - 28 [Course Schedule I](https://www.geeksforgeeks.org/problems/course-schedule-i/0)
+
+## PId - 29 [Next Premutaion](https://www.geeksforgeeks.org/problems/next-permutation5226/0)
+
+## PId - 30 [Rotate Arry](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/0)
+
+## PId - 31 [Rotten Oranges](https://www.geeksforgeeks.org/problems/rotten-oranges2536/0)
+
+## PId - 32 [Predecessor and Successor](https://www.geeksforgeeks.org/problems/predecessor-and-successor/0)
+
+## PId - 33 [Largest BST](https://www.geeksforgeeks.org/problems/largest-bst/0)
+
+## PId - 34 [K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/0)
+
+## PId - 35 [Vertical Tree Traversal](https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0)
+
+## PId - 36 [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/0)
+
+## PId - 37 [Generate IP Addresses](https://www.geeksforgeeks.org/problems/generate-ip-addresses/0)
+
+## PId - 38 [Sum of subarray minimums](https://www.geeksforgeeks.org/problems/sum-of-subarray-minimum/0)
+
+## PId - 39 [Subarrays with First Element Minimum](https://www.geeksforgeeks.org/problems/subarrays-with-first-element-minimum/0)
+
+## PId - 40 [Pythagorean Triplet](https://www.geeksforgeeks.org/problems/pythagorean-triplet3018/0)
+
+## PId - 41 [Dice throw](https://www.geeksforgeeks.org/problems/dice-throw5349/0)
+
+## PId - 42 [Longest Substring with K Uniques](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/0)
+
+## PId - 43 [Max Xor Subarray of size K](https://www.geeksforgeeks.org/problems/max-xor-subarray-of-size-k/0)
+
+## PId - 44 [Longest subarray with Atmost two distinct integres](https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/0)
+
+## PId - 45 [Longest Subarray with Majority Greater than K](https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/0)
+
+## PId - 46 [Longest Span in two Binary Arrays](https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/0)
+
+## PId - 47 [Kth Smallest](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/0)
+
+## PId - 48 [Sort 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/0)
+
+## PId - 49 [Kadane's Algorithm](https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0)
+
+## PId - 50 [Count Subarrays with given XOR](https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/0)
+
+## PId - 51 [Find H-Index](https://www.geeksforgeeks.org/problems/find-h-index--165609/0)
+
+## PId - 52 [Form the Largest Number](https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/0)
+
+## PId - 53 [Missing Element in Range](https://www.geeksforgeeks.org/problems/missing-element-in-range/0)
+
+## PId - 54 [Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/0)
+
+## PId - 55 [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/0)
+
+## PId - 56 [Koko Eating Bananas](https://www.geeksforgeeks.org/problems/koko-eating-bananas/0)
+
+## PId - 57 [Maximum Product Subarray](https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/0)
+
+## PId - 58 [Max sum in the configuration](https://www.geeksforgeeks.org/problems/max-sum-in-the-configuration/0)
+
+## PId - 59 [Happiest Triplet](https://www.geeksforgeeks.org/problems/happiest-triplet2921/0)
+
+## PId - 60 [Maximize NUmber of 1's](https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/0)
+
+## PId - 61 [Last Moment Before All Ants Fall Out](https://www.geeksforgeeks.org/problems/last-moment-before-all-ants-fall-out-of-a-plank/0)
+
+## PId - 62 [K Sized Subarray Maximum](https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/0)
+
+## PId - 63 [Interleave the First Half of the Queen with Second Half](https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/0)
+
+## PId - 64 [Stream First Non-repeating](https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/0)
+
+## PId - 65 [Count Subset With Target Sum II](https://www.geeksforgeeks.org/problems/count-the-subset-with-sum-equal-to-k/0)
+
+## PId - 66 [Word Search](https://www.geeksforgeeks.org/problems/word-search/0)
+
+## PId - 67 [Generate Permutations of an array](https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/0)
+
+## PId - 68 [Minimum Multiplications to reach End](https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/0)
+
+## PId - 69 [Product Pair](https://www.geeksforgeeks.org/problems/equal-to-product3836/0)
+
+## PId - 70 [1s Surrounded by 0s](https://www.geeksforgeeks.org/problems/1s-surrounded-by-0s/0)
+
+## PId - 71 [Vertical Sum](https://www.geeksforgeeks.org/problems/vertical-sum/0)
+
+## PId - 72 [Count Sorted Digit Groupings](https://www.geeksforgeeks.org/problems/count-digit-groupings-of-a-number1520/0)
+
+## PId - 73 [Max Product Subset](https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/0)
+
+## PId - 74 [Subarray Frequency Count Queries](https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/0)
+
+## PId - 75 [Substring with Max Zero-One Diff](https://www.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/0)
+
+## PId - 76 [Lexicographically smallest after removing k](https://www.geeksforgeeks.org/problems/lexicographically-smallest-after-removing-k/0)
+
+## PId - 77 [Non-Attacking Black and White Knights](https://www.geeksforgeeks.org/problems/black-and-white-1587115620/0)
+
+## PId - 78 [Finding Profession](https://www.geeksforgeeks.org/problems/finding-profession3834/0)
+
+## PId - 79 [Binary Searchable Count](https://www.geeksforgeeks.org/problems/binary-searchable-elements/0)
+
+## PId - 80 [Check Repated Substring with K Replacements](https://www.geeksforgeeks.org/problems/check-if-a-string-is-repetition-of-its-substring-of-k-length3302/0)
+
+## PId - 81 [Exit Point in a Matrix](https://www.geeksforgeeks.org/problems/exit-point-in-a-matrix0905/0)
+
+## PId - 82 [Minimum cost to fill given weight in a bag](https://www.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/0)
+
+## PId - 83 [Construct List using XOR Queries](https://www.geeksforgeeks.org/problems/construct-list-using-given-q-xor-queries/0)
+
+## PId - 84 [Cut rope to maximise product](https://www.geeksforgeeks.org/problems/max-rope-cutting1312/0)
+
+## PId - 85 [Coverage of all Zeros in a Binary Matrix](https://www.geeksforgeeks.org/problems/coverage-of-all-zeros-in-a-binary-matrix4024/0)
+
+## PId - 86 [Equalize All Prefix Sums](https://www.geeksforgeeks.org/problems/optimal-array--170647/0)
+
+## PId - 87 [Choose and Swap](https://www.geeksforgeeks.org/problems/choose-and-swap0531/0)
+
+## PId - 88 [Maximum Area Between Bars](https://www.geeksforgeeks.org/problems/dam-of-candies--141631/0)
+
+## PId - 89 [Maximum Number of People Defeated](https://www.geeksforgeeks.org/problems/killing-spree3020/0)
+
+## PId - 90 [Rat Maze With Multiple Jumps](https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0)
+
+## PId - 91 [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/0)
