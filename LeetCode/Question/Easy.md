@@ -143,3 +143,5 @@
 ## Id - 1732 [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)
 
 ## Id - 1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)
+
+## Id - 1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/)

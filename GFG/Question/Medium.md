@@ -181,3 +181,13 @@
 ## PId - 90 [Rat Maze With Multiple Jumps](https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0)
 
 ## PId - 91 [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/0)
+
+## PId - 92 [Count Matching Subsequences](https://www.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020/0)
+
+## PId - 93 [Ways to Tile the Floor](https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles0509/0)
+
+## PId - 94 [k Times Appearing Adjacent Two 1's](https://www.geeksforgeeks.org/problems/count-binary-strings1944/0)
+
+## PId - 95 [Max Dot Product with 0 Insertions](https://www.geeksforgeeks.org/problems/maximize-dot-product2649/0)
+
+## PId - 96 [Max sum subarray by removing at most one element](https://www.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/0)

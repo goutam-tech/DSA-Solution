@@ -5,3 +5,5 @@
 ### Id - 2 [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem)
 
 ### Id - 3 [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem)
+
+### Id - 4 [Bear and Steady Gene](https://www.hackerrank.com/challenges/bear-and-steady-gene/problem) 
