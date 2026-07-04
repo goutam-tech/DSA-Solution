@@ -10,6 +10,6 @@
 
 ### Id - 5 [Insertion Sort Advanced Analysis](https://www.hackerrank.com/challenges/insertion-sort/problem)
 
-## Id - 6 [Morgan and a String](https://www.hackerrank.com/challenges/morgan-and-a-string/problem)
+### Id - 6 [Morgan and a String](https://www.hackerrank.com/challenges/morgan-and-a-string/problem)
 
-## Id - 7 [Count Strings](https://www.hackerrank.com/challenges/count-strings/problem)
+### Id - 7 [Count Strings](https://www.hackerrank.com/challenges/count-strings/problem)
