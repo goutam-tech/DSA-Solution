@@ -51,3 +51,5 @@
 ## PId - 25 [Palindrome Pairs](https://www.geeksforgeeks.org/problems/palindrome-pairs/0)
 
 ## PId - 26 [Search for Subarray](https://www.geeksforgeeks.org/problems/search-for-subarray/0)
+
+## PId - 27 [Minimum Insert and Delete to Convert](https://www.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/0)

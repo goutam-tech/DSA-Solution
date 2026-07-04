@@ -81,3 +81,5 @@
 ## Id - 3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/description/)
 
 ## Id - 3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/)
+
+## Id - 3739 [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/)

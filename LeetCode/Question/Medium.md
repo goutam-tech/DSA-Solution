@@ -189,3 +189,11 @@
 ## Id - 1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)
 
 ## Id - 3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)
+
+## Id - 3020 [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)
+
+## Id - 1846 [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)
+
+## Id - 1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
+
+## Id - 2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
