@@ -95,3 +95,5 @@
 ## PId - 47 [Last Digit of a^b](https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/0)
 
 ## PId - 48 [Maximum Value](https://practice.geeksforgeeks.org/contest/gfg-weekly-208-rated-contest/problems)
+
+## PId - 49 [Max Gap Between Two Same](https://www.geeksforgeeks.org/problems/maximum-number-of-characters-between-any-two-same-character4552/0)

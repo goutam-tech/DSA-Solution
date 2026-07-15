@@ -197,3 +197,17 @@
 ## Id - 1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
 
 ## Id - 2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
+
+## Id - 3286 [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/)
+
+## Id - 2492 [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/)
+
+## Id - 1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/description/)
+
+## Id - 3756 [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/description/)
+
+## Id - 3532 [Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/description/)
+
+## Id - 2685 [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/)
+
+## Id - 1291 [Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)

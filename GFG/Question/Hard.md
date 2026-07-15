@@ -53,3 +53,7 @@
 ## PId - 26 [Search for Subarray](https://www.geeksforgeeks.org/problems/search-for-subarray/0)
 
 ## PId - 27 [Minimum Insert and Delete to Convert](https://www.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/0)
+
+## PId - 28 [Substrings with more 1's than 0's](https://www.geeksforgeeks.org/problems/count-the-substring--170645/0)
+
+## PId - 29 [Rearrange the Array](https://www.geeksforgeeks.org/problems/rearrange-the-array-1639032648/0)

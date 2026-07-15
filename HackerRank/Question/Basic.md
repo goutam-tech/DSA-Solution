@@ -11,3 +11,13 @@
 ## PId - 4 [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 
 ### PId - 5 [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem)
+
+### PId - 6 [Find the Point](https://www.hackerrank.com/challenges/find-point/problem)
+
+### PId - 7 [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
+
+### PId - 8 [Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor/problem)
+
+### PId - 9 [Beautiful Pairs](https://www.hackerrank.com/challenges/beautiful-pairs/problem)
+
+### PId - 10 [Staircase](https://www.hackerrank.com/challenges/staircase/problem)

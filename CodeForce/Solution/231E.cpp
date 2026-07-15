@@ -10,16 +10,32 @@ vector<pair<int, int>> adj[MAXN];
 int disc[MAXN], low[MAXN], timer_ = 0;
 bool visited[MAXN];
 
-int N;
 vector<int> tree[MAXN];
 bool is_cycle[MAXN];
-int cycle_of[MAXN];
 
 int dep[MAXN];
 int par[MAXN][LOG];
 long long cnt[MAXN];
 
 vector<int> stk;
+
+int uf[MAXN];
+int find(int x)
+{
+    while (uf[x] != x)
+    {
+        uf[x] = uf[uf[x]];
+        x = uf[x];
+    }
+    return x;
+}
+void unite(int a, int b)
+{
+    a = find(a);
+    b = find(b);
+    if (a != b)
+        uf[a] = b;
+}
 
 void dfs(int u, int par_edge)
 {
@@ -48,22 +64,9 @@ void dfs(int u, int par_edge)
 
                 if (cyc.size() > 1)
                 {
-                    int r = ++N;
-                    is_cycle[r] = true;
-                    tree[u].push_back(r);
-                    tree[r].push_back(u);
                     for (int x : cyc)
-                    {
-                        cycle_of[x] = r;
-                        tree[r].push_back(x);
-                        tree[x].push_back(r);
-                    }
-                }
-                else
-                {
-                    int child = cyc[0];
-                    tree[u].push_back(child);
-                    tree[child].push_back(u);
+                        unite(x, u);
+                    is_cycle[find(u)] = true;
                 }
             }
         }
@@ -76,7 +79,7 @@ void dfs(int u, int par_edge)
 
 void bfs_lca(int root)
 {
-    vector<bool> vis(N + 1, false);
+    vector<bool> vis(n + 1, false);
     queue<int> q;
     dep[root] = 0;
     cnt[root] = is_cycle[root] ? 1 : 0;
@@ -143,17 +146,33 @@ int main()
     cin.tie(nullptr);
 
     cin >> n >> m;
+    vector<pair<int, int>> edges(m);
     for (int i = 0; i < m; i++)
     {
         int a, b;
         cin >> a >> b;
+        edges[i] = {a, b};
         adj[a].push_back({b, i});
         adj[b].push_back({a, i});
     }
 
-    N = n;
+    for (int i = 1; i <= n; i++)
+        uf[i] = i;
+
     dfs(1, -1);
-    bfs_lca(1);
+
+    for (auto [a, b] : edges)
+    {
+        int ra = find(a), rb = find(b);
+        if (ra != rb)
+        {
+            tree[ra].push_back(rb);
+            tree[rb].push_back(ra);
+        }
+    }
+
+    int root = find(1);
+    bfs_lca(root);
 
     int k;
     cin >> k;
@@ -161,8 +180,7 @@ int main()
     {
         int x, y;
         cin >> x >> y;
-        int rx = cycle_of[x] ? cycle_of[x] : x;
-        int ry = cycle_of[y] ? cycle_of[y] : y;
+        int rx = find(x), ry = find(y);
         int l = lca(rx, ry);
         long long deg = cnt[rx] + cnt[ry] - 2 * cnt[l] + (is_cycle[l] ? 1 : 0);
         cout << pw(2, deg, MOD) << "\n";

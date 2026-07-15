@@ -191,3 +191,25 @@
 ## PId - 95 [Max Dot Product with 0 Insertions](https://www.geeksforgeeks.org/problems/maximize-dot-product2649/0)
 
 ## PId - 96 [Max sum subarray by removing at most one element](https://www.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/0)
+
+## PId - 97 [Check Subset sum divisible by k](https://www.geeksforgeeks.org/problems/subset-with-sum-divisible-by-m2546/0)
+
+## PId - 98 [Ways to Increase LCS by One](https://www.geeksforgeeks.org/problems/count-ways-to-increase-lcs-length-of-two-strings-by-one2236/0)
+
+## PId - 99 [Max Sum Path in Two Arrays](https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/0)
+
+## PId - 100 [Largest Unblocked Submatrix](https://www.geeksforgeeks.org/problems/largest-unblocked-submatrix/0)
+
+## PId - 101 [Towers Reaching Both Stations](https://www.geeksforgeeks.org/problems/geeks-island--170646/0)
+
+## PId - 102 [Count Pairs Divisible By K](https://www.geeksforgeeks.org/problems/count-pairs-in-array-divisible-by-k/0)
+
+### PId - 103 [Ways to Express as Sum of Consecutives](https://www.geeksforgeeks.org/problems/count-of-sum-of-consecutives3741/0)
+
+### PId - 104 [Longest Possible Route in a Matrix with Hurdles](https://www.geeksforgeeks.org/problems/longest-possible-route-in-a-matrix-with-hurdles/0)
+
+### PId - 105 [Max Amount by Selling K Tickets](https://www.geeksforgeeks.org/problems/ticket-sellers3241/0)
+
+### PId - 106 [Smallest Non-Zero Number](https://www.geeksforgeeks.org/problems/find-smallest-non-zero-number4510/0)
+
+### PId - 107 [Longest Bitonic Subarray](https://www.geeksforgeeks.org/problems/maximum-length-bitonic-subarray5730/0) 

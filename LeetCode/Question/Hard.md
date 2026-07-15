@@ -83,3 +83,11 @@
 ## Id - 3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/)
 
 ## Id - 3739 [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/)
+
+## Id - 1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/description/)
+
+## Id - 3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)
+
+## Id - 3534 [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/)
+
+## Id - 3336 [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/description/)

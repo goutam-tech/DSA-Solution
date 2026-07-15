@@ -145,3 +145,9 @@
 ## Id - 1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)
 
 ## Id - 1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/)
+
+## Id - 3754 [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)
+
+## Id - 1331 [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)
+
+## Id - 3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)
