@@ -1,59 +1,63 @@
 # Hard problems on GFG.
 
-## PId - 1 [Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/0)
+## Id - 1 [Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/0) {graph}
 
-## PId - 2 [Trapping Rain Water](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/0)
+## Id - 2 [Trapping Rain Water](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/0) {algorithms}
 
-## PId - 3 [Max Cirular Subarray Sum](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/0)
+## Id - 3 [Max Cirular Subarray Sum](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/0) {array}
 
-## PId - 4 [Smallest window containing all characters](https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/0)
+## Id - 4 [Smallest window containing all characters](https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/0) {string, array, sliding window}
 
-## PId - 5 [Histogram Max Rectangular Area](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/0)
+## Id - 5 [Histogram Max Rectangular Area](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/0) {algorithms}
 
-## PId - 6 [Buring Tree](https://www.geeksforgeeks.org/problems/burning-tree/0)
+## Id - 6 [Buring Tree](https://www.geeksforgeeks.org/problems/burning-tree/0) {tree}
 
-## PId - 7 [The Painter's Partition Problem - II](https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/0)
+## Id - 7 [The Painter's Partition Problem - II](https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/0) {dynamic programming}
 
-## PId - 8 [All numbers with specific differece](https://www.geeksforgeeks.org/problems/all-numbers-with-specific-difference3558/0)
+## Id - 8 [All numbers with specific differece](https://www.geeksforgeeks.org/problems/all-numbers-with-specific-difference3558/0) {algorithms}
 
-## PId - 9 [Distribute Candies](https://www.geeksforgeeks.org/problems/distribute-candies-in-a-binary-tree/0)
+## Id - 9 [Distribute Candies](https://www.geeksforgeeks.org/problems/distribute-candies-in-a-binary-tree/0) {greedy}
 
-## PId - 10 [Maximum number of overlapping intervals](https://www.geeksforgeeks.org/problems/intersecting-intervals/0)
+## Id - 10 [Maximum number of overlapping intervals](https://www.geeksforgeeks.org/problems/intersecting-intervals/0) {greedy}
 
-## PId - 11 [Max min Height](https://www.geeksforgeeks.org/problems/max-min-height--170647/0)
+## Id - 11 [Max min Height](https://www.geeksforgeeks.org/problems/max-min-height--170647/0) {algorithms}
 
-## PId - 12 [Minimum K Consecutive Bit Flips](https://www.geeksforgeeks.org/problems/minimum-number-of-k-consecutive-bit-flips--171650/0)
+## Id - 12 [Minimum K Consecutive Bit Flips](https://www.geeksforgeeks.org/problems/minimum-number-of-k-consecutive-bit-flips--171650/0) {bit manipulation, greedy}
 
-## PId - 13 [Number of submatrix have sum X](https://www.geeksforgeeks.org/problems/number-of-submatrix-have-sum-k/0)
+## Id - 13 [Number of submatrix have sum X](https://www.geeksforgeeks.org/problems/number-of-submatrix-have-sum-k/0) {array}
 
-## PId - 14 [Implment k Queues in a Single Array](https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/0)operations:
+## Id - 14 [Implment k Queues in a Single Array](https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/0) {array, heap}
 
-## PId - 15 [Number of BST From Array](https://www.geeksforgeeks.org/problems/number-of-bst-from-array/0)
+## Id - 15 [Number of BST From Array](https://www.geeksforgeeks.org/problems/number-of-bst-from-array/0) {array, tree}
 
-## PId - 16 [Length of Longest Cycle in a Graph](https://www.geeksforgeeks.org/problems/length-of-longest-cycle-in-a-graph/0)
+## Id - 16 [Length of Longest Cycle in a Graph](https://www.geeksforgeeks.org/problems/length-of-longest-cycle-in-a-graph/0) {graph}
 
-## PId - 17 [Chocolates Pickup](https://www.geeksforgeeks.org/problems/chocolates-pickup/1)
+## Id - 17 [Chocolates Pickup](https://www.geeksforgeeks.org/problems/chocolates-pickup/1) {algorithms}
 
-## PId - 18 [Articulation Point - II](https://www.geeksforgeeks.org/problems/articulation-point2616/0)
+## Id - 18 [Articulation Point - II](https://www.geeksforgeeks.org/problems/articulation-point2616/0) {algorithms}
 
-## PId - 19 [LRU Cache](https://www.geeksforgeeks.org/problems/lru-cache/0)
+## Id - 19 [LRU Cache](https://www.geeksforgeeks.org/problems/lru-cache/0) {linked list, design}
 
-## PId - 20 [Solve the Sudoku](https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/0)
+## Id - 20 [Solve the Sudoku](https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/0) {backtracking}
 
-## PId - 21 [Huffman Encoding](https://www.geeksforgeeks.org/problems/huffman-encoding3345/0)
+## Id - 21 [Huffman Encoding](https://www.geeksforgeeks.org/problems/huffman-encoding3345/0) {heap}
 
-## PId - 22 [Next Smallest Palindrome](https://www.geeksforgeeks.org/problems/next-smallest-palindrome4740/0)
+## Id - 22 [Next Smallest Palindrome](https://www.geeksforgeeks.org/problems/next-smallest-palindrome4740/0) {string, array}
 
-## PId - 23 [Remove Invalid Parentheses](https://www.geeksforgeeks.org/problems/remove-invalid-parentheses/0)
+## Id - 23 [Remove Invalid Parentheses](https://www.geeksforgeeks.org/problems/remove-invalid-parentheses/0) {algorithms}
 
-## PId - 24 [Count Spanning Trees in a Graph](https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0)
+## Id - 24 [Count Spanning Trees in a Graph](https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0) {tree, graph}
 
-## PId - 25 [Palindrome Pairs](https://www.geeksforgeeks.org/problems/palindrome-pairs/0)
+## Id - 25 [Palindrome Pairs](https://www.geeksforgeeks.org/problems/palindrome-pairs/0) {string, array, two pointers}
 
-## PId - 26 [Search for Subarray](https://www.geeksforgeeks.org/problems/search-for-subarray/0)
+## Id - 26 [Search for Subarray](https://www.geeksforgeeks.org/problems/search-for-subarray/0) {array, binary search}
 
-## PId - 27 [Minimum Insert and Delete to Convert](https://www.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/0)
+## Id - 27 [Minimum Insert and Delete to Convert](https://www.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/0) {greedy}
 
-## PId - 28 [Substrings with more 1's than 0's](https://www.geeksforgeeks.org/problems/count-the-substring--170645/0)
+## Id - 28 [Substrings with more 1's than 0's](https://www.geeksforgeeks.org/problems/count-the-substring--170645/0) {string, tree}
 
-## PId - 29 [Rearrange the Array](https://www.geeksforgeeks.org/problems/rearrange-the-array-1639032648/0)
+## Id - 29 [Rearrange the Array](https://www.geeksforgeeks.org/problems/rearrange-the-array-1639032648/0) {array}
+
+## Id - 30 [Cut Matrix](https://www.geeksforgeeks.org/problems/cut-matrix/0) {array}
+
+## Id - 31 [Shortest Unique Prefix for Every Word](https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/0) {trie}
