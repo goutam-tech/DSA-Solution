@@ -1,0 +1,50 @@
+name: Update DSA Dashboard README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/Question/*.md'
+      - '**/solution/**'
+      - '**/soultion/**'
+      - 'main.py'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: "3.12"
+  SCRIPT_PATH: "main.py"
+
+jobs:
+  update_readme_dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Generate dashboard and sync README
+        run: |
+          # Execute the python script
+          python ${{ env.SCRIPT_PATH }}
+
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --staged --quiet; then
+            echo "Dashboard is already up to date."
+          else
+            git commit -m "docs: auto-update DSA dashboard README [skip ci]"
+            git push origin ${{ github.ref_name }}
+          fi
