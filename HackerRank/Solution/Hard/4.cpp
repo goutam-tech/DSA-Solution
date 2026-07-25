@@ -1,253 +1,199 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <deque>
+#include <queue>
+#include <chrono>
+#include <cassert>
+#include <tuple>
 
 using namespace std;
+typedef vector<vector<int> > Grid;
+typedef tuple<int, int, int> Move;
 
-string ltrim(const string &);
-string rtrim(const string &);
-vector<string> split(const string &);
+const int INF = 1e9 + 7;
+const int LIMIT = 500;
 
-long long sequenceGoodness(const vector<int> &seq, int minVal, int rangeSize, vector<int> &fenwick)
-{
-    int n = seq.size();
-    vector<int> touched(n);
-    long long good = 0;
-    for (int idx = 0; idx < n; idx++)
-    {
-        int r = seq[idx] - minVal + 1;
-        int cnt = 0;
-        for (int x = r - 1; x > 0; x -= x & (-x))
-            cnt += fenwick[x];
-        good += cnt;
-        for (int x = r; x <= rangeSize; x += x & (-x))
-            fenwick[x]++;
-        touched[idx] = r;
-    }
-    for (int idx = 0; idx < n; idx++)
-    {
-        int r = touched[idx];
-        for (int x = r; x <= rangeSize; x += x & (-x))
-            fenwick[x]--;
-    }
-    return good;
+int goodness(const Grid& f) {
+    int n = f.size(), cnt = 0;
+    for (int y = 0; y < n; ++y)
+        for (int xr = 0; xr < n; ++xr)
+            for (int xl = 0; xl < xr; ++xl)
+                cnt += f[y][xl] < f[y][xr];
+    for (int x = 0; x < n; ++x)
+        for (int yr = 0; yr < n; ++yr)
+            for (int yl = 0; yl < yr; ++yl)
+                cnt += f[yl][x] < f[yr][x];
+    return cnt;
 }
 
-void rotateClockwise(vector<vector<int>> &g, int i0, int j0, int k)
-{
-    vector<vector<int>> temp(k, vector<int>(k));
-    for (int r = 0; r < k; r++)
-        for (int c = 0; c < k; c++)
-            temp[r][c] = g[i0 + r][j0 + c];
-    for (int r = 0; r < k; r++)
-        for (int c = 0; c < k; c++)
-            g[i0 + c][j0 + k - 1 - r] = temp[r][c];
+Grid rotate(int y, int x, int k, const Grid& f) {
+    Grid g = f;
+    for (int dy = 0; dy < k; ++dy)
+        for (int dx = 0; dx < k; ++dx)
+            g[y + dx][x + k - dy - 1] = f[y + dy][x + dx];
+    return g;
 }
 
-long long affectedGoodness(vector<vector<int>> &g, int n, int i0, int j0, int k, int minVal, int rangeSize, vector<int> &fenwick)
-{
-    long long total = 0;
-    for (int r = i0; r < i0 + k; r++)
-        total += sequenceGoodness(g[r], minVal, rangeSize, fenwick);
-    vector<int> col(n);
-    for (int c = j0; c < j0 + k; c++)
-    {
-        for (int r = 0; r < n; r++)
-            col[r] = g[r][c];
-        total += sequenceGoodness(col, minVal, rangeSize, fenwick);
-    }
-    return total;
+pair<int, int> findCell(const Grid& f, int value) {
+    int n = f.size();
+    for (int y = 0; y < n; ++y)
+        for (int x = 0; x < n; ++x)
+            if (f[y][x] == value) return make_pair(y, x);
+    assert(false);
+    return make_pair(-1, -1);
 }
 
-long long applyMove(vector<vector<int>> &g, int n, int i0, int j0, int k, int minVal, int rangeSize, vector<int> &fenwick)
-{
-    long long before = affectedGoodness(g, n, i0, j0, k, minVal, rangeSize, fenwick);
-    rotateClockwise(g, i0, j0, k);
-    long long after = affectedGoodness(g, n, i0, j0, k, minVal, rangeSize, fenwick);
-    return after - before;
+bool isNextFixed(int y, int x, const vector<vector<bool> >& fixed) {
+    return (y == 0 || fixed[y - 1][x]) && (x == 0 || fixed[y][x - 1]);
 }
 
-bool hillClimbScan(vector<vector<int>> &g, int n, int minVal, int rangeSize, vector<int> &fenwick,
-                   vector<array<int, 3>> &moves, long long &running, long long &bestGoodness,
-                   vector<array<int, 3>> &bestMoves, int moveBudget,
-                   chrono::steady_clock::time_point startTime, double timeLimitSeconds, mt19937 &rng)
-{
-    vector<array<int, 3>> candidates;
-    for (int k = 2; k <= n; k++)
-        for (int i0 = 0; i0 + k <= n; i0++)
-            for (int j0 = 0; j0 + k <= n; j0++)
-                candidates.push_back({i0, j0, k});
-    shuffle(candidates.begin(), candidates.end(), rng);
-    for (auto &cand : candidates)
-    {
-        double elapsed = chrono::duration<double>(chrono::steady_clock::now() - startTime).count();
-        if (elapsed > timeLimitSeconds || (int)moves.size() >= moveBudget)
-            return false;
-        int i0 = cand[0], j0 = cand[1], k = cand[2];
-        long long before = affectedGoodness(g, n, i0, j0, k, minVal, rangeSize, fenwick);
-        rotateClockwise(g, i0, j0, k);
-        long long after = affectedGoodness(g, n, i0, j0, k, minVal, rangeSize, fenwick);
-        if (after > before)
-        {
-            running += (after - before);
-            moves.push_back({i0, j0, k});
-            if (running > bestGoodness)
-            {
-                bestGoodness = running;
-                bestMoves = moves;
-            }
-            return true;
-        }
-        else
-        {
-            for (int r = 0; r < 3; r++)
-                rotateClockwise(g, i0, j0, k);
-        }
-    }
-    return false;
-}
+void solveFast(int n, Grid& f, vector<Move>& result) {
+    vector<vector<bool> > fixed(n, vector<bool>(n, false));
+    int nextValue = 1;
 
-void solvePuzzle(vector<vector<int>> &puzzle, int n)
-{
-    if (n <= 1)
-    {
-        cout << 0 << "\n";
-        return;
-    }
-    int minVal = puzzle[0][0], maxVal = puzzle[0][0];
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-        {
-            minVal = min(minVal, puzzle[i][j]);
-            maxVal = max(maxVal, puzzle[i][j]);
-        }
-    int rangeSize = maxVal - minVal + 1;
-    vector<int> fenwick(rangeSize + 2, 0);
-    int moveBudget = n * n;
-    auto startTime = chrono::steady_clock::now();
-    const double timeLimitSeconds = 9.0;
-    mt19937 rng(12345);
+    while ((int)result.size() < (int)(LIMIT * 0.96) && nextValue <= n * n) {
+        pair<int, int> p = findCell(f, nextValue);
+        int py = p.first, px = p.second;
 
-    vector<vector<int>> grid = puzzle;
-    vector<array<int, 3>> moves;
-    long long running = 0;
-    {
-        vector<int> col(n);
-        for (int i = 0; i < n; i++)
-            running += sequenceGoodness(grid[i], minVal, rangeSize, fenwick);
-        for (int j = 0; j < n; j++)
-        {
-            for (int i = 0; i < n; i++)
-                col[i] = grid[i][j];
-            running += sequenceGoodness(col, minVal, rangeSize, fenwick);
-        }
-    }
-    long long bestGoodness = running;
-    vector<array<int, 3>> bestMoves = moves;
-
-    while (true)
-    {
-        double elapsed = chrono::duration<double>(chrono::steady_clock::now() - startTime).count();
-        if (elapsed > timeLimitSeconds || (int)moves.size() >= moveBudget)
-            break;
-        bool improved = hillClimbScan(grid, n, minVal, rangeSize, fenwick, moves, running,
-                                      bestGoodness, bestMoves, moveBudget, startTime, timeLimitSeconds, rng);
-        if (improved)
+        if (isNextFixed(py, px, fixed)) {
+            fixed[py][px] = true;
+            ++nextValue;
             continue;
-
-        elapsed = chrono::duration<double>(chrono::steady_clock::now() - startTime).count();
-        if (elapsed > timeLimitSeconds || (int)moves.size() >= moveBudget)
-            break;
-
-        int k = 2 + (int)(rng() % (n - 1));
-        int i0 = (int)(rng() % (n - k + 1));
-        int j0 = (int)(rng() % (n - k + 1));
-        long long delta = applyMove(grid, n, i0, j0, k, minVal, rangeSize, fenwick);
-        running += delta;
-        moves.push_back({i0, j0, k});
-        if (running > bestGoodness)
-        {
-            bestGoodness = running;
-            bestMoves = moves;
         }
-    }
 
-    cout << bestMoves.size() << "\n";
-    for (auto &m : bestMoves)
-    {
-        cout << (m[0] + 1) << " " << (m[1] + 1) << " " << m[2] << "\n";
+        vector<vector<int> > dist_(n, vector<int>(n, INF));
+        vector<vector<Move> > prevMove(n, vector<Move>(n, Move(0, 0, 0)));
+        vector<vector<pair<int, int> > > prevCell(n, vector<pair<int, int> >(n, make_pair(0, 0)));
+        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int> >, greater<tuple<int, int, int> > > pq;
+
+        dist_[py][px] = 0;
+        pq.push(make_tuple(0, py, px));
+
+        bool found = false;
+        while (!pq.empty()) {
+            tuple<int, int, int> top = pq.top(); pq.pop();
+            int z = get<0>(top), y = get<1>(top), x = get<2>(top);
+
+            if (isNextFixed(y, x, fixed)) {
+                deque<Move> path;
+                int cy = y, cx = x;
+                while (cy != py || cx != px) {
+                    path.push_front(prevMove[cy][cx]);
+                    pair<int, int> pc = prevCell[cy][cx];
+                    cy = pc.first; cx = pc.second;
+                }
+                if (result.size() + path.size() <= (size_t)LIMIT) {
+                    for (deque<Move>::iterator it = path.begin(); it != path.end(); ++it) {
+                        int ry = get<0>(*it), rx = get<1>(*it), rk = get<2>(*it);
+                        f = rotate(ry, rx, rk, f);
+                        result.push_back(*it);
+                    }
+                    found = true;
+                }
+                break;
+            }
+
+            for (int k = 2; y + k - 1 < n && x + k - 1 < n && !fixed[y][x]; ++k) {
+                int ny = y, nx = x + k - 1;
+                if (dist_[ny][nx] == INF) {
+                    dist_[ny][nx] = z + 1;
+                    prevMove[ny][nx] = Move(y, x, k);
+                    prevCell[ny][nx] = make_pair(y, x);
+                    pq.push(make_tuple(z + 1, ny, nx));
+                }
+            }
+            for (int k = 2; y + k - 1 < n && x - k + 1 >= 0 && !fixed[y][x - k + 1]; ++k) {
+                int ny = y + k - 1, nx = x;
+                if (dist_[ny][nx] == INF) {
+                    dist_[ny][nx] = z + 1;
+                    prevMove[ny][nx] = Move(y, x - k + 1, k);
+                    prevCell[ny][nx] = make_pair(y, x);
+                    pq.push(make_tuple(z + 1, ny, nx));
+                }
+            }
+            for (int k = 2; y - k + 1 >= 0 && x + k - 1 < n && !fixed[y - k + 1][x]; ++k) {
+                int ny = y - k + 1, nx = x;
+                if (dist_[ny][nx] == INF) {
+                    dist_[ny][nx] = z + 1;
+                    prevMove[ny][nx] = Move(y - k + 1, x, k);
+                    prevCell[ny][nx] = make_pair(y, x);
+                    pq.push(make_tuple(z + 1, ny, nx));
+                }
+            }
+            for (int k = 2; y - k + 1 >= 0 && x - k + 1 >= 0 && !fixed[y - k + 1][x - k + 1]; ++k) {
+                int ny = y, nx = x - k + 1;
+                if (dist_[ny][nx] == INF) {
+                    dist_[ny][nx] = z + 1;
+                    prevMove[ny][nx] = Move(y - k + 1, x - k + 1, k);
+                    prevCell[ny][nx] = make_pair(y, x);
+                    pq.push(make_tuple(z + 1, ny, nx));
+                }
+            }
+        }
+        if (!found) break;
     }
 }
 
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+void solveSlow(int n, Grid& f, vector<Move>& result) {
+    chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
 
-    string n_temp;
-    getline(cin, n_temp);
+    while ((int)result.size() < LIMIT) {
+        chrono::high_resolution_clock::time_point now = chrono::high_resolution_clock::now();
+        long long elapsedMs = chrono::duration_cast<chrono::milliseconds>(now - start).count();
+        if (elapsedMs >= 1900) break;
 
-    int n = stoi(ltrim(rtrim(n_temp)));
+        int bestY = -1, bestX = -1, bestK = -1;
+        int base = goodness(f), best = base;
 
-    vector<vector<int>> puzzle(n);
+        for (int y = 0; y < n; ++y)
+            for (int x = 0; x < n; ++x)
+                for (int k = min(n - y, n - x); k >= 2; --k) {
+                    int z = goodness(rotate(y, x, k, f));
+                    if (z > best) {
+                        best = z;
+                        bestY = y; bestX = x; bestK = k;
+                    }
+                }
 
-    for (int i = 0; i < n; i++)
-    {
-        puzzle[i].resize(n);
+        if (best == base) break;
+        f = rotate(bestY, bestX, bestK, f);
+        result.push_back(Move(bestY, bestX, bestK));
+    }
+}
 
-        string puzzle_row_temp_temp;
-        getline(cin, puzzle_row_temp_temp);
+vector<Move> solve(int n, Grid f) {
+    vector<Move> result;
+    solveFast(n, f, result);
+    solveSlow(n, f, result);
+    return result;
+}
 
-        vector<string> puzzle_row_temp = split(rtrim(puzzle_row_temp_temp));
+int main() {
+    int n; cin >> n;
+    Grid f(n, vector<int>(n));
+    for (int y = 0; y < n; ++y)
+        for (int x = 0; x < n; ++x)
+            cin >> f[y][x];
 
-        for (int j = 0; j < n; j++)
-        {
-            int puzzle_row_item = stoi(puzzle_row_temp[j]);
+    int gBefore = goodness(f);
+    int gMax = n * n * (n - 1);
+    vector<Move> result = solve(n, f);
 
-            puzzle[i][j] = puzzle_row_item;
-        }
+    cout << result.size() << "\n";
+    assert(result.size() <= (size_t)LIMIT);
+    for (size_t i = 0; i < result.size(); ++i) {
+        int y = get<0>(result[i]), x = get<1>(result[i]), k = get<2>(result[i]);
+        cout << y + 1 << ' ' << x + 1 << ' ' << k << "\n";
+        assert(0 <= y && y < n && 0 <= x && x < n && k >= 1 && max(y, x) + k <= n);
+        f = rotate(y, x, k, f);
     }
 
-    solvePuzzle(puzzle, n);
-
+    for (int y = 0; y < n; ++y) {
+        for (int x = 0; x < n; ++x) cerr << (f[y][x] <= 9 ? " " : "") << f[y][x] << " ";
+        cerr << "\n";
+    }
+    cerr << "size: " << result.size() << "\n";
+    int gAfter = goodness(f);
+    cerr << "points: " << (gAfter - gBefore) / double(gMax - gBefore) << "\n";
     return 0;
-}
-
-string ltrim(const string &str)
-{
-    string s(str);
-
-    s.erase(
-        s.begin(),
-        find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace))));
-
-    return s;
-}
-
-string rtrim(const string &str)
-{
-    string s(str);
-
-    s.erase(
-        find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
-        s.end());
-
-    return s;
-}
-
-vector<string> split(const string &str)
-{
-    vector<string> tokens;
-
-    string::size_type start = 0;
-    string::size_type end = 0;
-
-    while ((end = str.find(" ", start)) != string::npos)
-    {
-        tokens.push_back(str.substr(start, end - start));
-
-        start = end + 1;
-    }
-
-    tokens.push_back(str.substr(start));
-
-    return tokens;
 }
