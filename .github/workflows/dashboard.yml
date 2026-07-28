@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
     paths:
-      - "**/Question/*.md"
-      - "**/solution/**"
-      - "**/soultion/**"
-      - "main.py"
-      - "generate_json.py"
+      - '**/Question/*.md'
+      - '**/solution/**'
+      - '**/soultion/**'
+      - 'main.py'
+      - 'generate_json.py'
 
   workflow_dispatch:
 
@@ -42,7 +42,7 @@ jobs:
       - name: Check if JSON output changed
         id: json_diff
         run: |
-          if git diff --quiet -- '**/*.json'; then
+          if [ -z "$(git status --porcelain -- '**/*.json')" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: platform-json
-          path: "**/*.json"
+          path: '**/*.json'
           retention-days: 1
 
   update_readme_dashboard:
