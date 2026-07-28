@@ -342,14 +342,15 @@
     ]
   },
   "32": {
-    "name": "Predecessor and Successor",
-    "url": "https://www.geeksforgeeks.org/problems/predecessor-and-successor/0",
+    "name": "Shortest Path in 1-2 Graph",
+    "url": "https://www.geeksforgeeks.org/problems/level-of-nodes1147/0",
     "topics": [
-      "algorithms"
+      "graph",
+      "bfs"
     ],
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "solutions": [
-      "GFG/Solution/Medium/32.cs"
+      "GFG/Solution/Hard/32.cpp"
     ]
   },
   "33": {
@@ -1279,6 +1280,32 @@
     "difficulty": "Medium",
     "solutions": [
       "GFG/Solution/Medium/113.cpp"
+    ]
+  },
+  "114": {
+    "name": "Complete Binary Tree Traversal with Array Input",
+    "url": "https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1",
+    "topics": [
+      "sorting",
+      "queue",
+      "tree",
+      "priority-queue"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/114.cpp"
+    ]
+  },
+  "115": {
+    "name": "Construct a Full Binary Tree",
+    "url": "https://www.geeksforgeeks.org/problems/construct-a-full-binary-tree--170648/0",
+    "topics": [
+      "traversal",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/115.cpp"
     ]
   }
 }

@@ -914,6 +914,32 @@
       "LeetCode/Solution/Easy/3536.cpp"
     ]
   },
+  "628": {
+    "name": "Maximum Product of Three Numbers",
+    "url": "https://leetcode.com/problems/maximum-product-of-three-numbers/description/",
+    "topics": [
+      "array",
+      "sorting",
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/628.cpp"
+    ]
+  },
+  "1464": {
+    "name": "Maximum Product of Two Elements in an Array",
+    "url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/",
+    "topics": [
+      "array",
+      "sorting",
+      "priority queue"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1464.cpp"
+    ]
+  },
   "2": {
     "name": "Add Two Numbers",
     "url": "https://leetcode.com/problems/add-two-numbers/description",
@@ -2178,6 +2204,19 @@
     "difficulty": "Medium",
     "solutions": [
       "LeetCode/Solution/Medium/3514.cpp"
+    ]
+  },
+  "3517": {
+    "name": "Smallest Palindromic Rearrangement I",
+    "url": "https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/",
+    "topics": [
+      "string",
+      "sorting",
+      "counting sort"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3517.cpp"
     ]
   },
   "4": {

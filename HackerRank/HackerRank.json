@@ -214,5 +214,27 @@
     "solutions": [
       "HackerRank/Solution/Hard/19.cpp"
     ]
+  },
+  "20": {
+    "name": "Interviews",
+    "url": "https://www.hackerrank.com/challenges/interviews/problem",
+    "topics": [
+      "sql"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/20.sql"
+    ]
+  },
+  "21": {
+    "name": "15 Days of Learning SQL",
+    "url": "https://www.hackerrank.com/challenges/15-days-of-learning-sql/problem",
+    "topics": [
+      "sql"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/21.sql"
+    ]
   }
 }

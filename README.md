@@ -61,6 +61,8 @@
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/) | Easy | [1979.cpp](LeetCode/Solution/Easy/1979.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, math, number theory |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/) | Easy | [1260.cpp](LeetCode/Solution/Easy/1260.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, matrix, simulation |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | Easy | [3536.cpp](LeetCode/Solution/Easy/3536.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, math |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | Easy | [628.cpp](LeetCode/Solution/Easy/628.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, math |
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) | Easy | [1464.cpp](LeetCode/Solution/Easy/1464.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, priority queue |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description) | Medium | [2.cs](LeetCode/Solution/Medium/2.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/description) | Medium | [15.cs](LeetCode/Solution/Medium/15.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, two pointers |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/description) | Medium | [16.cs](LeetCode/Solution/Medium/16.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, two pointers |
@@ -206,6 +208,7 @@
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/) | Easy | [3658.cpp](LeetCode/Solution/Easy/3658.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | math, number theory |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/) | Easy | [1979.cpp](LeetCode/Solution/Easy/1979.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, math, number theory |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | Easy | [3536.cpp](LeetCode/Solution/Easy/3536.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, math |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | Easy | [628.cpp](LeetCode/Solution/Easy/628.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, math |
 | 3629 | [Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/) | Medium | [3629.cs](LeetCode/Solution/Medium/3629.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, dynamic programming, breadth-first search, math |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/) | Medium | [3918.cs](LeetCode/Solution/Medium/3918.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, math |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/) | Medium | [2523.cpp](LeetCode/Solution/Medium/2523.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | two pointers, math |
@@ -252,6 +255,7 @@
 | 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/description/) | Medium | [3612.cpp](LeetCode/Solution/Medium/3612.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | string |
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | Medium | [1358.cpp](LeetCode/Solution/Medium/1358.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, string |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/) | Medium | [1081.cpp](LeetCode/Solution/Medium/1081.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, string |
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) | Medium | [3517.cpp](LeetCode/Solution/Medium/3517.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | string, sorting, counting sort |
 | 761 | [Special Binary String](https://leetcode.com/problems/special-binary-string/description) | Hard | [761.cs](LeetCode/Solution/Hard/761.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | string, bit manipulation |
 | 1320 | [Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description) | Hard | [1320.cs](LeetCode/Solution/Hard/1320.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, string, dynamic programming |
 | 2573 | [Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/description) | Hard | [2573.cs](LeetCode/Solution/Hard/2573.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | string |
@@ -409,12 +413,15 @@
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/) | Easy | [2784.cs](LeetCode/Solution/Easy/2784.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, hash table, sorting |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/) | Easy | [2144.cpp](LeetCode/Solution/Easy/2144.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, greedy, sorting |
 | 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/) | Easy | [1331.cpp](LeetCode/Solution/Easy/1331.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, hash table, sorting |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | Easy | [628.cpp](LeetCode/Solution/Easy/628.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, math |
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) | Easy | [1464.cpp](LeetCode/Solution/Easy/1464.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, priority queue |
 | 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description) | Medium | [1415.cs](LeetCode/Solution/Medium/1415.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | string, graph, sorting |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description) | Medium | [1545.cs](LeetCode/Solution/Medium/1545.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | string, sorting, bit manipulation |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description) | Medium | [3863.cs](LeetCode/Solution/Medium/3863.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, string, sorting |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/) | Medium | [3913.cs](LeetCode/Solution/Medium/3913.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | sorting |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | Medium | [153.cs](LeetCode/Solution/Medium/153.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, binary search, sorting |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Medium | [33.cs](LeetCode/Solution/Medium/33.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, binary search, sorting |
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) | Medium | [3517.cpp](LeetCode/Solution/Medium/3517.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | string, sorting, counting sort |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description) | Hard | [4.cs](LeetCode/Solution/Hard/4.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, sorting |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) | Hard | [154.cs](LeetCode/Solution/Hard/154.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, binary search, sorting |
 | 3312 | [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/description/) | Hard | [3312.cpp](LeetCode/Solution/Hard/3312.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | sorting, math |
@@ -508,6 +515,11 @@
 | 3739 | [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/) | Hard | [3739.cpp](LeetCode/Solution/Hard/3739.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, dynamic programming |
 | 3620 | [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/) | Hard | [3620.cpp](LeetCode/Solution/Hard/3620.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | graph, dynamic programming |
 
+### priority queue
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) | Easy | [1464.cpp](LeetCode/Solution/Easy/1464.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, sorting, priority queue |
+
 ### graph
 | Id | Problem | Difficulty | Solutions | Topics |
 |----|---------|------------|-----------|--------|
@@ -538,6 +550,11 @@
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/) | Medium | [2130.cpp](LeetCode/Solution/Medium/2130.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, linked list |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium | [2095.cpp](LeetCode/Solution/Medium/2095.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | linked list |
 
+### counting sort
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) | Medium | [3517.cpp](LeetCode/Solution/Medium/3517.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | string, sorting, counting sort |
+
 ### stack
 | Id | Problem | Difficulty | Solutions | Topics |
 |----|---------|------------|-----------|--------|
@@ -552,6 +569,7 @@
 | 1 | [Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/0) | Hard | [1.cs](GFG/Solution/Hard/1.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | graph |
 | 16 | [Length of Longest Cycle in a Graph](https://www.geeksforgeeks.org/problems/length-of-longest-cycle-in-a-graph/0) | Hard | [16.cs](GFG/Solution/Hard/16.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | graph |
 | 24 | [Count Spanning Trees in a Graph](https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0) | Hard | [24.cpp](GFG/Solution/Hard/24.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | tree, graph |
+| 32 | [Shortest Path in 1-2 Graph](https://www.geeksforgeeks.org/problems/level-of-nodes1147/0) | Hard | [32.cpp](GFG/Solution/Hard/32.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | graph, bfs |
 | 34 | [K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/0) | Medium | [34.cs](GFG/Solution/Medium/34.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | array, graph |
 | 76 | [Lexicographically smallest after removing k](https://www.geeksforgeeks.org/problems/lexicographically-smallest-after-removing-k/0) | Medium | [76.cpp](GFG/Solution/Medium/76.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, graph |
 | 99 | [Max Sum Path in Two Arrays](https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/0) | Medium | [99.cpp](GFG/Solution/Medium/99.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, graph |
@@ -567,7 +585,6 @@
 | 17 | [Chocolates Pickup](https://www.geeksforgeeks.org/problems/chocolates-pickup/1) | Hard | [17.cs](GFG/Solution/Hard/17.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | algorithms |
 | 18 | [Articulation Point - II](https://www.geeksforgeeks.org/problems/articulation-point2616/0) | Hard | [18.cs](GFG/Solution/Hard/18.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | algorithms |
 | 23 | [Remove Invalid Parentheses](https://www.geeksforgeeks.org/problems/remove-invalid-parentheses/0) | Hard | [23.cpp](GFG/Solution/Hard/23.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | algorithms |
-| 32 | [Predecessor and Successor](https://www.geeksforgeeks.org/problems/predecessor-and-successor/0) | Medium | [32.cs](GFG/Solution/Medium/32.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | algorithms |
 | 41 | [Dice throw](https://www.geeksforgeeks.org/problems/dice-throw5349/0) | Medium | [41.py](GFG/Solution/Medium/41.py) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' width='18' height='18' alt='Python'/> | algorithms |
 | 54 | [Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/0) | Medium | [54.cs](GFG/Solution/Medium/54.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | algorithms |
 | 55 | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/0) | Medium | [55.cs](GFG/Solution/Medium/55.cs) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' width='18' height='18' alt='C#'/> | algorithms |
@@ -668,6 +685,8 @@
 | 111 | [Check Preorder of BST](https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/0) | Medium | [111.cpp](GFG/Solution/Medium/111.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | tree |
 | 112 | [Longest Consecutive Path in Binary tree](https://www.geeksforgeeks.org/problems/longest-consecutive-sequence-in-binary-tree/0) | Medium | [112.cpp](GFG/Solution/Medium/112.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | tree, graph, bit manipulation |
 | 113 | [Max Sum Square Sub-Matrix of Size k](https://www.geeksforgeeks.org/problems/coins-of-geekland--141631/0) | Medium | [113.cpp](GFG/Solution/Medium/113.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, tree |
+| 114 | [Complete Binary Tree Traversal with Array Input](https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1) | Medium | [114.cpp](GFG/Solution/Medium/114.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | sorting, queue, tree, priority-queue |
+| 115 | [Construct a Full Binary Tree](https://www.geeksforgeeks.org/problems/construct-a-full-binary-tree--170648/0) | Medium | [115.cpp](GFG/Solution/Medium/115.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | traversal, tree |
 
 ### dynamic programming
 | Id | Problem | Difficulty | Solutions | Topics |
@@ -762,6 +781,31 @@
 | 31 | [Shortest Unique Prefix for Every Word](https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/0) | Hard | [31.cpp](GFG/Solution/Hard/31.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | trie |
 | 86 | [Equalize All Prefix Sums](https://www.geeksforgeeks.org/problems/optimal-array--170647/0) | Medium | [86.cpp](GFG/Solution/Medium/86.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | array, trie |
 
+### bfs
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 32 | [Shortest Path in 1-2 Graph](https://www.geeksforgeeks.org/problems/level-of-nodes1147/0) | Hard | [32.cpp](GFG/Solution/Hard/32.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | graph, bfs |
+
+### sorting
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 114 | [Complete Binary Tree Traversal with Array Input](https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1) | Medium | [114.cpp](GFG/Solution/Medium/114.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | sorting, queue, tree, priority-queue |
+
+### queue
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 114 | [Complete Binary Tree Traversal with Array Input](https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1) | Medium | [114.cpp](GFG/Solution/Medium/114.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | sorting, queue, tree, priority-queue |
+
+### priority-queue
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 114 | [Complete Binary Tree Traversal with Array Input](https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1) | Medium | [114.cpp](GFG/Solution/Medium/114.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | sorting, queue, tree, priority-queue |
+
+### traversal
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 115 | [Construct a Full Binary Tree](https://www.geeksforgeeks.org/problems/construct-a-full-binary-tree--170648/0) | Medium | [115.cpp](GFG/Solution/Medium/115.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | traversal, tree |
+
 
 ## Hackerrank
 
@@ -822,6 +866,12 @@
 |----|---------|------------|-----------|--------|
 | 10 | [String Similarity](https://www.hackerrank.com/challenges/string-similarity/problem) | Hard | [10.cpp](HackerRank/Solution/Hard/10.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | string, trie |
 | 18 | [Two Two](https://www.hackerrank.com/challenges/two-two/problem) | Hard | [18.cpp](HackerRank/Solution/Hard/18.cpp) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' width='18' height='18' alt='C++'/> | trie |
+
+### sql
+| Id | Problem | Difficulty | Solutions | Topics |
+|----|---------|------------|-----------|--------|
+| 20 | [Interviews](https://www.hackerrank.com/challenges/interviews/problem) | Hard | [20.sql](HackerRank/Solution/Hard/20.sql) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg' width='18' height='18' alt='SQL'/> | sql |
+| 21 | [15 Days of Learning SQL](https://www.hackerrank.com/challenges/15-days-of-learning-sql/problem) | Hard | [21.sql](HackerRank/Solution/Hard/21.sql) <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg' width='18' height='18' alt='SQL'/> | sql |
 
 
 ## CodeForce
