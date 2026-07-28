@@ -1,0 +1,2741 @@
+{
+  "1": {
+    "name": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/description",
+    "topics": [
+      "array",
+      "hash table"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1.cs"
+    ]
+  },
+  "9": {
+    "name": "Palindrome Number",
+    "url": "https://leetcode.com/problems/palindrome-number/description",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/9.py"
+    ]
+  },
+  "14": {
+    "name": "Longest Common Prefix",
+    "url": "https://leetcode.com/problems/longest-common-prefix/description",
+    "topics": [
+      "array",
+      "string",
+      "trie"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/14.cs"
+    ]
+  },
+  "26": {
+    "name": "Remove Duplicates from Sorted Array",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/26.cs"
+    ]
+  },
+  "27": {
+    "name": "Remove Element",
+    "url": "https://leetcode.com/problems/remove-element/description",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/27.cs"
+    ]
+  },
+  "67": {
+    "name": "Add Binary",
+    "url": "https://leetcode.com/problems/add-binary/description",
+    "topics": [
+      "math",
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/67.cs"
+    ]
+  },
+  "69": {
+    "name": "Sqrt(x)",
+    "url": "https://leetcode.com/problems/sqrtx/description",
+    "topics": [
+      "math",
+      "binary search"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/69.cs"
+    ]
+  },
+  "110": {
+    "name": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/description",
+    "topics": [
+      "tree",
+      "binary tree",
+      "depth-first search"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/110.cs"
+    ]
+  },
+  "175": {
+    "name": "Combine Two Tables",
+    "url": "https://leetcode.com/problems/combine-two-tables/description",
+    "topics": [
+      "database"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/175.sql"
+    ]
+  },
+  "190": {
+    "name": "Reverse Bits",
+    "url": "https://leetcode.com/problems/reverse-bits/description",
+    "topics": [
+      "bit manipulation",
+      "divide and conquer"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/190.cs"
+    ]
+  },
+  "231": {
+    "name": "Power of Two",
+    "url": "https://leetcode.com/problems/power-of-two/description",
+    "topics": [
+      "math",
+      "bit manipulation",
+      "recursion"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/231.cs"
+    ]
+  },
+  "258": {
+    "name": "Add Digits",
+    "url": "https://leetcode.com/problems/add-digits/description",
+    "topics": [
+      "math",
+      "simulation",
+      "number theory"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/258.cs"
+    ]
+  },
+  "401": {
+    "name": "Binary Watch",
+    "url": "https://leetcode.com/problems/binary-watch/description",
+    "topics": [
+      "backtracking",
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/401.cs"
+    ]
+  },
+  "485": {
+    "name": "Max Consecutive Ones",
+    "url": "https://leetcode.com/problems/max-consecutive-ones/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/485.cs"
+    ]
+  },
+  "657": {
+    "name": "Robot Return to Origin",
+    "url": "https://leetcode.com/problems/robot-return-to-origin/description",
+    "topics": [
+      "string",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/657.cs"
+    ]
+  },
+  "693": {
+    "name": "Binary Number with Alternating Bits",
+    "url": "https://leetcode.com/problems/binary-number-with-alternating-bits/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/693.cs"
+    ]
+  },
+  "696": {
+    "name": "Count Binary Substrings",
+    "url": "https://leetcode.com/problems/count-binary-substrings/description",
+    "topics": [
+      "two pointers",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/696.cs"
+    ]
+  },
+  "744": {
+    "name": "Find Smallest Letter Greater Than Target",
+    "url": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/description",
+    "topics": [
+      "array",
+      "binary search"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/744.cs"
+    ]
+  },
+  "762": {
+    "name": "Prime Number of Set Bits in Binary Representation",
+    "url": "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description",
+    "topics": [
+      "math",
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/762.cs"
+    ]
+  },
+  "868": {
+    "name": "Binary Gap",
+    "url": "https://leetcode.com/problems/binary-gap/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/868.cs"
+    ]
+  },
+  "1009": {
+    "name": "Complement of Base 10 Integer",
+    "url": "https://leetcode.com/problems/complement-of-base-10-integer/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1009.cs"
+    ]
+  },
+  "1022": {
+    "name": "Sum of Root To Leaf Binary Numbers",
+    "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description",
+    "topics": [
+      "tree",
+      "depth-first search",
+      "binary tree"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1022.cs"
+    ]
+  },
+  "1200": {
+    "name": "Minimum Absolute Difference",
+    "url": "https://leetcode.com/problems/minimum-absolute-difference/description",
+    "topics": [
+      "array",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1200.cs"
+    ]
+  },
+  "1356": {
+    "name": "Sort Integers by The Number of 1 Bits",
+    "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description",
+    "topics": [
+      "array",
+      "bit manipulation",
+      "sorting",
+      "counting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1356.cs"
+    ]
+  },
+  "1470": {
+    "name": "Shuffle the Array",
+    "url": "https://leetcode.com/problems/shuffle-the-array/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1470.cs"
+    ]
+  },
+  "1502": {
+    "name": "Can Make Arithmetic Progression From Sequence",
+    "url": "https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description",
+    "topics": [
+      "array",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1502.cs"
+    ]
+  },
+  "1582": {
+    "name": "Special Positions in a Binary Matrix",
+    "url": "https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/",
+    "topics": [
+      "array",
+      "matrix"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1582.cs"
+    ]
+  },
+  "1758": {
+    "name": "Minimum Changes To Make Alternating Binary String",
+    "url": "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1758.cs"
+    ]
+  },
+  "1784": {
+    "name": "Check if Binary String Has at Most One Segment of Ones",
+    "url": "https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1784.cs"
+    ]
+  },
+  "1848": {
+    "name": "Minimum Distance to the Target Element",
+    "url": "https://leetcode.com/problems/minimum-distance-to-the-target-element/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1848.cs"
+    ]
+  },
+  "1886": {
+    "name": "Determine Whether Matrix Can Be Obtained By Rotation",
+    "url": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description",
+    "topics": [
+      "array",
+      "matrix"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1886.cs"
+    ]
+  },
+  "1929": {
+    "name": "Concatenation of Array",
+    "url": "https://leetcode.com/problems/concatenation-of-array/description",
+    "topics": [
+      "array",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1929.cs"
+    ]
+  },
+  "1984": {
+    "name": "Minimum Difference Between Highest and Lowest of K Scores",
+    "url": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description",
+    "topics": [
+      "array",
+      "sliding window",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1984.cs"
+    ]
+  },
+  "2485": {
+    "name": "Find the Pivot Integer",
+    "url": "https://leetcode.com/problems/find-the-pivot-integer/description",
+    "topics": [
+      "math",
+      "prefix sum"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2485.cs"
+    ]
+  },
+  "2515": {
+    "name": "Shortest Distance to Target String in a Circular Array",
+    "url": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description",
+    "topics": [
+      "array",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2515.cs"
+    ]
+  },
+  "2833": {
+    "name": "Furthest Point From Origin",
+    "url": "https://leetcode.com/problems/furthest-point-from-origin/description/",
+    "topics": [
+      "string",
+      "counting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2833.cs"
+    ]
+  },
+  "2839": {
+    "name": "Check if Strings Can be Made Equal With Operations I",
+    "url": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2839.cs"
+    ]
+  },
+  "2946": {
+    "name": "Matrix Similarity After Cyclic Shifts",
+    "url": "https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/",
+    "topics": [
+      "array",
+      "matrix",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2946.cs"
+    ]
+  },
+  "2078": {
+    "name": "Two Furthest Houses With Different Colors",
+    "url": "https://leetcode.com/problems/two-furthest-houses-with-different-colors/",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2078.cs"
+    ]
+  },
+  "3010": {
+    "name": "Divide an Array Into Subarrays With Minimum Cost 1",
+    "url": "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/",
+    "topics": [
+      "array",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3010.cs"
+    ]
+  },
+  "3379": {
+    "name": "Transformed Array",
+    "url": "https://leetcode.com/problems/transformed-array/description/",
+    "topics": [
+      "array",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3379.cs"
+    ]
+  },
+  "3637": {
+    "name": "Trionic Array 1",
+    "url": "https://leetcode.com/problems/trionic-array-i/description/",
+    "topics": [
+      "array",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3637.cs"
+    ]
+  },
+  "3643": {
+    "name": "Flip Square Submatrix Vertically",
+    "url": "https://leetcode.com/problems/flip-square-submatrix-vertically/description/",
+    "topics": [
+      "array",
+      "matrix",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3643.cs"
+    ]
+  },
+  "3740": {
+    "name": "Minimum Distance Between Three Equal Elements 1",
+    "url": "https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/",
+    "topics": [
+      "array",
+      "hash table"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3740.cs"
+    ]
+  },
+  "3783": {
+    "name": "Mirror Distance of an Integer",
+    "url": "https://leetcode.com/problems/mirror-distance-of-an-integer/description/",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3783.cs"
+    ]
+  },
+  "3827": {
+    "name": "Count Monobit Integers",
+    "url": "https://leetcode.com/problems/count-monobit-integers/description/",
+    "topics": [
+      "math",
+      "bit manipulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3827.cs"
+    ]
+  },
+  "3852": {
+    "name": "Smallest Pair With Different Frequencies",
+    "url": "https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/",
+    "topics": [
+      "array",
+      "hash table",
+      "counting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3852.cs"
+    ]
+  },
+  "3861": {
+    "name": "Minimum Capacity Box",
+    "url": "https://leetcode.com/problems/minimum-capacity-box/description/",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3861.cs"
+    ]
+  },
+  "3912": {
+    "name": "Valid Elements in an Array",
+    "url": "https://leetcode.com/problems/valid-elements-in-an-array/description/",
+    "topics": [
+      "array",
+      "hash table"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3912.cs"
+    ]
+  },
+  "788": {
+    "name": "Rotated Digits",
+    "url": "https://leetcode.com/problems/rotated-digits/description/",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/788.cs"
+    ]
+  },
+  "796": {
+    "name": "Rotate String",
+    "url": "https://leetcode.com/problems/rotate-string/description/",
+    "topics": [
+      "string",
+      "string matching"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/796.cs"
+    ]
+  },
+  "2553": {
+    "name": "Separate the Digits in an Array",
+    "url": "https://leetcode.com/problems/separate-the-digits-in-an-array/description/",
+    "topics": [
+      "array",
+      "math",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2553.cs"
+    ]
+  },
+  "2784": {
+    "name": "Check if Array is Good",
+    "url": "https://leetcode.com/problems/check-if-array-is-good/description/",
+    "topics": [
+      "array",
+      "hash table",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2784.cs"
+    ]
+  },
+  "2540": {
+    "name": "Minimum Common Value",
+    "url": "https://leetcode.com/problems/minimum-common-value/description/",
+    "topics": [
+      "array",
+      "hash table",
+      "two pointers",
+      "binary search"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2540.cs"
+    ]
+  },
+  "1752": {
+    "name": "Check if Array Is Sorted and Rotated",
+    "url": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1752.cs"
+    ]
+  },
+  "3120": {
+    "name": "Count the Number of Special Characters I",
+    "url": "https://leetcode.com/problems/count-the-number-of-special-characters-i/description/",
+    "topics": [
+      "hash table",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3120.cpp"
+    ]
+  },
+  "3300": {
+    "name": "Minimum Element After Replacement With Digit Sum",
+    "url": "https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/",
+    "topics": [
+      "array",
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3300.cpp"
+    ]
+  },
+  "2144": {
+    "name": "Minimum Cost of Buying Candies With Discount",
+    "url": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/",
+    "topics": [
+      "array",
+      "greedy",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2144.cpp"
+    ]
+  },
+  "3633": {
+    "name": "Earliest Finish Time for Land and Water Rides I",
+    "url": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3633.cs"
+    ]
+  },
+  "2574": {
+    "name": "Left and Right Sum Differences",
+    "url": "https://leetcode.com/problems/left-and-right-sum-differences/description/",
+    "topics": [
+      "array",
+      "prefix sum"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/2574.cs"
+    ]
+  },
+  "263": {
+    "name": "Ugly Number",
+    "url": "https://leetcode.com/problems/ugly-number/description/",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/263.cpp"
+    ]
+  },
+  "728": {
+    "name": "Self Dividing Numbers",
+    "url": "https://leetcode.com/problems/self-dividing-numbers/description/",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/728.cpp"
+    ]
+  },
+  "118": {
+    "name": "Pascal's Triangle",
+    "url": "https://leetcode.com/problems/pascals-triangle/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/118.cpp"
+    ]
+  },
+  "3838": {
+    "name": "Weighted Word Mapping",
+    "url": "https://leetcode.com/problems/weighted-word-mapping/description/",
+    "topics": [
+      "array",
+      "hash table",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3838.cpp"
+    ]
+  },
+  "595": {
+    "name": "Big Countries",
+    "url": "https://leetcode.com/problems/big-countries/description/",
+    "topics": [
+      "database"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/595.sql"
+    ]
+  },
+  "182": {
+    "name": "Duplicate Emails",
+    "url": "https://leetcode.com/problems/duplicate-emails/description",
+    "topics": [
+      "database"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/182.sql"
+    ]
+  },
+  "1344": {
+    "name": "Angle Between Hands of a Clock",
+    "url": "https://leetcode.com/problems/angle-between-hands-of-a-clock/description/",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1344.cpp"
+    ]
+  },
+  "1732": {
+    "name": "Find the Highest Altitude",
+    "url": "https://leetcode.com/problems/find-the-highest-altitude/description/",
+    "topics": [
+      "array",
+      "prefix sum"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1732.cpp"
+    ]
+  },
+  "1189": {
+    "name": "Maximum Number of Balloons",
+    "url": "https://leetcode.com/problems/maximum-number-of-balloons/description/",
+    "topics": [
+      "hash table",
+      "string",
+      "counting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1189.cpp"
+    ]
+  },
+  "1967": {
+    "name": "Number of Strings That Appear as Substrings in Word",
+    "url": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/",
+    "topics": [
+      "array",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1967.cpp"
+    ]
+  },
+  "3754": {
+    "name": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/",
+    "topics": [
+      "math",
+      "string"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3754.cpp"
+    ]
+  },
+  "1331": {
+    "name": "Rank Transform of an Array",
+    "url": "https://leetcode.com/problems/rank-transform-of-an-array/description/",
+    "topics": [
+      "array",
+      "hash table",
+      "sorting"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1331.cpp"
+    ]
+  },
+  "3658": {
+    "name": "GCD of Odd and Even Sums",
+    "url": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/",
+    "topics": [
+      "math",
+      "number theory"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3658.cpp"
+    ]
+  },
+  "1979": {
+    "name": "Find Greatest Common Divisor of Array",
+    "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/",
+    "topics": [
+      "array",
+      "math",
+      "number theory"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1979.cpp"
+    ]
+  },
+  "1260": {
+    "name": "Shift 2D Grid",
+    "url": "https://leetcode.com/problems/shift-2d-grid/description/",
+    "topics": [
+      "array",
+      "matrix",
+      "simulation"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/1260.cpp"
+    ]
+  },
+  "3536": {
+    "name": "Maximum Product of Two Digits",
+    "url": "https://leetcode.com/problems/maximum-product-of-two-digits/description/",
+    "topics": [
+      "array",
+      "math"
+    ],
+    "difficulty": "Easy",
+    "solutions": [
+      "LeetCode/Solution/Easy/3536.cpp"
+    ]
+  },
+  "2": {
+    "name": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2.cs"
+    ]
+  },
+  "11": {
+    "name": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/description",
+    "topics": [
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/11.cs"
+    ]
+  },
+  "15": {
+    "name": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/description",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/15.cs"
+    ]
+  },
+  "16": {
+    "name": "3Sum Closest",
+    "url": "https://leetcode.com/problems/3sum-closest/description",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/16.cs"
+    ]
+  },
+  "18": {
+    "name": "4Sum",
+    "url": "https://leetcode.com/problems/4sum/description",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/18.cs"
+    ]
+  },
+  "799": {
+    "name": "Champagne Tower",
+    "url": "https://leetcode.com/problems/champagne-tower/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/799.cs"
+    ]
+  },
+  "874": {
+    "name": "Walking Robot Simulation",
+    "url": "https://leetcode.com/problems/walking-robot-simulation/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/874.cs"
+    ]
+  },
+  "1382": {
+    "name": "Balance a Binary Search Tree",
+    "url": "https://leetcode.com/problems/balance-a-binary-search-tree/description",
+    "topics": [
+      "tree",
+      "depth-first search",
+      "binary search",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1382.cs"
+    ]
+  },
+  "1404": {
+    "name": "Number of Steps to Reduce a Number in Binary Representation to One",
+    "url": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1404.cs"
+    ]
+  },
+  "1415": {
+    "name": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "url": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description",
+    "topics": [
+      "string",
+      "graph",
+      "sorting"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1415.cs"
+    ]
+  },
+  "1461": {
+    "name": "Check If a String Contains All Binary Codes of Size K",
+    "url": "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description",
+    "topics": [
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1461.cs"
+    ]
+  },
+  "1536": {
+    "name": "Minimum Swaps to Arrange a Binary Grid",
+    "url": "https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1536.cs"
+    ]
+  },
+  "1545": {
+    "name": "Find Kth Bit in Nth Binary String",
+    "url": "https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description",
+    "topics": [
+      "string",
+      "sorting",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1545.cs"
+    ]
+  },
+  "1594": {
+    "name": "Maximum Non Negative Product in a Matrix",
+    "url": "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1594.cs"
+    ]
+  },
+  "1653": {
+    "name": "Minimum Deletions to Make String Balanced",
+    "url": "https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description",
+    "topics": [
+      "array",
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1653.cs"
+    ]
+  },
+  "1680": {
+    "name": "Concatenation of Consecutive Binary Numbers",
+    "url": "https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1680.cs"
+    ]
+  },
+  "1689": {
+    "name": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+    "url": "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description",
+    "topics": [
+      "array",
+      "dynamic programming",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1689.cs"
+    ]
+  },
+  "1727": {
+    "name": "Largest Submatrix With Rearrangements",
+    "url": "https://leetcode.com/problems/largest-submatrix-with-rearrangements/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1727.cs"
+    ]
+  },
+  "1878": {
+    "name": "Get Biggest Three Rhombus Sums in a Grid",
+    "url": "https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1878.cs"
+    ]
+  },
+  "1888": {
+    "name": "Minimum Number of Flips to Make the Binary String Alternating",
+    "url": "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description",
+    "topics": [
+      "array",
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1888.cs"
+    ]
+  },
+  "1980": {
+    "name": "Find Unique Binary String",
+    "url": "https://leetcode.com/problems/find-unique-binary-string/description",
+    "topics": [
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1980.cs"
+    ]
+  },
+  "2069": {
+    "name": "Walking Robot Simulation II",
+    "url": "https://leetcode.com/problems/walking-robot-simulation-ii/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2069.cs"
+    ]
+  },
+  "2075": {
+    "name": "Decode the Slanted Ciphertext",
+    "url": "https://leetcode.com/problems/decode-the-slanted-ciphertext/description",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2075.cs"
+    ]
+  },
+  "2396": {
+    "name": "Strictly Palindromic Number",
+    "url": "https://leetcode.com/problems/strictly-palindromic-number/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2396.cs"
+    ]
+  },
+  "2840": {
+    "name": "Check if Strings Can be Made Equal With Operations II",
+    "url": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2840.cs"
+    ]
+  },
+  "2906": {
+    "name": "Construct Product Matrix",
+    "url": "https://leetcode.com/problems/construct-product-matrix/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2906.cs"
+    ]
+  },
+  "2976": {
+    "name": "Minimum Cost to Convert String I",
+    "url": "https://leetcode.com/problems/minimum-cost-to-convert-string-i/description",
+    "topics": [
+      "array",
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2976.cs"
+    ]
+  },
+  "3070": {
+    "name": "Count Submatrices with Top-Left Element and Sum Less Than k",
+    "url": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3070.cs"
+    ]
+  },
+  "3129": {
+    "name": "Find All Possible Stable Binary Arrays I",
+    "url": "https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/description",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3129.cs"
+    ]
+  },
+  "3212": {
+    "name": "Count Submatrices With Equal Frequency of X and Y",
+    "url": "https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3212.cs"
+    ]
+  },
+  "3296": {
+    "name": "Minimum Number of Seconds to Make Mountain Height Zero",
+    "url": "https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3296.cs"
+    ]
+  },
+  "3418": {
+    "name": "Maximum Amount of Money Robot Can Earn",
+    "url": "https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3418.cs"
+    ]
+  },
+  "3488": {
+    "name": "Closest Equal Element Queries",
+    "url": "https://leetcode.com/problems/closest-equal-element-queries/description",
+    "topics": [
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3488.cs"
+    ]
+  },
+  "3531": {
+    "name": "Count Covered Buildings",
+    "url": "https://leetcode.com/problems/count-covered-buildings/description",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3531.py"
+    ]
+  },
+  "3546": {
+    "name": "Equal Sum Grid Partition I",
+    "url": "https://leetcode.com/problems/equal-sum-grid-partition-i/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3546.cs"
+    ]
+  },
+  "3567": {
+    "name": "Minimum Absolute Difference in Sliding Submatrix",
+    "url": "https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3567.cs"
+    ]
+  },
+  "3634": {
+    "name": "Minimum Removals to Balance Array",
+    "url": "https://leetcode.com/problems/minimum-removals-to-balance-array/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3634.cs"
+    ]
+  },
+  "3650": {
+    "name": "Minimum Cost Path with Edge Reversals",
+    "url": "https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/description",
+    "topics": [
+      "array",
+      "graph",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3650.cs"
+    ]
+  },
+  "3653": {
+    "name": "XOR After Range Multiplication Queries I",
+    "url": "https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3653.cs"
+    ]
+  },
+  "3713": {
+    "name": "Longest Balanced Substring I",
+    "url": "https://leetcode.com/problems/longest-balanced-substring-i/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3713.cs"
+    ]
+  },
+  "3714": {
+    "name": "Longest Balanced Substring II",
+    "url": "https://leetcode.com/problems/longest-balanced-substring-ii/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3714.cs"
+    ]
+  },
+  "3719": {
+    "name": "Longest Balanced Subarray I",
+    "url": "https://leetcode.com/problems/longest-balanced-subarray-i/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3719.cs"
+    ]
+  },
+  "3741": {
+    "name": "Minimum Distance Between Three Equal Elements II",
+    "url": "https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3741.cs"
+    ]
+  },
+  "3761": {
+    "name": "Minimum Absolute Distance Between Mirror Pairs",
+    "url": "https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3761.cs"
+    ]
+  },
+  "3828": {
+    "name": "Final Element After Subarray Deletions",
+    "url": "https://leetcode.com/problems/final-element-after-subarray-deletions/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3828.cs"
+    ]
+  },
+  "3829": {
+    "name": "Design Ride Sharing System",
+    "url": "https://leetcode.com/problems/design-ride-sharing-system/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3829.cs"
+    ]
+  },
+  "3853": {
+    "name": "Merge Close Characters",
+    "url": "https://leetcode.com/problems/merge-close-characters/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3853.cs"
+    ]
+  },
+  "3854": {
+    "name": "Minimum Operations to Make Array Parity Alternating",
+    "url": "https://leetcode.com/problems/minimum-operations-to-make-array-parity-alternating/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3854.cs"
+    ]
+  },
+  "3862": {
+    "name": "Find the Smallest Balanced Index",
+    "url": "https://leetcode.com/problems/find-the-smallest-balanced-index/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3862.cs"
+    ]
+  },
+  "3863": {
+    "name": "Minimum Operations to Sort a String",
+    "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/description",
+    "topics": [
+      "array",
+      "string",
+      "sorting"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3863.cs"
+    ]
+  },
+  "1391": {
+    "name": "Check if There is a Valid Path in a Grid",
+    "url": "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1391.cs"
+    ]
+  },
+  "1722": {
+    "name": "Minimize Hamming Distance After Swap Operations",
+    "url": "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1722.cs"
+    ]
+  },
+  "1855": {
+    "name": "Maximum Distance Between a Pair of Values",
+    "url": "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1855.cs"
+    ]
+  },
+  "2033": {
+    "name": "Minimum Operations to Make a Uni-Value Grid",
+    "url": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2033.cs"
+    ]
+  },
+  "2452": {
+    "name": "Words Within Two Edits of Dictionary",
+    "url": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2452.cs"
+    ]
+  },
+  "2615": {
+    "name": "Sum of Distances",
+    "url": "https://leetcode.com/problems/sum-of-distances/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2615.cs"
+    ]
+  },
+  "3742": {
+    "name": "Maximum Path Score in a Grid",
+    "url": "https://leetcode.com/problems/maximum-path-score-in-a-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3742.cs"
+    ]
+  },
+  "3913": {
+    "name": "Sort Vowels by Frequency",
+    "url": "https://leetcode.com/problems/sort-vowels-by-frequency/description/",
+    "topics": [
+      "sorting"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3913.cs"
+    ]
+  },
+  "3914": {
+    "name": "Minimum Operations to Make Array Non Decreasing",
+    "url": "https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3914.cs"
+    ]
+  },
+  "396": {
+    "name": "Rotate Function",
+    "url": "https://leetcode.com/problems/rotate-function/description/",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/396.cs"
+    ]
+  },
+  "48": {
+    "name": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/description/",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/48.cs"
+    ]
+  },
+  "1861": {
+    "name": "Rotating the Box",
+    "url": "https://leetcode.com/problems/rotating-the-box/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1861.cs"
+    ]
+  },
+  "3660": {
+    "name": "Jump Game IX",
+    "url": "https://leetcode.com/problems/jump-game-ix/description/",
+    "topics": [
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3660.cs"
+    ]
+  },
+  "1914": {
+    "name": "Cyclically Rotating a Grid",
+    "url": "https://leetcode.com/problems/cyclically-rotating-a-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1914.cs"
+    ]
+  },
+  "2770": {
+    "name": "Maximum Number of Jumps to Reach the Last Index",
+    "url": "https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/",
+    "topics": [
+      "array",
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2770.cs"
+    ]
+  },
+  "1674": {
+    "name": "Minimum Moves to Make Array Complementary",
+    "url": "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1674.cs"
+    ]
+  },
+  "153": {
+    "name": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/",
+    "topics": [
+      "array",
+      "binary search",
+      "sorting"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/153.cs"
+    ]
+  },
+  "1306": {
+    "name": "Jump Game III",
+    "url": "https://leetcode.com/problems/jump-game-iii/description/",
+    "topics": [
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1306.cs"
+    ]
+  },
+  "2657": {
+    "name": "Find the Prefix Common Array of Two Arrays",
+    "url": "https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/",
+    "topics": [
+      "array",
+      "string",
+      "trie"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2657.cs"
+    ]
+  },
+  "33": {
+    "name": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+    "topics": [
+      "array",
+      "binary search",
+      "sorting"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/33.cs"
+    ]
+  },
+  "3043": {
+    "name": "Find the Length of the Longest Common Prefix",
+    "url": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/",
+    "topics": [
+      "string",
+      "trie"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3043.cs"
+    ]
+  },
+  "1871": {
+    "name": "Jump Game VII",
+    "url": "https://leetcode.com/problems/jump-game-vii/description/",
+    "topics": [
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1871.cs"
+    ]
+  },
+  "3121": {
+    "name": "Count the Number of Special Characters II",
+    "url": "https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/",
+    "topics": [
+      "array",
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3121.cs"
+    ]
+  },
+  "2126": {
+    "name": "Destroying Asteroids",
+    "url": "https://leetcode.com/problems/destroying-asteroids/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2126.cs"
+    ]
+  },
+  "3635": {
+    "name": "Earliest Finish Time for Land and Water Rides II",
+    "url": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3635.cs"
+    ]
+  },
+  "3751": {
+    "name": "Total Waviness of Numbers in Range I",
+    "url": "https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3751.cs"
+    ]
+  },
+  "2196": {
+    "name": "Create Binary Tree From Descriptions",
+    "url": "https://leetcode.com/problems/create-binary-tree-from-descriptions/description",
+    "topics": [
+      "tree",
+      "depth-first search",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2196.cs"
+    ]
+  },
+  "3629": {
+    "name": "Minimum Jumps to Reach End via Prime Teleportation",
+    "url": "https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/",
+    "topics": [
+      "array",
+      "dynamic programming",
+      "breadth-first search",
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3629.cs"
+    ]
+  },
+  "61": {
+    "name": "Rotate List",
+    "url": "https://leetcode.com/problems/rotate-list/description/",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/61.cs"
+    ]
+  },
+  "3918": {
+    "name": "Sum of Primes Between Number and Its Reverse",
+    "url": "https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/",
+    "topics": [
+      "array",
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3918.cs"
+    ]
+  },
+  "3919": {
+    "name": "Minimum Cost to Move Between Indices",
+    "url": "https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3919.cs"
+    ]
+  },
+  "3689": {
+    "name": "Maximum Total Subarray Value I",
+    "url": "https://leetcode.com/problems/maximum-total-subarray-value-i/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3689.cpp"
+    ]
+  },
+  "2161": {
+    "name": "Partition Array According to Given Pivot",
+    "url": "https://leetcode.com/problems/partition-array-according-to-given-pivot/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2161.cpp"
+    ]
+  },
+  "2523": {
+    "name": "Closest Prime Numbers in Range",
+    "url": "https://leetcode.com/problems/closest-prime-numbers-in-range/description/",
+    "topics": [
+      "two pointers",
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2523.cpp"
+    ]
+  },
+  "172": {
+    "name": "Factorial Trailing Zeroes",
+    "url": "https://leetcode.com/problems/factorial-trailing-zeroes/description/",
+    "topics": [
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/172.cpp"
+    ]
+  },
+  "204": {
+    "name": "Count Primes",
+    "url": "https://leetcode.com/problems/count-primes/description/",
+    "topics": [
+      "dynamic programming",
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/204.cpp"
+    ]
+  },
+  "3558": {
+    "name": "Number of Ways to Assign Edge Weights I",
+    "url": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3558.cpp"
+    ]
+  },
+  "1015": {
+    "name": "Smallest Integer Divisible by K",
+    "url": "https://leetcode.com/problems/smallest-integer-divisible-by-k/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1015.cpp"
+    ]
+  },
+  "2130": {
+    "name": "Maximum Twin Sum of a Linked List",
+    "url": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/",
+    "topics": [
+      "array",
+      "linked list"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2130.cpp"
+    ]
+  },
+  "2095": {
+    "name": "Delete the Middle Node of a Linked List",
+    "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/",
+    "topics": [
+      "linked list"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2095.cpp"
+    ]
+  },
+  "3612": {
+    "name": "Process String with Special Operations I",
+    "url": "https://leetcode.com/problems/process-string-with-special-operations-i/description/",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3612.cpp"
+    ]
+  },
+  "1833": {
+    "name": "Maximum Ice Cream Bars",
+    "url": "https://leetcode.com/problems/maximum-ice-cream-bars/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1833.cpp"
+    ]
+  },
+  "3737": {
+    "name": "Count Subarrays With Majority Element I",
+    "url": "https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3737.cpp"
+    ]
+  },
+  "3020": {
+    "name": "Find the Maximum Number of Elements in Subset",
+    "url": "https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3020.cpp"
+    ]
+  },
+  "1846": {
+    "name": "Maximum Element After Decreasing and Rearranging",
+    "url": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1846.cpp"
+    ]
+  },
+  "1358": {
+    "name": "Number of Substrings Containing All Three Characters",
+    "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/",
+    "topics": [
+      "array",
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1358.cpp"
+    ]
+  },
+  "2812": {
+    "name": "Find the Safest Path in a Grid",
+    "url": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2812.cpp"
+    ]
+  },
+  "3286": {
+    "name": "Find a Safe Walk Through a Grid",
+    "url": "https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3286.cpp"
+    ]
+  },
+  "2492": {
+    "name": "Minimum Score of a Path Between Two Cities",
+    "url": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/",
+    "topics": [
+      "array",
+      "graph"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2492.cpp"
+    ]
+  },
+  "1288": {
+    "name": "Remove Covered Intervals",
+    "url": "https://leetcode.com/problems/remove-covered-intervals/description/",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1288.cpp"
+    ]
+  },
+  "3756": {
+    "name": "Concatenate Non-Zero Digits and Multiply by Sum II",
+    "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3756.cpp"
+    ]
+  },
+  "3532": {
+    "name": "Path Existence Queries in a Graph I",
+    "url": "https://leetcode.com/problems/path-existence-queries-in-a-graph-i/description/",
+    "topics": [
+      "graph"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3532.cpp"
+    ]
+  },
+  "2685": {
+    "name": "Count the Number of Complete Components",
+    "url": "https://leetcode.com/problems/count-the-number-of-complete-components/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/2685.cpp"
+    ]
+  },
+  "1291": {
+    "name": "Sequential Digits",
+    "url": "https://leetcode.com/problems/sequential-digits/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1291.cpp"
+    ]
+  },
+  "3867": {
+    "name": "Sum of GCD of Formed Pairs",
+    "url": "https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/",
+    "topics": [
+      "array",
+      "math"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3867.cpp"
+    ]
+  },
+  "1081": {
+    "name": "Smallest Subsequence of Distinct Characters",
+    "url": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/",
+    "topics": [
+      "array",
+      "string"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/1081.cpp"
+    ]
+  },
+  "3499": {
+    "name": "Maximize Active Section with Trade I",
+    "url": "https://leetcode.com/problems/maximize-active-section-with-trade-i/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3499.cpp"
+    ]
+  },
+  "3513": {
+    "name": "Number of Unique XOR Triplets I",
+    "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3513.cpp"
+    ]
+  },
+  "3514": {
+    "name": "Number of Unique XOR Triplets II",
+    "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/description/",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "LeetCode/Solution/Medium/3514.cpp"
+    ]
+  },
+  "4": {
+    "name": "Median of Two Sorted Arrays",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/description",
+    "topics": [
+      "array",
+      "sorting"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/4.cs"
+    ]
+  },
+  "761": {
+    "name": "Special Binary String",
+    "url": "https://leetcode.com/problems/special-binary-string/description",
+    "topics": [
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/761.cs"
+    ]
+  },
+  "1320": {
+    "name": "Minimum Distance to Type a Word Using Two Fingers",
+    "url": "https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description",
+    "topics": [
+      "array",
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1320.cs"
+    ]
+  },
+  "1622": {
+    "name": "Fancy Sequence",
+    "url": "https://leetcode.com/problems/fancy-sequence/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1622.cs"
+    ]
+  },
+  "2463": {
+    "name": "Minimum Total Distance Traveled",
+    "url": "https://leetcode.com/problems/minimum-total-distance-traveled/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/2463.cs"
+    ]
+  },
+  "2573": {
+    "name": "Find the String with LCP",
+    "url": "https://leetcode.com/problems/find-the-string-with-lcp/description",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/2573.cs"
+    ]
+  },
+  "2751": {
+    "name": "Robot Collisions",
+    "url": "https://leetcode.com/problems/robot-collisions/description",
+    "topics": [
+      "stack"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/2751.cs"
+    ]
+  },
+  "2977": {
+    "name": "Minimum Cost to Convert String II",
+    "url": "https://leetcode.com/problems/minimum-cost-to-convert-string-ii/description",
+    "topics": [
+      "array",
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/2977.cs"
+    ]
+  },
+  "3013": {
+    "name": "Divide an Array Into Subarrays With Minimum Cost II",
+    "url": "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3013.cs"
+    ]
+  },
+  "3130": {
+    "name": "Find All Possible Stable Binary Arrays II",
+    "url": "https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/description",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3130.cs"
+    ]
+  },
+  "3225": {
+    "name": "Maximum Score From Grid Operations",
+    "url": "https://leetcode.com/problems/maximum-score-from-grid-operations/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3225.cs"
+    ]
+  },
+  "3464": {
+    "name": "Maximize the Distance Between Points on a Square",
+    "url": "https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3464.cs"
+    ]
+  },
+  "3474": {
+    "name": "Lexicographically Smallest Generated String",
+    "url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/description",
+    "topics": [
+      "string",
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3474.cs"
+    ]
+  },
+  "3548": {
+    "name": "Equal Sum Grid Partition II",
+    "url": "https://leetcode.com/problems/equal-sum-grid-partition-ii/description",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3548.cs"
+    ]
+  },
+  "3600": {
+    "name": "Maximize Spanning Tree Stability with Upgrades",
+    "url": "https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description",
+    "topics": [
+      "tree",
+      "depth-first search"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3600.cs"
+    ]
+  },
+  "3640": {
+    "name": "Trionic Array II",
+    "url": "https://leetcode.com/problems/trionic-array-ii/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3640.cs"
+    ]
+  },
+  "3651": {
+    "name": "Minimum Cost Path with Teleportations",
+    "url": "https://leetcode.com/problems/minimum-cost-path-with-teleportations/description",
+    "topics": [
+      "array",
+      "graph",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3651.cs"
+    ]
+  },
+  "3655": {
+    "name": "XOR After Range Multiplication Queries II",
+    "url": "https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3655.cs"
+    ]
+  },
+  "3661": {
+    "name": "Maximum Walls Destroyed by Robots",
+    "url": "https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3661.cs"
+    ]
+  },
+  "3666": {
+    "name": "Minimum Operations to Equalize Binary String",
+    "url": "https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/description",
+    "topics": [
+      "array",
+      "string",
+      "bit manipulation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3666.cs"
+    ]
+  },
+  "3721": {
+    "name": "Longest Balanced Subarray II",
+    "url": "https://leetcode.com/problems/longest-balanced-subarray-ii/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3721.cs"
+    ]
+  },
+  "3830": {
+    "name": "Longest Alternating Subarray After Removing At Most One Element",
+    "url": "https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3830.cs"
+    ]
+  },
+  "3855": {
+    "name": "Sum of K-Digit Numbers in a Range",
+    "url": "https://leetcode.com/problems/sum-of-k-digit-numbers-in-a-range/description",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3855.cs"
+    ]
+  },
+  "3864": {
+    "name": "Minimum Cost to Partition a Binary String",
+    "url": "https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description",
+    "topics": [
+      "array",
+      "string",
+      "dynamic programming",
+      "bit manipulation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3864.cs"
+    ]
+  },
+  "3915": {
+    "name": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+    "url": "https://leetcode.com/problems/maximum-sum-of-alternating-subsequence-with-distance-at-least-k/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3915.cs"
+    ]
+  },
+  "1665": {
+    "name": "Minimum Initial Energy to Finish Tasks",
+    "url": "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1665.cs"
+    ]
+  },
+  "154": {
+    "name": "Find Minimum in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/",
+    "topics": [
+      "array",
+      "binary search",
+      "sorting"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/154.cs"
+    ]
+  },
+  "1345": {
+    "name": "Jump Game IV",
+    "url": "https://leetcode.com/problems/jump-game-iv/description/",
+    "topics": [
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1345.cs"
+    ]
+  },
+  "1340": {
+    "name": "Jump Game V",
+    "url": "https://leetcode.com/problems/jump-game-v/description/",
+    "topics": [
+      "dynamic programming",
+      "breadth-first search"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1340.cs"
+    ]
+  },
+  "3093": {
+    "name": "Longest Common Suffix Queries",
+    "url": "https://leetcode.com/problems/longest-common-suffix-queries/description/",
+    "topics": [
+      "string",
+      "trie"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3093.cs"
+    ]
+  },
+  "3161": {
+    "name": "Block Placement Queries",
+    "url": "https://leetcode.com/problems/block-placement-queries/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3161.cpp"
+    ]
+  },
+  "3753": {
+    "name": "Total Waviness of Numbers in Range II",
+    "url": "https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3753.cpp"
+    ]
+  },
+  "3920": {
+    "name": "Maximize Fixed Points After Deletions",
+    "url": "https://leetcode.com/problems/maximize-fixed-points-after-deletions/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3920.cpp"
+    ]
+  },
+  "3691": {
+    "name": "Maximum Total Subarray Value II",
+    "url": "https://leetcode.com/problems/maximum-total-subarray-value-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3691.cpp"
+    ]
+  },
+  "60": {
+    "name": "Premutation Sequence",
+    "url": "https://leetcode.com/problems/permutation-sequence/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/60.cpp"
+    ]
+  },
+  "1866": {
+    "name": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+    "url": "https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": []
+  },
+  "3559": {
+    "name": "Number of Ways to Assgin Edge Weight II",
+    "url": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3559.cs"
+    ]
+  },
+  "3614": {
+    "name": "Process String with Special Operations II",
+    "url": "https://leetcode.com/problems/process-string-with-special-operations-ii/description/",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3614.cpp"
+    ]
+  },
+  "1840": {
+    "name": "Maximum Building Height",
+    "url": "https://leetcode.com/problems/maximum-building-height/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1840.cpp"
+    ]
+  },
+  "3699": {
+    "name": "Number of ZigZag Arrays I",
+    "url": "https://leetcode.com/problems/number-of-zigzag-arrays-i/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3699.cpp"
+    ]
+  },
+  "3700": {
+    "name": "Number of ZigZag Arrays II",
+    "url": "https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3700.cpp"
+    ]
+  },
+  "3739": {
+    "name": "Count Subarrays With Majority Element II",
+    "url": "https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3739.cpp"
+    ]
+  },
+  "1301": {
+    "name": "Number of Paths with Max Score",
+    "url": "https://leetcode.com/problems/number-of-paths-with-max-score/description/",
+    "topics": [
+      "array",
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/1301.cpp"
+    ]
+  },
+  "3620": {
+    "name": "Network Recovery Pathways",
+    "url": "https://leetcode.com/problems/network-recovery-pathways/description/",
+    "topics": [
+      "graph",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3620.cpp"
+    ]
+  },
+  "3534": {
+    "name": "Path Existence Queries in a Graph II",
+    "url": "https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/",
+    "topics": [
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3534.cpp"
+    ]
+  },
+  "3336": {
+    "name": "Find the Number of Subsequences With Equal GCD",
+    "url": "https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/description/",
+    "topics": [
+      "array",
+      "math"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3336.cpp"
+    ]
+  },
+  "3312": {
+    "name": "Sorted GCD Pair Queries",
+    "url": "https://leetcode.com/problems/sorted-gcd-pair-queries/description/",
+    "topics": [
+      "sorting",
+      "math"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3312.cpp"
+    ]
+  },
+  "3501": {
+    "name": "Maximize Active Section with Trade II",
+    "url": "https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "LeetCode/Solution/Hard/3501.cpp"
+    ]
+  }
+}

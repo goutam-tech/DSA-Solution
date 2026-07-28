@@ -1,0 +1,1284 @@
+{
+  "1": {
+    "name": "Alien Dictionary",
+    "url": "https://www.geeksforgeeks.org/problems/alien-dictionary/0",
+    "topics": [
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/1.cs"
+    ]
+  },
+  "2": {
+    "name": "Trapping Rain Water",
+    "url": "https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/2.cs"
+    ]
+  },
+  "3": {
+    "name": "Max Cirular Subarray Sum",
+    "url": "https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/3.cs"
+    ]
+  },
+  "4": {
+    "name": "Smallest window containing all characters",
+    "url": "https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/0",
+    "topics": [
+      "string",
+      "array",
+      "sliding window"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/4.cs"
+    ]
+  },
+  "5": {
+    "name": "Histogram Max Rectangular Area",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/5.cs"
+    ]
+  },
+  "6": {
+    "name": "Buring Tree",
+    "url": "https://www.geeksforgeeks.org/problems/burning-tree/0",
+    "topics": [
+      "tree"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/6.cs"
+    ]
+  },
+  "7": {
+    "name": "The Painter's Partition Problem - II",
+    "url": "https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/7.cs"
+    ]
+  },
+  "8": {
+    "name": "All numbers with specific differece",
+    "url": "https://www.geeksforgeeks.org/problems/all-numbers-with-specific-difference3558/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/8.cs"
+    ]
+  },
+  "9": {
+    "name": "Distribute Candies",
+    "url": "https://www.geeksforgeeks.org/problems/distribute-candies-in-a-binary-tree/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/9.cs"
+    ]
+  },
+  "10": {
+    "name": "Maximum number of overlapping intervals",
+    "url": "https://www.geeksforgeeks.org/problems/intersecting-intervals/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/10.cs"
+    ]
+  },
+  "11": {
+    "name": "Max min Height",
+    "url": "https://www.geeksforgeeks.org/problems/max-min-height--170647/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/11.cs"
+    ]
+  },
+  "12": {
+    "name": "Minimum K Consecutive Bit Flips",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-number-of-k-consecutive-bit-flips--171650/0",
+    "topics": [
+      "bit manipulation",
+      "greedy"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/12.cs"
+    ]
+  },
+  "13": {
+    "name": "Number of submatrix have sum X",
+    "url": "https://www.geeksforgeeks.org/problems/number-of-submatrix-have-sum-k/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/13.cs"
+    ]
+  },
+  "14": {
+    "name": "Implment k Queues in a Single Array",
+    "url": "https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/0",
+    "topics": [
+      "array",
+      "heap"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/14.cs"
+    ]
+  },
+  "15": {
+    "name": "Number of BST From Array",
+    "url": "https://www.geeksforgeeks.org/problems/number-of-bst-from-array/0",
+    "topics": [
+      "array",
+      "tree"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/15.cs"
+    ]
+  },
+  "16": {
+    "name": "Length of Longest Cycle in a Graph",
+    "url": "https://www.geeksforgeeks.org/problems/length-of-longest-cycle-in-a-graph/0",
+    "topics": [
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/16.cs"
+    ]
+  },
+  "17": {
+    "name": "Chocolates Pickup",
+    "url": "https://www.geeksforgeeks.org/problems/chocolates-pickup/1",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/17.cs"
+    ]
+  },
+  "18": {
+    "name": "Articulation Point - II",
+    "url": "https://www.geeksforgeeks.org/problems/articulation-point2616/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/18.cs"
+    ]
+  },
+  "19": {
+    "name": "LRU Cache",
+    "url": "https://www.geeksforgeeks.org/problems/lru-cache/0",
+    "topics": [
+      "linked list",
+      "design"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/19.cs"
+    ]
+  },
+  "20": {
+    "name": "Solve the Sudoku",
+    "url": "https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/0",
+    "topics": [
+      "backtracking"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/20.cs"
+    ]
+  },
+  "21": {
+    "name": "Huffman Encoding",
+    "url": "https://www.geeksforgeeks.org/problems/huffman-encoding3345/0",
+    "topics": [
+      "heap"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/21.cs"
+    ]
+  },
+  "22": {
+    "name": "Next Smallest Palindrome",
+    "url": "https://www.geeksforgeeks.org/problems/next-smallest-palindrome4740/0",
+    "topics": [
+      "string",
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/22.cs"
+    ]
+  },
+  "23": {
+    "name": "Remove Invalid Parentheses",
+    "url": "https://www.geeksforgeeks.org/problems/remove-invalid-parentheses/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/23.cpp"
+    ]
+  },
+  "24": {
+    "name": "Count Spanning Trees in a Graph",
+    "url": "https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/0",
+    "topics": [
+      "tree",
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/24.cpp"
+    ]
+  },
+  "25": {
+    "name": "Palindrome Pairs",
+    "url": "https://www.geeksforgeeks.org/problems/palindrome-pairs/0",
+    "topics": [
+      "string",
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/25.cs"
+    ]
+  },
+  "26": {
+    "name": "Search for Subarray",
+    "url": "https://www.geeksforgeeks.org/problems/search-for-subarray/0",
+    "topics": [
+      "array",
+      "binary search"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/26.cs"
+    ]
+  },
+  "27": {
+    "name": "Minimum Insert and Delete to Convert",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/27.cpp"
+    ]
+  },
+  "28": {
+    "name": "Substrings with more 1's than 0's",
+    "url": "https://www.geeksforgeeks.org/problems/count-the-substring--170645/0",
+    "topics": [
+      "string",
+      "tree"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/28.cpp"
+    ]
+  },
+  "30": {
+    "name": "Cut Matrix",
+    "url": "https://www.geeksforgeeks.org/problems/cut-matrix/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/30.cpp"
+    ]
+  },
+  "31": {
+    "name": "Shortest Unique Prefix for Every Word",
+    "url": "https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/0",
+    "topics": [
+      "trie"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/31.cpp"
+    ]
+  },
+  "32": {
+    "name": "Predecessor and Successor",
+    "url": "https://www.geeksforgeeks.org/problems/predecessor-and-successor/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/32.cs"
+    ]
+  },
+  "33": {
+    "name": "Largest BST",
+    "url": "https://www.geeksforgeeks.org/problems/largest-bst/0",
+    "topics": [
+      "array",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/33.cs"
+    ]
+  },
+  "34": {
+    "name": "K Sum Paths",
+    "url": "https://www.geeksforgeeks.org/problems/k-sum-paths/0",
+    "topics": [
+      "array",
+      "graph"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/34.cs"
+    ]
+  },
+  "35": {
+    "name": "Vertical Tree Traversal",
+    "url": "https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0",
+    "topics": [
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/35.cs"
+    ]
+  },
+  "36": {
+    "name": "Top View of Binary Tree",
+    "url": "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/0",
+    "topics": [
+      "tree",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/36.cs"
+    ]
+  },
+  "37": {
+    "name": "Generate IP Addresses",
+    "url": "https://www.geeksforgeeks.org/problems/generate-ip-addresses/0",
+    "topics": [
+      "backtracking"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/37.cs"
+    ]
+  },
+  "38": {
+    "name": "Sum of subarray minimums",
+    "url": "https://www.geeksforgeeks.org/problems/sum-of-subarray-minimum/0",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/38.cs"
+    ]
+  },
+  "39": {
+    "name": "Subarrays with First Element Minimum",
+    "url": "https://www.geeksforgeeks.org/problems/subarrays-with-first-element-minimum/0",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/39.cs"
+    ]
+  },
+  "40": {
+    "name": "Pythagorean Triplet",
+    "url": "https://www.geeksforgeeks.org/problems/pythagorean-triplet3018/0",
+    "topics": [
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/40.cs"
+    ]
+  },
+  "41": {
+    "name": "Dice throw",
+    "url": "https://www.geeksforgeeks.org/problems/dice-throw5349/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/41.py"
+    ]
+  },
+  "42": {
+    "name": "Longest Substring with K Uniques",
+    "url": "https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/0",
+    "topics": [
+      "string",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/42.cs"
+    ]
+  },
+  "43": {
+    "name": "Max Xor Subarray of size K",
+    "url": "https://www.geeksforgeeks.org/problems/max-xor-subarray-of-size-k/0",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/43.cs"
+    ]
+  },
+  "44": {
+    "name": "Longest subarray with Atmost two distinct integres",
+    "url": "https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/44.cs"
+    ]
+  },
+  "45": {
+    "name": "Longest Subarray with Majority Greater than K",
+    "url": "https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/45.cs"
+    ]
+  },
+  "46": {
+    "name": "Longest Span in two Binary Arrays",
+    "url": "https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/0",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/46.cs"
+    ]
+  },
+  "47": {
+    "name": "Kth Smallest",
+    "url": "https://www.geeksforgeeks.org/problems/kth-smallest-element5635/0",
+    "topics": [
+      "array",
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/47.cs"
+    ]
+  },
+  "48": {
+    "name": "Sort 0s, 1s and 2s",
+    "url": "https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/48.cs"
+    ]
+  },
+  "49": {
+    "name": "Kadane's Algorithm",
+    "url": "https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/49.cs"
+    ]
+  },
+  "50": {
+    "name": "Count Subarrays with given XOR",
+    "url": "https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/0",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/50.cs"
+    ]
+  },
+  "29": {
+    "name": "Rearrange the Array",
+    "url": "https://www.geeksforgeeks.org/problems/rearrange-the-array-1639032648/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "GFG/Solution/Hard/29.cpp"
+    ]
+  },
+  "51": {
+    "name": "Find H-Index",
+    "url": "https://www.geeksforgeeks.org/problems/find-h-index--165609/0",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/51.cs"
+    ]
+  },
+  "52": {
+    "name": "Form the Largest Number",
+    "url": "https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/52.cs"
+    ]
+  },
+  "53": {
+    "name": "Missing Element in Range",
+    "url": "https://www.geeksforgeeks.org/problems/missing-element-in-range/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/53.cs"
+    ]
+  },
+  "54": {
+    "name": "Count Inversions",
+    "url": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/54.cs"
+    ]
+  },
+  "55": {
+    "name": "Equalize the Towers",
+    "url": "https://www.geeksforgeeks.org/problems/equalize-the-towers2804/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/55.cs"
+    ]
+  },
+  "56": {
+    "name": "Koko Eating Bananas",
+    "url": "https://www.geeksforgeeks.org/problems/koko-eating-bananas/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/56.cs"
+    ]
+  },
+  "57": {
+    "name": "Maximum Product Subarray",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/0",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/57.cs"
+    ]
+  },
+  "58": {
+    "name": "Max sum in the configuration",
+    "url": "https://www.geeksforgeeks.org/problems/max-sum-in-the-configuration/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/58.cs"
+    ]
+  },
+  "59": {
+    "name": "Happiest Triplet",
+    "url": "https://www.geeksforgeeks.org/problems/happiest-triplet2921/0",
+    "topics": [
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/59.cs"
+    ]
+  },
+  "60": {
+    "name": "Maximize NUmber of 1's",
+    "url": "https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/60.cs"
+    ]
+  },
+  "61": {
+    "name": "Last Moment Before All Ants Fall Out",
+    "url": "https://www.geeksforgeeks.org/problems/last-moment-before-all-ants-fall-out-of-a-plank/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/61.cs"
+    ]
+  },
+  "62": {
+    "name": "K Sized Subarray Maximum",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/0",
+    "topics": [
+      "array",
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/62.cs"
+    ]
+  },
+  "63": {
+    "name": "Interleave the First Half of the Queen with Second Half",
+    "url": "https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/63.cs"
+    ]
+  },
+  "64": {
+    "name": "Stream First Non-repeating",
+    "url": "https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/64.cs"
+    ]
+  },
+  "65": {
+    "name": "Count Subset With Target Sum II",
+    "url": "https://www.geeksforgeeks.org/problems/count-the-subset-with-sum-equal-to-k/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/65.cs"
+    ]
+  },
+  "66": {
+    "name": "Word Search",
+    "url": "https://www.geeksforgeeks.org/problems/word-search/0",
+    "topics": [
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/66.cs"
+    ]
+  },
+  "67": {
+    "name": "Generate Permutations of an array",
+    "url": "https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/0",
+    "topics": [
+      "array",
+      "backtracking"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/67.cs"
+    ]
+  },
+  "68": {
+    "name": "Minimum Multiplications to reach End",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/68.cs"
+    ]
+  },
+  "69": {
+    "name": "Product Pair",
+    "url": "https://www.geeksforgeeks.org/problems/equal-to-product3836/0",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/69.cs"
+    ]
+  },
+  "70": {
+    "name": "1s Surrounded by 0s",
+    "url": "https://www.geeksforgeeks.org/problems/1s-surrounded-by-0s/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/70.cs"
+    ]
+  },
+  "71": {
+    "name": "Vertical Sum",
+    "url": "https://www.geeksforgeeks.org/problems/vertical-sum/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/71.cpp"
+    ]
+  },
+  "72": {
+    "name": "Count Sorted Digit Groupings",
+    "url": "https://www.geeksforgeeks.org/problems/count-digit-groupings-of-a-number1520/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/72.cpp"
+    ]
+  },
+  "73": {
+    "name": "Max Product Subset",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/73.cpp"
+    ]
+  },
+  "74": {
+    "name": "Subarray Frequency Count Queries",
+    "url": "https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/74.cs"
+    ]
+  },
+  "75": {
+    "name": "Substring with Max Zero-One Diff",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/0",
+    "topics": [
+      "string",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/75.cpp"
+    ]
+  },
+  "76": {
+    "name": "Lexicographically smallest after removing k",
+    "url": "https://www.geeksforgeeks.org/problems/lexicographically-smallest-after-removing-k/0",
+    "topics": [
+      "array",
+      "graph"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/76.cpp"
+    ]
+  },
+  "77": {
+    "name": "Non-Attacking Black and White Knights",
+    "url": "https://www.geeksforgeeks.org/problems/black-and-white-1587115620/0",
+    "topics": [
+      "backtracking"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/77.cpp"
+    ]
+  },
+  "78": {
+    "name": "Finding Profession",
+    "url": "https://www.geeksforgeeks.org/problems/finding-profession3834/0",
+    "topics": [
+      "backtracking"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/78.cpp"
+    ]
+  },
+  "79": {
+    "name": "Binary Searchable Count",
+    "url": "https://www.geeksforgeeks.org/problems/binary-searchable-elements/0",
+    "topics": [
+      "bit manipulation",
+      "binary search"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/79.cpp"
+    ]
+  },
+  "80": {
+    "name": "Check Repated Substring with K Replacements",
+    "url": "https://www.geeksforgeeks.org/problems/check-if-a-string-is-repetition-of-its-substring-of-k-length3302/0",
+    "topics": [
+      "string",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/80.cpp"
+    ]
+  },
+  "81": {
+    "name": "Exit Point in a Matrix",
+    "url": "https://www.geeksforgeeks.org/problems/exit-point-in-a-matrix0905/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/81.cpp"
+    ]
+  },
+  "82": {
+    "name": "Minimum cost to fill given weight in a bag",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/82.cpp"
+    ]
+  },
+  "83": {
+    "name": "Construct List using XOR Queries",
+    "url": "https://www.geeksforgeeks.org/problems/construct-list-using-given-q-xor-queries/0",
+    "topics": [
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/83.cpp"
+    ]
+  },
+  "84": {
+    "name": "Cut rope to maximise product",
+    "url": "https://www.geeksforgeeks.org/problems/max-rope-cutting1312/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/84.cpp"
+    ]
+  },
+  "85": {
+    "name": "Coverage of all Zeros in a Binary Matrix",
+    "url": "https://www.geeksforgeeks.org/problems/coverage-of-all-zeros-in-a-binary-matrix4024/0",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/85.cpp"
+    ]
+  },
+  "86": {
+    "name": "Equalize All Prefix Sums",
+    "url": "https://www.geeksforgeeks.org/problems/optimal-array--170647/0",
+    "topics": [
+      "array",
+      "trie"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/86.cpp"
+    ]
+  },
+  "87": {
+    "name": "Choose and Swap",
+    "url": "https://www.geeksforgeeks.org/problems/choose-and-swap0531/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/87.cpp"
+    ]
+  },
+  "88": {
+    "name": "Maximum Area Between Bars",
+    "url": "https://www.geeksforgeeks.org/problems/dam-of-candies--141631/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/88.cpp"
+    ]
+  },
+  "89": {
+    "name": "Maximum Number of People Defeated",
+    "url": "https://www.geeksforgeeks.org/problems/killing-spree3020/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/89.cpp"
+    ]
+  },
+  "90": {
+    "name": "Rat Maze With Multiple Jumps",
+    "url": "https://www.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/0",
+    "topics": [
+      "backtracking"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/90.cpp"
+    ]
+  },
+  "91": {
+    "name": "N-Digit Numbers with Increasing Digits",
+    "url": "https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/91.cpp"
+    ]
+  },
+  "92": {
+    "name": "Count Matching Subsequences",
+    "url": "https://www.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/92.cpp"
+    ]
+  },
+  "93": {
+    "name": "Ways to Tile the Floor",
+    "url": "https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles0509/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/93.cpp"
+    ]
+  },
+  "94": {
+    "name": "k Times Appearing Adjacent Two 1's",
+    "url": "https://www.geeksforgeeks.org/problems/count-binary-strings1944/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/94.cpp"
+    ]
+  },
+  "95": {
+    "name": "Max Dot Product with 0 Insertions",
+    "url": "https://www.geeksforgeeks.org/problems/maximize-dot-product2649/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/95.cpp"
+    ]
+  },
+  "96": {
+    "name": "Max sum subarray by removing at most one element",
+    "url": "https://www.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/96.cpp"
+    ]
+  },
+  "97": {
+    "name": "Check Subset sum divisible by k",
+    "url": "https://www.geeksforgeeks.org/problems/subset-with-sum-divisible-by-m2546/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/97.cpp"
+    ]
+  },
+  "98": {
+    "name": "Ways to Increase LCS by One",
+    "url": "https://www.geeksforgeeks.org/problems/count-ways-to-increase-lcs-length-of-two-strings-by-one2236/0",
+    "topics": [
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/98.cpp"
+    ]
+  },
+  "99": {
+    "name": "Max Sum Path in Two Arrays",
+    "url": "https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/0",
+    "topics": [
+      "array",
+      "graph"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/99.cpp"
+    ]
+  },
+  "100": {
+    "name": "Largest Unblocked Submatrix",
+    "url": "https://www.geeksforgeeks.org/problems/largest-unblocked-submatrix/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/100.cpp"
+    ]
+  },
+  "101": {
+    "name": "Towers Reaching Both Stations",
+    "url": "https://www.geeksforgeeks.org/problems/geeks-island--170646/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/101.cpp"
+    ]
+  },
+  "102": {
+    "name": "Count Pairs Divisible By K",
+    "url": "https://www.geeksforgeeks.org/problems/count-pairs-in-array-divisible-by-k/0",
+    "topics": [
+      "array",
+      "two pointers"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/102.cpp"
+    ]
+  },
+  "103": {
+    "name": "Ways to Express as Sum of Consecutives",
+    "url": "https://www.geeksforgeeks.org/problems/count-of-sum-of-consecutives3741/0",
+    "topics": [
+      "array",
+      "dynamic programming"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/103.cpp"
+    ]
+  },
+  "104": {
+    "name": "Longest Possible Route in a Matrix with Hurdles",
+    "url": "https://www.geeksforgeeks.org/problems/longest-possible-route-in-a-matrix-with-hurdles/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/104.cpp"
+    ]
+  },
+  "105": {
+    "name": "Max Amount by Selling K Tickets",
+    "url": "https://www.geeksforgeeks.org/problems/ticket-sellers3241/0",
+    "topics": [
+      "algorithms"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/105.cpp"
+    ]
+  },
+  "106": {
+    "name": "Smallest Non-Zero Number",
+    "url": "https://www.geeksforgeeks.org/problems/find-smallest-non-zero-number4510/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/106.cpp"
+    ]
+  },
+  "107": {
+    "name": "Longest Bitonic Subarray",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-length-bitonic-subarray5730/0",
+    "topics": [
+      "array",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/107.cpp"
+    ]
+  },
+  "108": {
+    "name": "Numbers with Given Digit Sum",
+    "url": "https://www.geeksforgeeks.org/problems/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum0733/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/108.cpp"
+    ]
+  },
+  "109": {
+    "name": "Mountain Subarray Queries",
+    "url": "https://www.geeksforgeeks.org/problems/mountain-subarray-problem/0",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/109.cpp"
+    ]
+  },
+  "110": {
+    "name": "Maximum Reachable Index Difference",
+    "url": "https://www.geeksforgeeks.org/problems/maximum-reachable-index-difference/0",
+    "topics": [
+      "greedy"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/110.cpp"
+    ]
+  },
+  "111": {
+    "name": "Check Preorder of BST",
+    "url": "https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/0",
+    "topics": [
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/111.cpp"
+    ]
+  },
+  "112": {
+    "name": "Longest Consecutive Path in Binary tree",
+    "url": "https://www.geeksforgeeks.org/problems/longest-consecutive-sequence-in-binary-tree/0",
+    "topics": [
+      "tree",
+      "graph",
+      "bit manipulation"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/112.cpp"
+    ]
+  },
+  "113": {
+    "name": "Max Sum Square Sub-Matrix of Size k",
+    "url": "https://www.geeksforgeeks.org/problems/coins-of-geekland--141631/0",
+    "topics": [
+      "array",
+      "tree"
+    ],
+    "difficulty": "Medium",
+    "solutions": [
+      "GFG/Solution/Medium/113.cpp"
+    ]
+  }
+}
