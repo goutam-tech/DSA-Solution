@@ -221,3 +221,5 @@
 ## Id - 3513 [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/) {array, bit manipulation}
 
 ## Id - 3514 [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/description/) {array, bit manipulation}
+
+## Id - 3517 [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) {string, sorting, counting sort}

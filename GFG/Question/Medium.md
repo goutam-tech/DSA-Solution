@@ -225,3 +225,7 @@
 ## Id - 112 [Longest Consecutive Path in Binary tree](https://www.geeksforgeeks.org/problems/longest-consecutive-sequence-in-binary-tree/0) {tree, graph, bit manipulation}
 
 ## Id - 113 [Max Sum Square Sub-Matrix of Size k](https://www.geeksforgeeks.org/problems/coins-of-geekland--141631/0) {array, tree}
+
+## Id - 114 [Complete Binary Tree Traversal with Array Input](https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1) {sorting, queue, tree, priority-queue}
+
+## Id - 115 [Construct a Full Binary Tree](https://www.geeksforgeeks.org/problems/construct-a-full-binary-tree--170648/0) {traversal, tree}
