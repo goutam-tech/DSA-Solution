@@ -1,0 +1,370 @@
+{
+  "158A": {
+    "name": "Next Round",
+    "url": "https://codeforces.com/contest/158/problem/A",
+    "difficulty": "158A-E",
+    "solutions": [
+      "CodeForce/Solution/158A.cpp"
+    ]
+  },
+  "158B": {
+    "name": "Taxi",
+    "url": "https://codeforces.com/contest/158/problem/B",
+    "difficulty": "158A-E",
+    "solutions": [
+      "CodeForce/Solution/158B.cpp"
+    ]
+  },
+  "158C": {
+    "name": "Cd and pwd commands",
+    "url": "https://codeforces.com/contest/158/problem/C",
+    "difficulty": "158A-E",
+    "solutions": [
+      "CodeForce/Solution/158C.cpp"
+    ]
+  },
+  "158D": {
+    "name": "Ice Scupltures",
+    "url": "https://codeforces.com/contest/158/problem/D",
+    "difficulty": "158A-E",
+    "solutions": [
+      "CodeForce/Solution/158D.cpp"
+    ]
+  },
+  "158E": {
+    "name": "Phone Talks",
+    "url": "https://codeforces.com/contest/158/problem/E",
+    "difficulty": "158A-E",
+    "solutions": [
+      "CodeForce/Solution/158E.cpp"
+    ]
+  },
+  "2208A": {
+    "name": "Bingo Candies",
+    "url": "https://codeforces.com/contest/2208/problem/A",
+    "difficulty": "2208A-E",
+    "solutions": [
+      "CodeForce/Solution/2208A.c"
+    ]
+  },
+  "2208B": {
+    "name": "Cyclists",
+    "url": "https://codeforces.com/contest/2208/problem/B",
+    "difficulty": "2208A-E",
+    "solutions": [
+      "CodeForce/Solution/2208B.cpp"
+    ]
+  },
+  "2208C": {
+    "name": "Stamina and Tasks",
+    "url": "https://codeforces.com/contest/2208/problem/C",
+    "difficulty": "2208A-E",
+    "solutions": [
+      "CodeForce/Solution/2208C.c"
+    ]
+  },
+  "2208E": {
+    "name": "Counting Cute Arrays",
+    "url": "https://codeforces.com/contest/2208/problem/E",
+    "difficulty": "2208A-E",
+    "solutions": [
+      "CodeForce/Solution/2208E.cpp"
+    ]
+  },
+  "231A": {
+    "name": "Team",
+    "url": "https://codeforces.com/contest/231/problem/A",
+    "difficulty": "231A-E",
+    "solutions": [
+      "CodeForce/Solution/231A.c"
+    ]
+  },
+  "231B": {
+    "name": "Magic, Wizardy and Wonders",
+    "url": "https://codeforces.com/contest/231/problem/B",
+    "difficulty": "231A-E",
+    "solutions": [
+      "CodeForce/Solution/231B.cpp"
+    ]
+  },
+  "231C": {
+    "name": "To Add or Not to Add",
+    "url": "https://codeforces.com/contest/231/problem/C",
+    "difficulty": "231A-E",
+    "solutions": [
+      "CodeForce/Solution/231C.cpp"
+    ]
+  },
+  "231D": {
+    "name": "Magic Box",
+    "url": "https://codeforces.com/contest/231/problem/D",
+    "difficulty": "231A-E",
+    "solutions": [
+      "CodeForce/Solution/231D.cpp"
+    ]
+  },
+  "231E": {
+    "name": "Cacuts",
+    "url": "https://codeforces.com/contest/231/problem/E",
+    "difficulty": "231A-E",
+    "solutions": [
+      "CodeForce/Solution/231E.cpp"
+    ]
+  },
+  "2232A": {
+    "name": "Convergence",
+    "url": "https://codeforces.com/contest/2232/problem/A",
+    "difficulty": "2232A-F",
+    "solutions": [
+      "CodeForce/Solution/2232A.cpp"
+    ]
+  },
+  "2232B": {
+    "name": "Cake Leveling",
+    "url": "https://codeforces.com/contest/2232/problem/B",
+    "difficulty": "2232A-F",
+    "solutions": [
+      "CodeForce/Solution/2232B.cpp"
+    ]
+  },
+  "2232D": {
+    "name": "Magical Tiered Cake",
+    "url": "https://codeforces.com/contest/2232/problem/D",
+    "difficulty": "2232A-F",
+    "solutions": [
+      "CodeForce/Solution/2232D.cpp"
+    ]
+  },
+  "2232E": {
+    "name": "Snaking Arrangement",
+    "url": "https://codeforces.com/contest/2232/problem/E",
+    "difficulty": "2232A-F",
+    "solutions": [
+      "CodeForce/Solution/2232E.cpp"
+    ]
+  },
+  "2232F": {
+    "name": "The Cake Is a Lie",
+    "url": "https://codeforces.com/contest/2232/problem/F",
+    "difficulty": "2232A-F",
+    "solutions": [
+      "CodeForce/Solution/2232F.cpp"
+    ]
+  },
+  "4A": {
+    "name": "Watermelon",
+    "url": "https://codeforces.com/contest/4/problem/A",
+    "difficulty": "4A-D",
+    "solutions": [
+      "CodeForce/Solution/4A.cpp"
+    ]
+  },
+  "4B": {
+    "name": "Before an Exam",
+    "url": "https://codeforces.com/contest/4/problem/B",
+    "difficulty": "4A-D",
+    "solutions": [
+      "CodeForce/Solution/4B.cpp"
+    ]
+  },
+  "4C": {
+    "name": "Refistration System",
+    "url": "https://codeforces.com/contest/4/problem/C",
+    "difficulty": "4A-D",
+    "solutions": [
+      "CodeForce/Solution/4C.cpp"
+    ]
+  },
+  "4D": {
+    "name": "Mysterious Present",
+    "url": "https://codeforces.com/contest/4/problem/D",
+    "difficulty": "4A-D",
+    "solutions": [
+      "CodeForce/Solution/4D.cpp"
+    ]
+  },
+  "2209A": {
+    "name": "Flip Flops",
+    "url": "https://codeforces.com/contest/2209/problem/A",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209A.c"
+    ]
+  },
+  "2209B": {
+    "name": "Array",
+    "url": "https://codeforces.com/contest/2209/problem/B",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209B.c"
+    ]
+  },
+  "2209C": {
+    "name": "Find the Zero",
+    "url": "https://codeforces.com/contest/2209/problem/C",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209C.c"
+    ]
+  },
+  "2209D": {
+    "name": "Gostfires",
+    "url": "https://codeforces.com/contest/2209/problem/D",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209D.cpp"
+    ]
+  },
+  "2209E": {
+    "name": "A Trivial String Problem",
+    "url": "https://codeforces.com/contest/2209/problem/E",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209E.cpp"
+    ]
+  },
+  "2209F": {
+    "name": "Dynamic Values And Maximum Sum",
+    "url": "https://codeforces.com/contest/2209/problem/F",
+    "difficulty": "2209A-F",
+    "solutions": [
+      "CodeForce/Solution/2209F.cpp"
+    ]
+  },
+  "282A": {
+    "name": "Bit++",
+    "url": "https://codeforces.com/contest/282/problem/A",
+    "difficulty": "282A-E",
+    "solutions": [
+      "CodeForce/Solution/282A.c"
+    ]
+  },
+  "282B": {
+    "name": "Painting Eggs",
+    "url": "https://codeforces.com/contest/282/problem/B",
+    "difficulty": "282A-E",
+    "solutions": [
+      "CodeForce/Solution/282B.cpp"
+    ]
+  },
+  "282C": {
+    "name": "XOR and OR",
+    "url": "https://codeforces.com/contest/282/problem/C",
+    "difficulty": "282A-E",
+    "solutions": [
+      "CodeForce/Solution/282C.cpp"
+    ]
+  },
+  "282D": {
+    "name": "Yet Another Number Game",
+    "url": "https://codeforces.com/contest/282/problem/D",
+    "difficulty": "282A-E",
+    "solutions": [
+      "CodeForce/Solution/282D.cpp"
+    ]
+  },
+  "282E": {
+    "name": "Sausage Maximization",
+    "url": "https://codeforces.com/contest/282/problem/E",
+    "difficulty": "282A-E",
+    "solutions": [
+      "CodeForce/Solution/282E.cpp"
+    ]
+  },
+  "2214A": {
+    "name": "Odd One Out",
+    "url": "https://codeforces.com/contest/2214/problem/A",
+    "difficulty": "2214A-J",
+    "solutions": [
+      "CodeForce/Solution/2214A.c"
+    ]
+  },
+  "2214B": {
+    "name": "Are you Simling",
+    "url": "https://codeforces.com/contest/2214/problem/B",
+    "difficulty": "2214A-J",
+    "solutions": [
+      "CodeForce/Solution/2214B.c"
+    ]
+  },
+  "236A": {
+    "name": "Boy or Girl",
+    "url": "https://codeforces.com/contest/236/problem/A",
+    "difficulty": "236A-E",
+    "solutions": [
+      "CodeForce/Solution/236A.c"
+    ]
+  },
+  "236B": {
+    "name": "Easy Number Challenge",
+    "url": "https://codeforces.com/contest/236/problem/B",
+    "difficulty": "236A-E",
+    "solutions": [
+      "CodeForce/Solution/236B.cpp"
+    ]
+  },
+  "236C": {
+    "name": "LCM Challenge",
+    "url": "https://codeforces.com/contest/236/problem/C",
+    "difficulty": "236A-E",
+    "solutions": [
+      "CodeForce/Solution/236C.cpp"
+    ]
+  },
+  "236D": {
+    "name": "Let's Play Osu!",
+    "url": "https://codeforces.com/contest/236/problem/D",
+    "difficulty": "236A-E",
+    "solutions": [
+      "CodeForce/Solution/236D.cpp"
+    ]
+  },
+  "236E": {
+    "name": "Cyclical Quest",
+    "url": "https://codeforces.com/contest/236/problem/E",
+    "difficulty": "236A-E",
+    "solutions": [
+      "CodeForce/Solution/236E.cpp"
+    ]
+  },
+  "232A": {
+    "name": "Cycles",
+    "url": "https://codeforces.com/contest/232/problem/A",
+    "difficulty": "232A-E",
+    "solutions": [
+      "CodeForce/Solution/232A.cpp"
+    ]
+  },
+  "232B": {
+    "name": "Table",
+    "url": "https://codeforces.com/contest/232/problem/B",
+    "difficulty": "232A-E",
+    "solutions": [
+      "CodeForce/Solution/232B.cpp"
+    ]
+  },
+  "232C": {
+    "name": "Doe Graphs",
+    "url": "https://codeforces.com/contest/232/problem/C",
+    "difficulty": "232A-E",
+    "solutions": [
+      "CodeForce/Solution/232C.cpp"
+    ]
+  },
+  "232D": {
+    "name": "Fence",
+    "url": "https://codeforces.com/contest/232/problem/D",
+    "difficulty": "232A-E",
+    "solutions": [
+      "CodeForce/Solution/232D.cpp"
+    ]
+  },
+  "232E": {
+    "name": "Quick Tortoise",
+    "url": "https://codeforces.com/contest/232/problem/E",
+    "difficulty": "232A-E",
+    "solutions": [
+      "CodeForce/Solution/232E.cpp"
+    ]
+  }
+}

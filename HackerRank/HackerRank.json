@@ -1,0 +1,240 @@
+{
+  "1": {
+    "name": "Matrix Layer Rotation",
+    "url": "https://www.hackerrank.com/challenges/matrix-rotation-algo/problem",
+    "topics": [
+      "array",
+      "matrix"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/1.cpp"
+    ]
+  },
+  "2": {
+    "name": "Determining DNA Health",
+    "url": "https://www.hackerrank.com/challenges/determining-dna-health/problem",
+    "topics": [
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/2.cpp"
+    ]
+  },
+  "3": {
+    "name": "Walking the Approximate Longest Path",
+    "url": "https://www.hackerrank.com/challenges/walking-the-approximate-longest-path/problem",
+    "topics": [
+      "graph"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/3.cpp"
+    ]
+  },
+  "4": {
+    "name": "Sam's Puzzle (Approximate)",
+    "url": "https://www.hackerrank.com/challenges/sams-puzzle/problem",
+    "topics": [
+      "implementation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/4.cpp"
+    ]
+  },
+  "5": {
+    "name": "Insertion Sort Advanced Analysis",
+    "url": "https://www.hackerrank.com/challenges/insertion-sort/problem",
+    "topics": [
+      "sorting"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/5.cpp"
+    ]
+  },
+  "6": {
+    "name": "Morgan and a String",
+    "url": "https://www.hackerrank.com/challenges/morgan-and-a-string/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/6.cpp"
+    ]
+  },
+  "7": {
+    "name": "Count Strings",
+    "url": "https://www.hackerrank.com/challenges/count-strings/problem",
+    "topics": [
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/7.cpp"
+    ]
+  },
+  "8": {
+    "name": "String Function Calculation",
+    "url": "https://www.hackerrank.com/challenges/string-function-calculation/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/8.cpp"
+    ]
+  },
+  "9": {
+    "name": "Build a Palindrome",
+    "url": "https://www.hackerrank.com/challenges/challenging-palindromes/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/9.cpp"
+    ]
+  },
+  "10": {
+    "name": "String Similarity",
+    "url": "https://www.hackerrank.com/challenges/string-similarity/problem",
+    "topics": [
+      "string",
+      "trie"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/10.cpp"
+    ]
+  },
+  "11": {
+    "name": "Build a String",
+    "url": "https://www.hackerrank.com/challenges/build-a-string/problem",
+    "topics": [
+      "string",
+      "dynamic programming"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/11.cpp"
+    ]
+  },
+  "12": {
+    "name": "Ashton and String",
+    "url": "https://www.hackerrank.com/challenges/ashton-and-string/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/12.cpp"
+    ]
+  },
+  "13": {
+    "name": "Gridland Provinces",
+    "url": "https://www.hackerrank.com/challenges/gridland-provinces/problem",
+    "topics": [
+      "array",
+      "graph",
+      "matrix"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/13.cpp"
+    ]
+  },
+  "14": {
+    "name": "Cards Permutation",
+    "url": "https://www.hackerrank.com/challenges/cards-permutation/problem",
+    "topics": [
+      "array"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/14.cpp"
+    ]
+  },
+  "15": {
+    "name": "Circular Palindromes",
+    "url": "https://www.hackerrank.com/challenges/circular-palindromes/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/15.cpp"
+    ]
+  },
+  "16": {
+    "name": "Save Humanity",
+    "url": "https://www.hackerrank.com/challenges/save-humanity/problem",
+    "topics": [
+      "implementation"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/16.cpp"
+    ]
+  },
+  "17": {
+    "name": "Pseudo-Isomorphic Substrings",
+    "url": "https://www.hackerrank.com/challenges/pseudo-isomorphic-substrings/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/17.cpp"
+    ]
+  },
+  "18": {
+    "name": "Two Two",
+    "url": "https://www.hackerrank.com/challenges/two-two/problem",
+    "topics": [
+      "trie"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/18.cpp"
+    ]
+  },
+  "19": {
+    "name": "Find Strings",
+    "url": "https://www.hackerrank.com/challenges/find-strings/problem",
+    "topics": [
+      "string"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/19.cpp"
+    ]
+  },
+  "20": {
+    "name": "Interviews",
+    "url": "https://www.hackerrank.com/challenges/interviews/problem",
+    "topics": [
+      "sql"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/20.sql"
+    ]
+  },
+  "21": {
+    "name": "15 Days of Learning SQL",
+    "url": "https://www.hackerrank.com/challenges/15-days-of-learning-sql/problem",
+    "topics": [
+      "sql"
+    ],
+    "difficulty": "Hard",
+    "solutions": [
+      "HackerRank/Solution/Hard/21.sql"
+    ]
+  }
+}

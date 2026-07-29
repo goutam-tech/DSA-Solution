@@ -37,3 +37,7 @@
 ## Id - 18 [Two Two](https://www.hackerrank.com/challenges/two-two/problem) {trie}
 
 ## Id - 19 [Find Strings](https://www.hackerrank.com/challenges/find-strings/problem) {string}
+
+## Id - 20 [Interviews](https://www.hackerrank.com/challenges/interviews/problem) {sql}
+
+## Id - 21 [15 Days of Learning SQL](https://www.hackerrank.com/challenges/15-days-of-learning-sql/problem) {sql}

@@ -8,6 +8,7 @@ on:
       - '**/solution/**'
       - '**/soultion/**'
       - 'main.py'
+      - 'generate_json.py'
 
   workflow_dispatch:
 
@@ -16,11 +17,14 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.12"
-  SCRIPT_PATH: "main.py"
+  JSON_SCRIPT_PATH: "generate_json.py"
+  README_SCRIPT_PATH: "main.py"
 
 jobs:
-  update_readme_dashboard:
+  generate_json:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.json_diff.outputs.changed }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,19 +36,59 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Generate dashboard and sync README
-        run: |
-          # Execute the python script
-          python ${{ env.SCRIPT_PATH }}
+      - name: Generate platform JSON files
+        run: python ${{ env.JSON_SCRIPT_PATH }}
 
+      - name: Check if JSON output changed
+        id: json_diff
+        run: |
+          if [ -z "$(git status --porcelain -- '**/*.json')" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload generated JSON
+        if: steps.json_diff.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: platform-json
+          path: '**/*.json'
+          retention-days: 1
+
+  update_readme_dashboard:
+    needs: generate_json
+    if: needs.generate_json.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download generated JSON
+        uses: actions/download-artifact@v4
+        with:
+          name: platform-json
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Generate dashboard
+        run: python ${{ env.README_SCRIPT_PATH }}
+
+      - name: Commit and push changes
+        run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
 
-          git add README.md
+          git add '**/*.json' README.md
 
           if git diff --staged --quiet; then
             echo "Dashboard is already up to date."
           else
-            git commit -m "docs: auto-update DSA dashboard README [skip ci]"
+            git commit -m "docs: auto-update DSA dashboard [skip ci]"
             git push origin ${{ github.ref_name }}
           fi

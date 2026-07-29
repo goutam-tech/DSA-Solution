@@ -61,3 +61,5 @@
 ## Id - 30 [Cut Matrix](https://www.geeksforgeeks.org/problems/cut-matrix/0) {array}
 
 ## Id - 31 [Shortest Unique Prefix for Every Word](https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/0) {trie}
+
+## Id - 32 [Shortest Path in 1-2 Graph](https://www.geeksforgeeks.org/problems/level-of-nodes1147/0) {graph, bfs}

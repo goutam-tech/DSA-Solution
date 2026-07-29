@@ -157,3 +157,7 @@
 ## Id - 1260 [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/) {array, matrix, simulation}
 
 ## Id - 3536 [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) {array, math}
+
+## Id - 628 [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) {array, sorting, math}
+
+## Id - 1464 [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) {array, sorting, priority queue}
